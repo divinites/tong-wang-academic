@@ -19,10 +19,11 @@ bio: My research interests include Economics Theory, Crypto-finance and Digital 
 # Interests to show in About widget
 interests:
 - Economics Theory
-- Fintech and Blockchain
+- Blockchain mechanism design
+- Decentralised Finance
 - Digital Economics
 - Economics of Social Platforms
-- Dynamic Lending
+- Fintech and Corporate Finance
 
 # Education to show in About widget
 education:
