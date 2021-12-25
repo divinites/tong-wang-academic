@@ -17,10 +17,12 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
-interests:
+Field of Interests:
 - Economics Theory
 - Fintech and Blockchain
 - Digital Economics
+- Economics of Social Platforms
+- Dynamic Lending
 
 # Education to show in About widget
 education:
