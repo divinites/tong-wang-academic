@@ -1,39 +1,45 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Tong Wang
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Lecturer in Business Economics
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: University of Edinburgh
+  url: https://www.ed.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Economics Theory
+- Fintech and Blockchain
+- Digital Economics
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Economics
+    institution: Toulouse School of Economics
+    year: 2011
+  - course: Master Science Economique
+    institution: Toulouse School of Economics
+    year: 2007
+  - course: Master in Management
+    institution: Guanghua School of Management, Peking University
+    year: 2004
+  - course: BSc in Material Physics
+    institution: University of Science and Technology of China
+    year: 2002
+  - course: BSc in Management Science
+    institution: University of Science and Technology of China
+    year: 2002
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
