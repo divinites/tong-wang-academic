@@ -25,7 +25,7 @@ experience:
   - title: Lecturer in Business Economics
     company: Business School, University of Edinburgh
     company_url: 'https://www.ed.ac.uk/'
-    company_logo: org-gc
+    company_logo: org-UoE
     location: Edinburgh
     date_start: '2013-10-01'
     date_end: ''
@@ -33,7 +33,7 @@ experience:
   - title: Postdoctoral Researcher
     company: Centre for Competition Policy, University of East Anglia
     company_url: 'https://competitionpolicy.ac.uk/'
-    company_logo: org-x
+    company_logo: org-UEA
     location: Norwich
     date_start: '2012-10-01'
     date_end: '2013-09-30'
@@ -41,7 +41,7 @@ experience:
   - title: Jean-Monnet Fellow
     company: Florence School of Regulation, European University Institute
     company_url: 'https://fsr.eui.eu/'
-    company_logo: org-x
+    company_logo: org-EUI
     location: Florence
     date_start: '2011-09-01'
     date_end: '2012-08-30'
