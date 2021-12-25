@@ -14,10 +14,10 @@ organizations:
   url: https://www.ed.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include Economics Theory, Crypto-finance and Digital Economics.
 
 # Interests to show in About widget
-Field of Interests:
+interests:
 - Economics Theory
 - Fintech and Blockchain
 - Digital Economics
