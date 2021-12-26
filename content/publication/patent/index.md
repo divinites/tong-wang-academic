@@ -1,22 +1,21 @@
 ---
-title: "Assortative Matching and Risk Sharing"
+title: "Non-Obviousness and Screening"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Sanxi Li
-- Hailin Sun
+- Zonglai Kou
+- Patrick Rey
 - admin
-- Jun Yu
 
 # Author notes (optional)
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2016-07-01T00:00:00Z"
-doi: "10.1016/j.jet.2016.01.008"
+date: "2013-07-01T00:00:00Z"
+doi: "10.1111/joie.120318"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -28,15 +27,15 @@ doi: "10.1016/j.jet.2016.01.008"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Journal of Economic Theory*
-publication_short: In *JET*
+publication: In *Journal of Industrial Economics*
+publication_short: In *JIndE*
 
-abstract: This paper explores the sorting patterns in a two-sided matching market where agents facing different risks match to share them. When preference belongs to the class of harmonic absolute risk aversion (HARA), the risk premium is perfectly transferable within each partnership; thus a stable match minimizes the social cost of risk. In the systematic risk model, where agents are ranked by their holdings of a common risky asset, the convexity of the joint risk premium in joint risk size leads to negative assortative matching (NAM). In the idiosyncratic risk model, where agents are ranked by their independent riskiness in the sense of second-order stochastic dominance (SSD), NAM arises when preference exhibits decreasing absolute risk aversion (DARA) in the sense of Ross and riskier background risk leads to more risk-averse behavior. However, NAM may fail to arise when riskier background risk leads to more risk-tolerant behavior.
+abstract: The paper offers a novel justification for the non‐obviousness patentability requirement. An innovation involves two stages: research results in a technology blueprint, which development transforms into a profitable activity. An innovator, who is either efficient or inefficient, must rely on outside finance for the development. Only patented technologies are developed. Strengthening the non‐obviousness requirement alleviates adverse selection by discouraging inefficient innovators from doing research, but creates inefficiencies by excluding marginal innovations. We show that it is socially optimal to raise the non‐obviousness requirement so as to exclude bad innovators; we also provide several robustness checks and discuss the policy implications.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: []
+tags: ['Industrial Organisation']
 
 # Display this page in the Featured widget?
 featured: true
@@ -77,12 +76,3 @@ projects: []
 slides: ""
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
