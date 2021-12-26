@@ -35,7 +35,7 @@ abstract: The paper offers a novel justification for the non‐obviousness paten
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ['Industrial Organisation']
+tags: ['Industrial Organisation',"Patent", "Published"]
 
 # Display this page in the Featured widget?
 featured: true
