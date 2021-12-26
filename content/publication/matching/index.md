@@ -29,7 +29,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *Journal of Economic Theory*
-publication_short: In *JET*
+publication_short: In *Journal of Economic Theory*
 
 abstract: This paper explores the sorting patterns in a two-sided matching market where agents facing different risks match to share them. When preference belongs to the class of harmonic absolute risk aversion (HARA), the risk premium is perfectly transferable within each partnership; thus a stable match minimizes the social cost of risk. In the systematic risk model, where agents are ranked by their holdings of a common risky asset, the convexity of the joint risk premium in joint risk size leads to negative assortative matching (NAM). In the idiosyncratic risk model, where agents are ranked by their independent riskiness in the sense of second-order stochastic dominance (SSD), NAM arises when preference exhibits decreasing absolute risk aversion (DARA) in the sense of Ross and riskier background risk leads to more risk-averse behavior. However, NAM may fail to arise when riskier background risk leads to more risk-tolerant behavior.
 
