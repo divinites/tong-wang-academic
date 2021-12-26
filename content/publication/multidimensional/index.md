@@ -27,8 +27,8 @@ date: "2021-07-01T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *International Journal of Industrial Organisation*
-publication_short: In *IJIO*
+publication: In *International Journal of Industrial Organisation (Under Review)*
+publication_short: In *SSRN Working Paper*
 
 abstract: In current business practice, sellers often combine a variety of pricing strategies to segment the market. These practices often leave consumers with pricing schedules that are highly non-linear and multidimensional. This paper develops a novel structural approach for estimating multidimensional non-linear pricing schemes with more than one decision variable. Using a rich and unique panel data of residents’ electricity consumption, we structurally estimate consumer preferences for electricity consumption in a setting with electricity tariffs, using both an Increasing Block Price (IBP) structure as well as a Time-of-Use (ToU) structure. Our model estimation allows us to identify and evaluate household-level elasticities in price elasticity of demand. Our counterfactual analysis shows that a seemingly welfare-improving policy may trigger the strategic behaviour of consumers and, ultimately, be contrary to the original purpose.
 
