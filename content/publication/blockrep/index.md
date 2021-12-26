@@ -34,7 +34,7 @@ publication_short: In *Commission Report*
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ["Fintech","Blockchain"]
+tags: ["Fintech","Blockchain","Published"]
 
 # Display this page in the Featured widget?
 featured: true

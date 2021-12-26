@@ -21,8 +21,8 @@ content:
   filters:
     author: ""
     category: ""
-    publication_type: ["2", "5"]
-    tag: ""
+    publication_type: ""
+    tag: "Published"
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 

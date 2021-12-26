@@ -36,7 +36,7 @@ abstract: This paper explores the sorting patterns in a two-sided matching marke
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ['Economics Theory', 'Financial Market']
+tags: ['Economics Theory', 'Financial Market',"Published"]
 
 # Display this page in the Featured widget?
 featured: true

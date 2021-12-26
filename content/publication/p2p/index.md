@@ -35,7 +35,7 @@ abstract: In this paper, we study regional discrimination in a peer-to-peer lend
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ["Fintech", "Finance"]
+tags: ["Fintech", "Finance","Published"]
 
 # Display this page in the Featured widget?
 featured: true
