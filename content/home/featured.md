@@ -21,7 +21,7 @@ content:
   filters:
     author: ""
     category: ""
-    publication_type: "Journal article"
+    publication_type: 2
     tag: ""
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
