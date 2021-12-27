@@ -29,19 +29,19 @@ address:
   postcode: 'EH8 9JS'
   country: United Kingdom
   country_code: UK
-contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+# contact_links:
+#   - icon: twitter
+#     icon_pack: fab
+#     name: DM Me
+#     link: 'https://twitter.com/Twitter'
+#   - icon: keybase
+#     icon_pack: fab
+#     name: Chat on Keybase
+#     link: 'https://keybase.io/'
+#   - icon: comments
+#     icon_pack: fas
+#     name: Discuss on Forum
+#     link: 'https://discourse.gohugo.io'
 
 # Site header
 
