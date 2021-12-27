@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- certificate_url: https://www.eusa.ed.ac.uk/teachingawards
+- certificate_url: ""
   date_end: ""
   date_start: "2013-10-01"
   description: "I was awarded this title in 2014, 2015, 2016, 2017, 2018, 2019"
@@ -31,7 +31,7 @@ item:
   organization_url: https://www.eusa.ed.ac.uk/teachingawards
   title: EUSA Teaching Award Nomination
   url: ""
-- certificate_url: https://www.business-school.ed.ac.uk/
+- certificate_url: ""
   date_end: "2016-10-01"
   date_start: "2014-10-01"
   description: "I was awarded this title in 2015, 2016"
@@ -39,7 +39,7 @@ item:
   organization_url: https://www.business-school.ed.ac.uk/
   title: Best Course Teaching Award
   url: ""
-- certificate_url: https://www.business-school.ed.ac.uk/
+- certificate_url: ""
   date_end: "2019-12-21"
   date_start: "2017-07-01"
   description: "I was awarded this title in 2018, 2019"
@@ -47,7 +47,7 @@ item:
   organization_url: https://www.business-school.ed.ac.uk/
   title: 'Overall Satisfaction Teaching Award'
   url: ""
-- certificate_url: https://www.business-school.ed.ac.uk/
+- certificate_url: ""
   date_end: "2017-12-21"
   date_start: "2016-07-01"
   description: ""
@@ -55,7 +55,7 @@ item:
   organization_url: https://www.business-school.ed.ac.uk/
   title: 'Best Teaching Innovation'
   url: ""
-- certificate_url: https://www.business-school.ed.ac.uk/
+- certificate_url: ""
   date_end: "2017-12-21"
   date_start: "2016-07-01"
   description: ""
@@ -63,7 +63,7 @@ item:
   organization_url: https://www.business-school.ed.ac.uk/
   title: 'Inspirational Teaching Award'
   url: ""
-- certificate_url: "https://www.zhihu.com/"
+- certificate_url: ""
   date_end: "2016-12-21"
   date_start: "2016-04-01"
   description: ""
