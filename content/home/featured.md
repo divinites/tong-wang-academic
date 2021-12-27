@@ -10,7 +10,7 @@ headless: true
 weight: 43
 
 title: Research
-subtitle: ""
+subtitle: "Published Work"
 
 content:
   # Page type to display. E.g. post, talk, publication...
