@@ -9,7 +9,7 @@ main:
     weight: 10
   - name: Teaching
     url: '#posts'
-    weight: 16
+    weight: 26
   - name: Research
     url: '#featured'
     weight: 20
