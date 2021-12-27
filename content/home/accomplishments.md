@@ -10,7 +10,7 @@ headless: true
 weight: 50
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Research Grants'
+title: 'Honours and External Recognition'
 subtitle:
 
 # Date format
@@ -62,6 +62,22 @@ item:
   organization: Business School, University of Edinburgh
   organization_url: https://www.business-school.ed.ac.uk/
   title: 'Inspirational Teaching Award'
+  url: ""
+- certificate_url: "https://www.zhihu.com/"
+  date_end: "2016-12-21"
+  date_start: "2016-04-01"
+  description: ""
+  organization: "Zhihu Plc."
+  organization_url: "https://www.zhihu.com/"
+  title: 'Zhihu Honourable Membership in Economics'
+  url: ""
+- certificate_url: ""
+  date_end: "2018-12-21"
+  date_start: "2018-09-01"
+  description: ""
+  organization: Tsinghua University
+  organization_url: ""
+  title: 'Blockchain Stable Economic Model Design Competition Championship'
   url: ""
 
 design:
