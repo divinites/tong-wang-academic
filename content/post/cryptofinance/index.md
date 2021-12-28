@@ -1,5 +1,7 @@
 ---
-title: Blockchain and Crypto-Finance
+
+title: Blockchain and Crypto-finance
+
 subtitle: This course aims to provide a synthetic overview of cryptocurrencies and blockchain topics related to banking and finance, including their mechanism, applications, risks and related regulations.
 
 # Summary for listings and search engines
