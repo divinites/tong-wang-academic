@@ -35,7 +35,7 @@ abstract: We exploit hand-collected data on bank merger deals and cross-sectiona
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ["Finance", "Corporate Finance"]
+tags: []
 
 # Display this page in the Featured widget?
 featured: true

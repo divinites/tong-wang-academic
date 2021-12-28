@@ -35,7 +35,7 @@ abstract: This paper examines the role of soft information in reducing informati
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ["Finance", "Fintech","Blockchain"]
+tags: []
 
 # Display this page in the Featured widget?
 featured: true
