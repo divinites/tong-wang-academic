@@ -27,7 +27,7 @@ experience:
     company_url: 'https://www.ed.ac.uk/'
     company_logo: uoe
     location: Edinburgh
-    date_start: '2022-07-31'
+    date_start: '2022-05-01'
     date_end: ''
    
   - title: Lecturer in Business Economics
@@ -36,7 +36,7 @@ experience:
     company_logo: uoe
     location: Edinburgh
     date_start: '2013-10-01'
-    date_end: '2022-07-31'
+    date_end: '2022-04-30'
 
   - title: Postdoctoral Researcher
     company: Centre for Competition Policy, University of East Anglia
