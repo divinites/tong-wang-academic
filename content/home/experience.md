@@ -22,13 +22,21 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Senior Lecturer in Business Economics
+    company: Business School, University of Edinburgh
+    company_url: 'https://www.ed.ac.uk/'
+    company_logo: uoe
+    location: Edinburgh
+    date_start: '2022-07-31'
+    date_end: ''
+   
   - title: Lecturer in Business Economics
     company: Business School, University of Edinburgh
     company_url: 'https://www.ed.ac.uk/'
     company_logo: uoe
     location: Edinburgh
     date_start: '2013-10-01'
-    date_end: ''
+    date_end: '2022-07-31'
 
   - title: Postdoctoral Researcher
     company: Centre for Competition Policy, University of East Anglia
