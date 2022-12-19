@@ -76,6 +76,6 @@ email: "twang210@ed.ac.uk"
 highlight_name: true
 ---
 
-Dr. Tong Wang is a senior lecturer in business economics at the University of Edinburgh Business School and a visiting professor at the Peking University, HSBC Business School (PHBS). He received his PhD in Economics from Toulouse School of Economics and he was a Jean-Monnet Fellow, working on regulation and competition policy at the European University Institute before he joined Edinburgh. His research interest covers blockchain and crypto-finance, digital economics, and economics theory.
+Dr. Tong Wang is a senior lecturer in business economics at the University of Edinburgh Business School. He received his PhD in Economics from Toulouse School of Economics and he was a Jean-Monnet Fellow, working on regulation and competition policy at the European University Institute before he joined Edinburgh. His research interest covers blockchain and crypto-finance, digital economics, and economics theory.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.
