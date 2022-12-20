@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Senior Lecturer in Business Economics
+  - title: Senior Lecturer in Business Economics (Associate Professor)
     company: Business School, University of Edinburgh
     company_url: 'https://www.ed.ac.uk/'
     company_logo: uoe
@@ -30,7 +30,7 @@ experience:
     date_start: '2022-05-01'
     date_end: ''
     
-  - title: Associate fellow
+  - title: Associate fellow (Visiting Professor)
     company: PHBS Oxford Campus, Peking University 
     company_url: 'https://www.pku.org.uk'
     company_logo: PHBS
@@ -38,7 +38,7 @@ experience:
     date_start: '2019-07-01'
     date_end: '2020-06-30'
    
-  - title: Lecturer in Business Economics
+  - title: Lecturer in Business Economics (Assistant Professor)
     company: Business School, University of Edinburgh
     company_url: 'https://www.ed.ac.uk/'
     company_logo: uoe
