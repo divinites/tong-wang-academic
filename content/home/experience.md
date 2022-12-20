@@ -33,7 +33,7 @@ experience:
   - title: Associate fellow (Visiting Professor)
     company: PHBS Oxford Campus, Peking University 
     company_url: 'https://www.pku.org.uk'
-    company_logo: PHBS
+    company_logo: phbs
     location: Oxford
     date_start: '2019-07-01'
     date_end: '2020-06-30'
