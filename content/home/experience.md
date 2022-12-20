@@ -29,6 +29,14 @@ experience:
     location: Edinburgh
     date_start: '2022-05-01'
     date_end: ''
+    
+  - title: Associate fellow
+    company: PHBS Oxford Campus, Peking University 
+    company_url: 'https://www.pku.org.uk'
+    company_logo: PHBS
+    location: Oxford
+    date_start: '2019-07-01'
+    date_end: '2020-06-30'
    
   - title: Lecturer in Business Economics
     company: Business School, University of Edinburgh
