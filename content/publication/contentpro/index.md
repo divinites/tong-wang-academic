@@ -28,13 +28,12 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 # publication: In *MIS Quarterly (Submitted)*
+publication: In *Journal of Economic Behavior and Organization (Accepted)*
 publication_short: In *Journal of Economic Behavior and Organization (Accepted)*
 
-abstract: In this study, we explore the effect of peer recognition on content creation within a prominent Chinese Question-and-Answer (Q&A) platform, specifically focusing on whether votes from peers encourage influencers to engage in providing more answers. Using panel regression models with instrumental variables, our analysis reveals that peer votes have a substantial positive effect on content production. Additionally, we investigate the consequences of two distinct badge policies, the “self-authentication” and the “best-answerer” badge, on content production. Our results demonstrate that while badges aid users in recognizing the quality of an influencer, badges with strong connotations may constrain content creation due to concerns about reputation management and privacy. As such, strategies that enhance platform traffic by promoting voting could be counterproductive if they exacerbate privacy and reputation worries. Our findings provide valuable insights into the role of peer recognition and badge policies in shaping content contribution, bearing crucial policy implications for the design of Q&A platforms.
-# Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ["Digital Economics"]
+tags: ["Digital Economics", "Published"]
 
 # Display this page in the Featured widget?
 featured: true
