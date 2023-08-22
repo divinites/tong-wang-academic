@@ -1,5 +1,5 @@
 ---
-title: "Strategical Content Provision and Online Networks"
+title: "Peer Recognition, Badge Policies, and Content Contribution: An Empirical Study"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -14,7 +14,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2021-07-01T00:00:00Z"
+date: "2023-08-22T00:00:00Z"
 # doi: "10.1016/j.jet.2016.01.008"
 
 # Schedule page publish date (NOT publication's date).
@@ -24,14 +24,14 @@ date: "2021-07-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 # publication: In *MIS Quarterly (Submitted)*
-publication_short: In *SSRN Working Paper*
+publication_short: In *Journal of Economic Behavior and Organization (Accepted)*
 
-abstract: This paper studies how influencers strategically provide content on a content platform. Using a theoretical model, we introduce two types of strategies that influencers employ to provide content on online platforms. An influencer chooses either to answer a wide range of questions (broad-coverage strategy) or to only answer some specialized questions (focus strategy). Using data from the largest Chinese Question-and-Answer (Q&A) platform, we study how influencers’ strategies for content provision are affected by their peers. Our data includes the number of answers each influencer provides and the type of topics related to each answer, which allows us to construct statistical measures to define the focus level of an influencer on the content provision. Observing the follower network of influencers allows us to estimate how an influencer’s strategic choices are affected by the choices of the peers she follows. We find that the focus level of influencers on content provision is significantly affected by peers who have a high online reputation. This finding indicates that social networking is an effective tool for channelling content diversification and reduces users’ uncertainty on the type of content to contribute.
-
+abstract: In this study, we explore the effect of peer recognition on content creation within a prominent Chinese Question-and-Answer (Q&A) platform, specifically focusing on
+whether votes from peers encourage influencers to engage in providing more answers. Using panel regression models with instrumental variables, our analysis reveals that peer votes have a substantial positive effect on content production. Additionally, we investigate the consequences of two distinct badge policies, the “self-authentication” and the “best-answerer” badge, on content production. Our results demonstrate that while badges aid users in recognizing the quality of an influencer, badges with strong connotations may constrain content creation due to concerns about reputation management and privacy. As such, strategies that enhance platform traffic by promoting voting could be counterproductive if they exacerbate privacy and reputation worries. Our findings provide valuable insights into the role of peer recognition and badge policies in shaping content contribution, bearing crucial policy implications for the design of Q&A platforms.
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
