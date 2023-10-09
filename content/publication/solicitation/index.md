@@ -27,8 +27,8 @@ date: "2021-07-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Journal of International Financial Markets, Institutions and Money*
-publication_short: In *Journal of International Financial Markets, Institutions and Money*
+publication: In *Journal of International Financial Markets, Institutions and Money, 72, p.101341.*
+publication_short: In *JIFMIM*
 
 abstract: This paper discusses the association between rating solicitation status and rating quality. Our model shows that if firms with a declining trend of performance are less likely to solicit ratings from credit rating agencies, these firms are more conservatively rated, as their self-selection behaviour is seen as a signal of high credit risk. Our empirical results support the predictions of the model proposed in this study and show that. First, when controlling for fundamental factors, unsolicited ratings are lower than solicited ones, and; second, the rating qualities of both types of ratings are not significantly different from each other.
 
