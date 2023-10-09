@@ -28,8 +28,8 @@ doi: "10.1016/j.intfin.2022.101661"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: *Journal of International Financial Markets, Institutions and Money, 81, p.101661*
-publication_short: *Journal of International Financial Markets, Institutions and Money, 81, p.101661*
+publication: In *Journal of International Financial Markets, Institutions and Money, 81, p.101661*
+publication_short: In *JIFMIM*
 
 abstract: This paper examines the role of soft information in reducing information asymmetry in ICO markets. Expert ratings normally contain two types of information, hard information, a summary of public, numerically-measured information, and soft information,containing expert insights, rumours and private conversations. Taking advantage of the special dual-rating system of a leading ICO rating platform, we successfully isolate soft information from expert ratings. We find that soft information reduces information asymmetry between ICO management teams and investors, measured by the amount of raised funds in the crowdfunding phase and the underprizing levels in the early transaction phase, removing soft information from expert ratings significantly undermines their predictability on ICO performances. We also test the long-term survival rates and market price trends of ICOs and conclude that it is soft information rather than hard information that plays a crucial role for investors to predict the long-term performance of ICO tokens.
 
