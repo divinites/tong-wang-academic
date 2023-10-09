@@ -27,8 +27,8 @@ date: "2021-07-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *European Journal of Finance*
-publication_short: In *European Journal of Finance*
+publication: In *The European Journal of Finance, 27(4-5), pp.346-366*
+publication_short: In *EJF*
 
 abstract: In this paper, we study regional discrimination in a peer-to-peer lending scenario and provide novel empirical evidence for theories of soft information collection and information cost. We find that the regional information matters for borrowers' funding probabilities and that discrimination is profit-oriented or taste-oriented depending on the specific region. Moreover, using borrowers' birthplace as an instrumental variable, we find no evidence of genuine discrimination based purely on region in the peer-to-peer lending market.
 
