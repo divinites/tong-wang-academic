@@ -16,7 +16,7 @@ authors:
 # - "Equal contribution"
 
 date: "2023-09-28T00:00:00Z"
-# doi: "10.1016/j.jet.2016.01.008"
+doi: "10.1016/j.frl.2023.104525"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -28,8 +28,8 @@ date: "2023-09-28T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Finance Research Letters, p.104525.*
-publication_short: In *Finance Research Letters, p.104525.*
+publication: In *Finance Research Letters, p.104525*
+publication_short: In *Finance Research Letters, p.104525*
 
 abstract: We introduce an efficient Markov Chain Monte Carlo sampler in precision-based algorithms for the estimation of the Random Switching Exponential Smoothing model, a versatile forecasting mechanism for time series data characterized with changing trends. Through a series of simulation experiments, RC-MCMC exhibits superior parameter estimation accuracy, particularly for datasets featuring low persistence trends. Furthermore, an empirical evaluation using the Bank for International Settlements’ quarterly time series data on the non-financial sector’s total credit relative to GDP validates the findings. The out-of-sample results indicate that the proposed approach outperforms its counterparts in estimating and forecasting accuracy for trending time series data.
 
