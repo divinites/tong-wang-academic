@@ -26,8 +26,8 @@ date: "2016-07-01T00:00:00Z"
 publication_types: ["5"]
 
 # Publication name and optional abbreviated publication name.
-publication: *Peking University Press*
-publication_short: *Peking University Press*
+publication: In *Peking University Press*
+publication_short: In *Peking University Press*
 
 # abstract: This paper studies the effect of receiving recognition from peers on the motivation of providing the content. Using unique data from the largest Chinese Question-and-Answer platform, we evaluate whether an influencer is motivated to answer more questions after receiving more votes from others. Employing panel regression models with instrumental variables, we find that peers' votes significantly encourage more answers, but the platform’s badge policies largely weaken the effect. Two badge policies are considered in our paper,selfauthentication badge and best answerer badge. Our findings suggest that while badges in the Q&A platform make it easier for users to identify the quality of an influencer, those badges that include a strong connotation also limit the content contribution since influencers have concerns about their reputation management and privacy. Therefore, policies based on reputation and privacy may backlash against policies that increase traffic by encouraging voting.
 
