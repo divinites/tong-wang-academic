@@ -15,7 +15,7 @@ authors:
 # - "Equal contribution"
 
 date: "2023-08-22T00:00:00Z"
-# doi: "10.1016/j.jet.2016.01.008"
+doi: "10.1016/j.jebo.2023.08.021"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -28,8 +28,8 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 # publication: In *MIS Quarterly (Submitted)*
-publication: In *Journal of Economic Behavior and Organization (Accepted)*
-publication_short: In *Journal of Economic Behavior and Organization (Accepted)*
+publication: *Journal of Economic Behavior & Organization, 214, pp.691-707.*
+publication_short: *Journal of Economic Behavior & Organization, 214, pp.691-707.*
 
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
