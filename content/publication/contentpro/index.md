@@ -28,8 +28,8 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 # publication: In *MIS Quarterly (Submitted)*
-publication: In *Journal of Economic Behavior & Organization, 214, pp.691-707.*
-publication_short: In *Journal of Economic Behavior & Organization, 214, pp.691-707.*
+publication: In *Journal of Economic Behavior & Organization, 214, pp.691-707*
+publication_short: In *Journal of Economic Behavior & Organization, 214, pp.691-707*
 
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
