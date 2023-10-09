@@ -28,7 +28,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *The Journal of Industrial Economics, 61(3), pp.700-732.*
-publication_short: In *JIndE*
+publication_short: In *The Journal of Industrial Economics, 61(3), pp.700-732.*
 
 abstract: The paper offers a novel justification for the non‐obviousness patentability requirement. An innovation involves two stages,research results in a technology blueprint, which development transforms into a profitable activity. An innovator, who is either efficient or inefficient, must rely on outside finance for the development. Only patented technologies are developed. Strengthening the non‐obviousness requirement alleviates adverse selection by discouraging inefficient innovators from doing research, but creates inefficiencies by excluding marginal innovations. We show that it is socially optimal to raise the non‐obviousness requirement so as to exclude bad innovators; we also provide several robustness checks and discuss the policy implications.
 
