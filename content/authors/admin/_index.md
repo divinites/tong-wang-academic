@@ -28,9 +28,6 @@ education:
   - course: PhD in Economics
     institution: Toulouse School of Economics
     year: 2011
-  - course: Master Science Economique
-    institution: Toulouse School of Economics
-    year: 2007
   - course: Master in Management
     institution: Guanghua School of Management, Peking University
     year: 2004
