@@ -18,12 +18,9 @@ bio: My research interests include Economics Theory, Crypto-finance and Digital 
 
 # Interests to show in About widget
 interests:
-- Economics Theory
-- Blockchain mechanism design
-- Decentralised Finance
+- Fintech
 - Digital Economics
-- Economics of Social Platforms
-- Fintech and Corporate Finance
+- Economics Theory
 
 # Education to show in About widget
 education:
@@ -76,5 +73,5 @@ email: "twang210@ed.ac.uk"
 highlight_name: true
 ---
 
-Dr. Tong Wang is a senior lecturer in business economics at the University of Edinburgh Business School. He received his PhD in Economics from Toulouse School of Economics and he was a Jean-Monnet Fellow, working on regulation and competition policy at the European University Institute before he joined Edinburgh. His research interest covers blockchain and crypto-finance, digital economics, and economics theory.
+Dr. Tong Wang is a senior lecturer in business economics at the University of Edinburgh Business School. He received his PhD in Economics from Toulouse School of Economics and he was a Jean-Monnet Fellow, working on regulation and competition policy at the European University Institute before he joined Edinburgh. His research interest covers Fintech, Digital Economics, and Economics Theory.
 
