@@ -15,7 +15,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2021-07-01T00:00:00Z"
+date: "2022-07-01T00:00:00Z"
 doi: "10.1016/j.intfin.2022.101661"
 
 # Schedule page publish date (NOT publication's date).
