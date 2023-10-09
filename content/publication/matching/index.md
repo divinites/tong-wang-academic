@@ -16,7 +16,7 @@ authors:
 # - "Equal contribution"
 
 date: "2016-07-01T00:00:00Z"
-doi: "10.1016/j.jet.2016.01.008"
+# doi: "10.1016/j.jet.2016.01.008"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
