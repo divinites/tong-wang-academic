@@ -6,7 +6,7 @@ title: "A Bayesian estimation approach of random switching exponential smoothing
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - Renhe Wang
-- Tong Wang
+- admin
 - Zhiyong Qian
 - Shulan Hu
 
