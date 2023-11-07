@@ -1,5 +1,5 @@
 ---
-title: "Multidimensional Nonlinear Pricing: Evidence from Energy Consumption with a Mixture Pricing Mechanism"
+title: "Nonlinear Pricing in Multidimensional Context: An Empirical Analysis of Energy Consumption"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -24,13 +24,13 @@ date: "2021-07-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *International Journal of Industrial Organisation (Under Review)*
-publication_short: In *SSRN Working Paper*
+publication: In *International Journal of Industrial Organisation (Conditional Accepted)*
+publication_short: In *International Journal of Industrial Organisation (Conditional Accepted)*
 
-abstract: In current business practice, sellers often combine a variety of pricing strategies to segment the market. These practices often leave consumers with pricing schedules that are highly non-linear and multidimensional. This paper develops a novel structural approach for estimating multidimensional non-linear pricing schemes with more than one decision variable. Using a rich and unique panel data of residents’ electricity consumption, we structurally estimate consumer preferences for electricity consumption in a setting with electricity tariffs, using both an Increasing Block Price (IBP) structure as well as a Time-of-Use (ToU) structure. Our model estimation allows us to identify and evaluate household-level elasticities in price elasticity of demand. Our counterfactual analysis shows that a seemingly welfare-improving policy may trigger the strategic behaviour of consumers and, ultimately, be contrary to the original purpose.
+abstract: Modern business practices frequently employ a blend of pricing strategies to segment markets effectively. As a result, consumers may encounter pricing schedules that are nonlinear and multidimensional. This paper presents a structural approach for estimating multidimensional nonlinear pricing models involving multiple decision variables in an energy market. Using a unique, rich panel dataset of Chinese household electricity consumption, we structurally estimate consumer preferences under the influence of an Increasing Block Price (IBP) and a Time-of-Use (ToU) system. Our structural approach allows us to distinguish and evaluate household-level price elasticities of demand, presenting a novel explanation for consumer's feedback on marginal price changes. Through model-based simulations, we demonstrate that a 1% increase in price corresponds to a 0.7% reduction in total electricity demand. However, our analysis indicates that practical opportunities for optimization within multi-dimensional pricing systems are limited. Our findings offer distinct insights into the complex interplay between intricate pricing structures and energy consumption behavior, thereby providing valuable guidance for policymakers and regulators.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
