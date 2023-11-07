@@ -34,7 +34,7 @@ abstract: Modern business practices frequently employ a blend of pricing strateg
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ['Multidimensional Non-linear Pricing', 'Energy Policies', 'structural estimation']
+tags: ['Multidimensional Non-linear Pricing', 'Energy Policies', 'structural estimation',"Published"]
 
 # Display this page in the Featured widget?
 featured: true
