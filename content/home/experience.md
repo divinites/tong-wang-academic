@@ -63,5 +63,5 @@ experience:
     date_end: '2012-08-30'
 
 design:
-  columns: '2'
+  columns: '1'
 ---
