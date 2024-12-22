@@ -6,7 +6,7 @@ event_url:
 
 location: Toulouse School of Economics
 
-summary: Presenting "Enforceability v.s. Flexibility: When Do Smart Contracts Outperform Traditional Contracts?" at Digital Economics Conference
+summary: Presenting "Enforceability v.s. Flexibility When Do Smart Contracts Outperform Traditional Contracts?" at Digital Economics Conference
 abstract: "This presentation explores the trade-off between enforceability and flexibility in smart contracts versus traditional contracts. We analyze when and why smart contracts might be preferable to traditional contracts, considering factors such as enforcement costs, contract flexibility, and adaptation to unforeseen circumstances."
 
 # Talk start and end times.
