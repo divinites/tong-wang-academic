@@ -1,9 +1,9 @@
 ---
-title: Game Theory for Business Analytics
-subtitle: This course covers an introductory level of game theory to provide analytical tools for business applications.
+title: Game Theory for Business Analytics (2019-2023)
+subtitle: Previously taught course covering introductory game theory and its business applications.
 
 # Summary for listings and search engines
-summary: This course covers an introductory level of game theory to provide analytical tools for business applications.
+summary: This course covered an introductory level of game theory to provide analytical tools for business applications. (Course taught from 2019 to 2023)
 
 # Link this post with a project
 projects: []
@@ -12,7 +12,7 @@ projects: []
 date: "2019-12-13T00:00:00Z"
 
 # Date updated
-lastmod: "2021-12-13T00:00:00Z"
+lastmod: "2023-12-31T00:00:00Z"
 
 # Is this an unpublished draft?
 draft: false
@@ -32,11 +32,13 @@ authors:
 - admin
 
 tags:
-- Fintech
-- Blockchain
-
+- Game Theory
+- Business Analytics
+- Teaching
+- Previous Courses
 
 categories:
+- Previous Teaching
 
 ---
 

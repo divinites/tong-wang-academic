@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Teaching
 cms_exclude: true
 
 # View.
@@ -10,6 +10,13 @@ view: 2
 
 # Optional header image (relative to `static/media/` folder).
 header:
-  caption: ""
+  caption: "Teaching"
   image: ""
+
+# Sections
+sections:
+  - title: Current Courses
+    category: Teaching
+  - title: Previous Courses
+    category: Previous Teaching
 ---
