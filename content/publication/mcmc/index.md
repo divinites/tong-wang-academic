@@ -5,10 +5,10 @@ title: "A Bayesian estimation approach of random switching exponential smoothing
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Renhe Wang
+- Hu, Shulan
+- Qian, Zhiyong
+- Wang, Renhe
 - admin
-- Zhiyong Qian
-- Shulan Hu
 
 # Author notes (optional)
 # author_notes:
@@ -76,5 +76,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-

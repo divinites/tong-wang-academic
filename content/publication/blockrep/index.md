@@ -6,7 +6,7 @@ title: "Blockchain-based Crypto-currency, Initial Coin Offerings and their Regul
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Jianye Yan
+- Yan, Jianye
 
 # Author notes (optional)
 # author_notes:
@@ -74,5 +74,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-

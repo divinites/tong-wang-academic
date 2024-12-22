@@ -6,7 +6,7 @@ title: "History in Economics"
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Lingyan Wang
+- Wang, Lingyan
 
 # Author notes (optional)
 # author_notes:
@@ -74,5 +74,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-

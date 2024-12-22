@@ -5,10 +5,10 @@ title: "Enforceability v.s. Flexibility: When Do Smart Contracts Outperform Trad
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Sanxi Li
-- Jingmin Huang
+- Huang, Jingmin
+- Li, Sanxi
 - admin
-- Jianye Yan
+- Yan, Jianye
 
 # Author notes (optional)
 # author_notes:
@@ -75,5 +75,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-

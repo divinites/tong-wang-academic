@@ -5,7 +5,7 @@ title: "Mandatory IFRS Reporting and Shareholder Protection: Worldwide Evidence 
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Aluna Wang
+- Wang, Aluna
 - admin
 
 # Author notes (optional)
@@ -73,5 +73,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-

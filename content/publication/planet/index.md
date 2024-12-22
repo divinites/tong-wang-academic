@@ -5,10 +5,10 @@ title: "Referral Networks and Renewal Rates: An Empirical Study from a Creator P
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Xintong Han
+- Han, Xintong
+- Wang, Shane
+- Wang, Shaojia
 - admin
-- Shaojia Wang
-- Shane Wang
 
 # Author notes (optional)
 # author_notes:
@@ -76,5 +76,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-

@@ -5,9 +5,9 @@ title: "Is solicitation status related to rating conservatism and rating quality
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Sheng Zhao
 - Moreira, Fernando
 - admin
+- Zhao, Sheng
 
 # Author notes (optional)
 # author_notes:
@@ -75,5 +75,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-

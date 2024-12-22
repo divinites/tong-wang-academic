@@ -6,8 +6,8 @@ title: "Does Soft Information in Expert Ratings Curb Information Asymmetry? Evid
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Sheng Zhao
-- Mengqiu Zhou
+- Zhao, Sheng
+- Zhou, Mengqiu
 
 
 # Author notes (optional)
@@ -76,5 +76,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-

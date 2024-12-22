@@ -5,10 +5,10 @@ title: "Assessing the Impact of Hype on Blockchain-based Cryptocurrency: The Cas
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Xintong Han
+- Grewal, Rajdeep
+- Han, Xintong
 - admin
-- Shane Wang
-- Rajdeep Grewal
+- Wang, Shane
 
 # Author notes (optional)
 # author_notes:
@@ -76,5 +76,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-

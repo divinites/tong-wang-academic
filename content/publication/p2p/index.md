@@ -5,9 +5,9 @@ title: "Why does regional information matter? evidence from peer-to-peer lending
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+- Shen, Xin
 - admin
-- Sheng Zhao
-- Xin Shen
+- Zhao, Sheng
 
 # Author notes (optional)
 # author_notes:
@@ -75,5 +75,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-
