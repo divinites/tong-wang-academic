@@ -1,6 +1,6 @@
 ---
 title: UEBS Early Venture Fund
-summary: The Dynamic Evolution of Open-Source Projects
+summary: "The Dynamic Evolution of Open-Source Projects | £7,840 | Principal Investigator"
 tags:
 - Open Source
 - Project Evolution
@@ -29,5 +29,9 @@ funding:
   currency: GBP
   role: Principal Investigator
 ---
+
+**Role:** Principal Investigator  
+**Amount:** £7,840  
+**Duration:** Aug 2016 - Jul 2017
 
 Research project examining the dynamic evolution patterns of open-source projects. The study investigates how open-source projects develop over time, identifying key stages and factors in their lifecycle.

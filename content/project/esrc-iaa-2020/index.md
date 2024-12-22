@@ -1,6 +1,6 @@
 ---
 title: ESRC Impact Acceleration Account Fund
-summary: Content Recommendation System with Consumer Profiling
+summary: "Content Recommendation System with Consumer Profiling | £11,707 | Principal Investigator"
 tags:
 - Machine Learning
 - Consumer Behavior
@@ -30,6 +30,10 @@ funding:
   role: Principal Investigator
 ---
 
-Project Reference: EDIN-19/20-P0007
+**Project Reference:** EDIN-19/20-P0007
+
+**Role:** Principal Investigator  
+**Amount:** £11,707  
+**Duration:** Feb 2020 - Dec 2021
 
 Development and implementation of an advanced content recommendation system that incorporates consumer profiling. The project aims to enhance the accuracy and effectiveness of content recommendations through sophisticated user behavior analysis.

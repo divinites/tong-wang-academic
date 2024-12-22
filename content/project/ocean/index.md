@@ -1,6 +1,6 @@
 ---
 title: OCEAN Award
-summary: Key factors of the success of Open-source Projects
+summary: "Key factors of the success of Open-source Projects | £6,000 | Principal Investigator"
 tags:
 - Open Source
 - Digital Economy
@@ -21,10 +21,6 @@ url_slides: ""
 url_video: ""
 
 # Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
 slides: ""
 
 funding:
@@ -32,5 +28,9 @@ funding:
   currency: GBP
   role: Principal Investigator
 ---
+
+**Role:** Principal Investigator  
+**Amount:** £6,000  
+**Duration:** Mar 2021 - Apr 2023
 
 Research project investigating the key success factors of open-source projects. The study aims to identify and analyze the critical elements that contribute to the sustainability and success of open-source initiatives.

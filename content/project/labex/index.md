@@ -1,6 +1,6 @@
 ---
 title: LabEx ECODEC
-summary: Knowledge Spillover on Open-source Network
+summary: "Knowledge Spillover on Open-source Network | €20,000 | Co-Investigator"
 tags:
 - Open Source
 - Network Analysis
@@ -29,5 +29,9 @@ funding:
   currency: EUR
   role: Co-Investigator
 ---
+
+**Role:** Co-Investigator  
+**Amount:** €20,000  
+**Duration:** Jun 2021 - May 2023
 
 Research project examining knowledge spillover effects in open-source networks. The study investigates how knowledge and innovations spread through open-source communities and their impact on project development and success.

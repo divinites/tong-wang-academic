@@ -1,6 +1,6 @@
 ---
 title: UEBS Early Venture Fund
-summary: A Structural Estimation of Energy Consumption with a Mixed Pricing Mechanism
+summary: "A Structural Estimation of Energy Consumption with a Mixed Pricing Mechanism | £8,600 | Principal Investigator"
 tags:
 - Energy Economics
 - Structural Estimation
@@ -12,7 +12,7 @@ date_end: "2021-07-31T00:00:00Z"
 external_link: ""
 
 image:
-  caption:
+  caption: 
   focal_point: Smart
 
 links:
@@ -29,5 +29,9 @@ funding:
   currency: GBP
   role: Principal Investigator
 ---
+
+**Role:** Principal Investigator  
+**Amount:** £8,600  
+**Duration:** Aug 2019 - Jul 2021
 
 Research project developing a structural model to analyze energy consumption patterns under mixed pricing mechanisms. The study aims to better understand consumer behavior and optimize pricing strategies in the energy sector.

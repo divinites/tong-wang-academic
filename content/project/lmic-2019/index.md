@@ -1,6 +1,6 @@
 ---
 title: LMIC Travel & Partnership Fund
-summary: Why Geographical Information Matters? Regional discrimination in Peer-to-Peer Lending relationships
+summary: "Why Geographical Information Matters? Regional discrimination in P2P Lending relationships | £2,700 | Principal Investigator"
 tags:
 - P2P Lending
 - Geographic Analysis
@@ -29,5 +29,9 @@ funding:
   currency: GBP
   role: Principal Investigator
 ---
+
+**Role:** Principal Investigator  
+**Amount:** £2,700  
+**Duration:** Apr 2019 - Jun 2019
 
 Research project investigating the role of geographical information in P2P lending decisions and outcomes. The study examines how regional factors influence lending behavior and potential discrimination in P2P lending markets.
