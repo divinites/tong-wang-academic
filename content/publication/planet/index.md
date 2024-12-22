@@ -1,13 +1,14 @@
 ---
-title: "The Real Effects of Lending Relationship Disruptions: Evidence from Bank Mergers"
+title: "Referral Networks and Renewal Rates: An Empirical Study from a Creator Platform"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Aluna Wang
+- Xintong Han
 - admin
-- Xiapeng Song
+- Shaojia Wang
+- Shane Wang
 
 # Author notes (optional)
 # author_notes:
@@ -30,7 +31,7 @@ publication_types: ["3"]
 # publication: In *Journal of International Financial Markets, Institutions and Money*
 # publication_short: In *Journal of International Financial Markets, Institutions and Money*
 
-abstract: We exploit hand-collected data on bank merger deals and cross-sectional variation in borrower exposure to merger partners to study the effect of bank mergers on lending relationships. Using loan-level data, We find that borrowers that have pre-merger relationships with the target bank are much less likely to access credit from the merged bank. Using a novel measure of soft information used in loan decisions, We show this effect is stronger for lending relationships in which soft information is more important, suggesting that banks organizational restructuring affects their information processing and debt contracting. Moreover, firms having pre-merger relationships with target banks suffer from relationship disruptions":" they reduce investment and lay off employees when facing financial shocks.
+abstract: This paper investigates the complexity of digital membership renewal. Using a rich dataset from a Chinese creator platform, we study the interplay of price changes and peer decisions within referral networks and their joint effects on a focal user’s decision to renew the digital content membership. Our study reveals several key findings: First, through regression modeling, we quantify the price elasticity and uncover a positive correlation between a user’s likelihood to renew and both the renewal decisions of the referrer and the number of referees. Second, we study the snowballing effects of price changes throughout the network. A key advantage of our structural model is that it allows the referral network to be endogenously determined by users’ consideration and prediction of the renewal decisions of both upstream referrers and downstream referees. The results show that targeted referrer discounts are more effective than either uniform discounts or targeted referrer discounts. Such business strategies would efficiently improve renewal rates while avoiding potential revenue losses. Finally, further evidence sheds light on how different network structures affect overall renewal rates, suggesting that networks characterized by high levels of connectivity but low levels of centrality are more conducive to maintaining customer loyalty.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

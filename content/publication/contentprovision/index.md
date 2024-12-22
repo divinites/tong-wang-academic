@@ -1,13 +1,14 @@
 ---
-title: "The Real Effects of Lending Relationship Disruptions: Evidence from Bank Mergers"
+title: "Strategic Content Provision and Online Networks"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Aluna Wang
+- Xintong Han
 - admin
-- Xiapeng Song
+- Yushen Li
+- Bicheng Yang
 
 # Author notes (optional)
 # author_notes:
@@ -30,7 +31,7 @@ publication_types: ["3"]
 # publication: In *Journal of International Financial Markets, Institutions and Money*
 # publication_short: In *Journal of International Financial Markets, Institutions and Money*
 
-abstract: We exploit hand-collected data on bank merger deals and cross-sectional variation in borrower exposure to merger partners to study the effect of bank mergers on lending relationships. Using loan-level data, We find that borrowers that have pre-merger relationships with the target bank are much less likely to access credit from the merged bank. Using a novel measure of soft information used in loan decisions, We show this effect is stronger for lending relationships in which soft information is more important, suggesting that banks organizational restructuring affects their information processing and debt contracting. Moreover, firms having pre-merger relationships with target banks suffer from relationship disruptions":" they reduce investment and lay off employees when facing financial shocks.
+abstract: This paper studies how influencers strategically provide content on a content platform. Using a theoretical model, we introduce two types of strategies that influencers employ to provide content on online platforms. An influencer chooses either to answer a wide range of questions (broad-coverage strategy) or to only answer some specialized questions (focus strategy). Using data from the largest Chinese Question-and-Answer (Q&A) platform, we study how influencers’ strategies for content provision are affected by their peers. Our data includes the number of answers each influencer provides and the type of topics related to each answer, which allows us to construct statistical measures to define the focus level of an influencer on content provision. Observing the follower network of influencers further allows us to evaluate the effect of network peers on an influencer’ choice of content provision strategy. We find that the focus level of influencers on content provision is significantly and positively affected by peers who have a high online reputation. This finding indicates that social networking is an effective tool for channeling content diversification and reduces users’ uncertainty on the type of content to contribute.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
