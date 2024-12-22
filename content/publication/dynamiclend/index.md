@@ -1,5 +1,5 @@
 ---
-title: "Bank Merge and Lending Relationships"
+title: "he Real Effects of Lending Relationship Disruptions: Evidence from Bank Mergers"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -7,14 +7,14 @@ title: "Bank Merge and Lending Relationships"
 authors:
 - Aluna Wang
 - admin
-- Sheng Zhao
+- Xiapeng Song
 
 # Author notes (optional)
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2021-07-01T00:00:00Z"
+date: "2024-07-01T00:00:00Z"
 # doi: "10.1016/j.jet.2016.01.008"
 
 # Schedule page publish date (NOT publication's date).
