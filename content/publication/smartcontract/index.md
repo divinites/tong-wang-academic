@@ -1,19 +1,21 @@
 ---
-title: "Mandatory IFRS Reporting and Shareholder Protection: Worldwide Evidence from Corporate Control Market"
+title: "Enforceability v.s. Flexibility: When Do Smart Contracts Outperform Traditional Contracts?"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Aluna Wang
+- Sanxi Li
+- Jingmin Huang
 - admin
+- Jianye Yan
 
 # Author notes (optional)
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2021-07-01T00:00:00Z"
+date: "2020-07-01T00:00:00Z"
 # doi: "10.1016/j.jet.2016.01.008"
 
 # Schedule page publish date (NOT publication's date).
@@ -23,20 +25,20 @@ date: "2021-07-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-# publication: In *Journal of International Financial Markets, Institutions and Money*
-# publication_short: In *Journal of International Financial Markets, Institutions and Money*
+# publication: In *Journal of Economic Behavior & Organization (Under Review)*
+# publication_short: In *SSRN Working Paper*
 
-abstract: According to the IFRS Foundation, the IFRS Standards reduce the information gap between capital providers and the people to whom they have entrusted their money, which in turn protect shareholders from expropriation by corporate insiders. Exploiting the staggered mandatory switches to IFRS reporting worldwide from 2000 to 2016, I test this assertion in the setting of the corporate control market. I find that on average, after the introduction of mandatory IFRS reporting, acquiring firms in a given country spend less on acquisitions in total and are less likely to use all-cash bids, which is consistent with previous research showing that stronger shareholder protection reduces agency costs and generally leads to higher stock market valuation. I further show that the effects are larger among acquiring firms domiciled in countries with weaker shareholder protection Pre-IFRS, suggesting that mandatory IFRS reporting acts as a substitute for the existing state shareholder protection.
+abstract: Our paper provides an explanation of the economic efficiency differences between smart contracts and traditional contracts from a theoretical model perspective. We argue that traditional contracts can adjust menus based on post hoc information, thus offering greater flexibility, while smart contracts enforce compliance, effectively addressing hold-up issues. If the contract is incomplete and the target random variable is uncontractable, the trade-off between smart contracts and traditional contracts manifests as a comparison between these two effects, with rational actors opting for smart contracts when social legal efficiency is low. Smart contract designers view contracts as insurance against uncertainty, while traditional contract designers use the original contract as a tool to constrain new contract designs. If smart contracts are allowed to design incentive-compatible schemes, then smart contracts will achieve the first-best outcome. Considering the impracticality of designing for all scenarios, we consider a model where classification writing is limited to a finite total information. In this case, smart contracts will achieve optimality under pre-contractual information precision and approach the first-best outcome as the writing precision increases, while traditional contracts will always achieve the first-best outcome. The latter is because multiple writings provide sufficient freedom for traditional contract designers to schedule payment amounts across different scenarios.
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ["Finance", "Accounting","Corporate Finance"]
+tags: ["Economics Theory", "blockchain", "smart contract"]
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
