@@ -15,7 +15,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2024-07-01T00:00:00Z"
+date: "2024-12-01T00:00:00Z"
 # doi: "10.1016/j.jet.2016.01.008"
 
 # Schedule page publish date (NOT publication's date).
@@ -29,7 +29,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 # publication: In *Journal of International Financial Markets, Institutions and Money*
-# publication_short: In *Journal of International Financial Markets, Institutions and Money*
+publication_short: In *Production and Operations Management* (R&R)
 
 abstract: This paper studies how influencers strategically provide content on a content platform. Using a theoretical model, we introduce two types of strategies that influencers employ to provide content on online platforms. An influencer chooses either to answer a wide range of questions (broad-coverage strategy) or to only answer some specialized questions (focus strategy). Using data from the largest Chinese Question-and-Answer (Q&A) platform, we study how influencers’ strategies for content provision are affected by their peers. Our data includes the number of answers each influencer provides and the type of topics related to each answer, which allows us to construct statistical measures to define the focus level of an influencer on content provision. Observing the follower network of influencers further allows us to evaluate the effect of network peers on an influencer’ choice of content provision strategy. We find that the focus level of influencers on content provision is significantly and positively affected by peers who have a high online reputation. This finding indicates that social networking is an effective tool for channeling content diversification and reduces users’ uncertainty on the type of content to contribute.
 

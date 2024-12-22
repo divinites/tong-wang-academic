@@ -15,7 +15,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2024-07-01T00:00:00Z"
+date: "2024-12-01T00:00:00Z"
 # doi: "10.1016/j.jet.2016.01.008"
 
 # Schedule page publish date (NOT publication's date).
@@ -28,7 +28,7 @@ date: "2024-07-01T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-# publication: In *Journal of International Financial Markets, Institutions and Money*
+publication: In *Information System Research* (Under Review)
 # publication_short: In *Journal of International Financial Markets, Institutions and Money*
 
 abstract: This paper investigates the complexity of digital membership renewal. Using a rich dataset from a Chinese creator platform, we study the interplay of price changes and peer decisions within referral networks and their joint effects on a focal user’s decision to renew the digital content membership. Our study reveals several key findings. First, through regression modeling, we quantify the price elasticity and uncover a positive correlation between a user’s likelihood to renew and both the renewal decisions of the referrer and the number of referees. Second, we study the snowballing effects of price changes throughout the network. A key advantage of our structural model is that it allows the referral network to be endogenously determined by users’ consideration and prediction of the renewal decisions of both upstream referrers and downstream referees. The results show that targeted referrer discounts are more effective than either uniform discounts or targeted referrer discounts. Such business strategies would efficiently improve renewal rates while avoiding potential revenue losses. Finally, further evidence sheds light on how different network structures affect overall renewal rates, suggesting that networks characterized by high levels of connectivity but low levels of centrality are more conducive to maintaining customer loyalty.

@@ -36,7 +36,7 @@ abstract: According to the IFRS Foundation, the IFRS Standards reduce the inform
 tags: ["Finance", "Accounting","Corporate Finance"]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
