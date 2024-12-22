@@ -1,6 +1,6 @@
 ---
 title: EPSRC Impact Acceleration Account Fund
-summary: Blockchain and Digital Twins
+summary: "Blockchain and Digital Twins | £6,725 | Principal Investigator"
 tags:
 - Blockchain
 - Digital Twins
@@ -30,6 +30,10 @@ funding:
   role: Principal Investigator
 ---
 
-Project Reference: PII1072 Leonardo
+**Project Reference:** PII1072 Leonardo
+
+**Role:** Principal Investigator  
+**Amount:** £6,725  
+**Duration:** Nov 2019 - Mar 2020
 
 Research project exploring the integration of blockchain technology with digital twins. The study investigates how blockchain can enhance the security, reliability, and functionality of digital twin implementations.
