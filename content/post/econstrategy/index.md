@@ -1,9 +1,9 @@
 ---
 title: Economics of Strategy
-subtitle: This is an MBA-level course that is designed to offer MBA students a deep understanding of how economic principles shape strategic decision-making in business. 
+subtitle: This is an MBA-level course that is designed to offer MBA students a deep understanding of how economic principles shape strategic decision-making in business.
 
 # Summary for listings and search engines
-summary: This is an MBA-level course that is designed to offer MBA students a deep understanding of how economic principles shape strategic decision-making in business. 
+summary: This is an MBA-level course that is designed to offer MBA students a deep understanding of how economic principles shape strategic decision-making in business.
 
 # Link this post with a project
 projects: []
@@ -37,7 +37,7 @@ tags:
 
 
 categories:
-
+- Teaching
 ---
 
 ## Overview
