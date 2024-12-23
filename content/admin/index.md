@@ -1,7 +1,6 @@
 ---
-# Generate Wowchemy CMS
-type: wowchemycms
+type: bloxcms
 outputs:
-- wowchemycms_config
-- HTML
+  - HTML
+private: true
 ---

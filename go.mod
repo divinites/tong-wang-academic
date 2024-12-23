@@ -1,8 +1,13 @@
-module github.com/wowchemy/starter-hugo-academic
+module github.com/HugoBlox/starter-hugo-academic
 
-go 1.15
+go 1.19
 
 require (
-	github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5 v5.0.0-20211122231030-d26f01d5d6c3 // indirect
-	github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5 v5.0.0-20211122231030-d26f01d5d6c3 // indirect
+  github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.7
+  github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal v1.1.2
+)
+
+require (
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-core v0.3.1 // indirect
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-seo v0.2.3 // indirect
 )

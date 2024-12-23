@@ -1,0 +1,19 @@
+security:
+  funcs:
+    getenv:
+      - '^HUGO_'
+      - '^CI$'
+      - '^WC_'
+  exec:
+    allow:
+      - '^(dart-)?sass(-embedded)?$'
+      - '^go$'
+      - '^git$'
+      - '^npx$'
+      - '^postcss$'
+      - '^tailwindcss$'
+  http:
+    methods:
+      - '(?i)GET|POST'
+    urls:
+      - '.*'

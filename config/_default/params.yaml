@@ -1,22 +1,50 @@
 # SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
+# Guide: https://hugoblox.com/docs/getting-started/
+# Documentation: https://hugoblox.com/docs/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
 
-theme: ocean
-day_night: true
-font: ''
-font_size: L
+appearance:
+  theme_day: ocean
+  theme_night: ocean
+  font: minimal
+  font_size: L
 
 # SEO
 
-site_type: Person
-local_business_type: ''
-org_name: ''
-description: ''
-twitter: ''
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    description: ''
+    twitter: ''
+  analytics:
+    google_analytics: ''
+    google_tag_manager: ''
+  verification:
+    google: ''
+    baidu: ''
+
+# Site header
+
+header:
+  navbar:
+    enable: true
+    align: l
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    show_search: true
+    highlight_active_link: true
+
+# Localization
+
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+  address_format: en-gb
 
 # Contact (edit or remove options as required)
 
@@ -29,118 +57,52 @@ address:
   postcode: 'EH8 9JS'
   country: United Kingdom
   country_code: UK
-# contact_links:
-#   - icon: twitter
-#     icon_pack: fab
-#     name: DM Me
-#     link: 'https://twitter.com/Twitter'
-#   - icon: keybase
-#     icon_pack: fab
-#     name: Chat on Keybase
-#     link: 'https://keybase.io/'
-#   - icon: comments
-#     icon_pack: fas
-#     name: Discuss on Forum
-#     link: 'https://discourse.gohugo.io'
-
-# Site header
-
-main_menu:
-  enable: true
-  align: l
-  show_logo: true
-  show_language: false
-  show_day_night: true
-  show_search: true
-  highlight_active_link: true
-
-# Localization
-
-date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
-address_format: en-gb
 
 # Site features
 
-highlight: true
-highlight_languages:
-  - r
-math: true
-diagram: true
-privacy_pack: false
-edit_page:
-  repo_url: ''
-  content_dir: ''
-  repo_branch: main
-  editable:
-    page: false
-    post: false
-    book: false
-show_related:
-  book: true
-  page: false
-  post: true
-  project: true
-  publication: true
-  event: true
-reading_time: true
-section_pager: false
-docs_section_pager: true
-sharing: true
-copyright_license:
-  enable: false
-  allow_derivatives: false
-  share_alike: true
-  allow_commercial: false
-  notice: 'This work is licensed under {license}'
-abstract_length: 135
-plugins_js: []
-avatar:
-  gravatar: false
-  shape: circle
-publications:
-  date_format: January 2006
-  citation_style: apa
-projects:
-  post_view: 2
-  publication_view: 2
-  talk_view: 2
-breadcrumb:
-  page_types:
-    book: true
-comments:
-  provider: ''
-  commentable:
-    post: true
-    book: true
-    project: true
-    publication: true
-    event: true
-  disqus:
-    shortname: ''
-    show_count: true
-  commento:
+features:
+  syntax_highlighter:
+    enable: true
+    extra_languages:
+      - r
+  math:
+    enable: true
+  diagram:
+    enable: true
+  privacy_pack:
+    enable: false
+  repository:
     url: ''
-search:
-  provider: wowchemy
-  algolia:
-    app_id: ''
+    content_dir: ''
+    branch: main
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: ''
     api_key: ''
-    index_name: ''
-    show_logo: false
-map:
-  provider: ''
-  api_key: ''
-  zoom: 15
-marketing:
-  google_analytics: ''
-  google_tag_manager: ''
-  google_site_verification: ''
-  baidu_site_verification: ''
-  baidu_tongji: ''
-cms:
-  branch: master
-  local_backend: false
-icon:
-  pack:
-    ai: true
+    zoom: 15
+
+# Extensions
+
+extensions:
+  cms:
+    branch: master
+    local_backend: false
+
+# Security
+
+security:
+  # Allow frame for embedding speaker notes in slides
+  allow_frame: true
