@@ -29,15 +29,23 @@ experience:
     location: Edinburgh
     date_start: '2022-05-01'
     date_end: ''
-    
+
+  - title: Generative AI Laboratory(GAIL) Research Fellow
+    company: University of Edinburgh
+    company_url: 'https://www.ed.ac.uk/'
+    company_logo: uoe
+    location: Edinburgh
+    date_start: '2024-10-01'
+    date_end: ''
+
   - title: Associate fellow (Visiting Professor)
-    company: PHBS Oxford Campus, Peking University 
+    company: PHBS Oxford Campus, Peking University
     company_url: 'https://www.pku.org.uk'
     company_logo: phbs
     location: Oxford
     date_start: '2019-07-01'
     date_end: '2020-06-30'
-   
+
   - title: Lecturer in Business Economics (Assistant Professor)
     company: Business School, University of Edinburgh
     company_url: 'https://www.ed.ac.uk/'
