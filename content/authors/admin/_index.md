@@ -70,5 +70,5 @@ email: "twang210@ed.ac.uk"
 highlight_name: true
 ---
 
-Dr. Tong Wang is a senior lecturer in business economics at the University of Edinburgh Business School. He received his PhD in Economics from Toulouse School of Economics and he was a Jean-Monnet Fellow, working on regulation and competition policy at the European University Institute before he joined Edinburgh. His research interest covers Fintech, Digital Economics, and Economics Theory.
+I am a Senior Lecturer at the University of Edinburgh Business School and a Generative AI Lab Fellow. My research lies at the intersection of digital economics and technology, with a particular focus on digital platforms, Fintech, and applied economics theory.
 
