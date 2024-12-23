@@ -58,6 +58,9 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  highlight:
+    style: github-dark
+    noClasses: false
 related:
   threshold: 80
   includeNewer: true
