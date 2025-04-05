@@ -81,7 +81,7 @@ item:
   url: ""
 
 design:
-  columns: '2'
+  columns: '3'
   view: compact
   spacing:
     padding: ["20px", "0", "20px", "0"]
