@@ -9,7 +9,7 @@ summary: This course covered an introductory level of game theory to provide ana
 projects: []
 
 # Date published
-date: "2019-12-13T00:00:00Z"
+date: "2018-12-13T00:00:00Z"
 
 # Date updated
 lastmod: "2019-12-31T00:00:00Z"

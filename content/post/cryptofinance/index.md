@@ -11,7 +11,7 @@ summary: This course aims to provide a synthetic overview of cryptocurrencies an
 projects: []
 
 # Date published
-date: "2019-09-13T00:00:00Z"
+date: "2022-09-13T00:00:00Z"
 
 # Date updated
 lastmod: "2021-12-13T00:00:00Z"

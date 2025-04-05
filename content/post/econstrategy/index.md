@@ -9,7 +9,7 @@ summary: This is an MBA-level course that is designed to offer MBA students a de
 projects: []
 
 # Date published
-date: "2019-12-13T00:00:00Z"
+date: "2020-12-13T00:00:00Z"
 
 # Date updated
 lastmod: "2021-12-13T00:00:00Z"
