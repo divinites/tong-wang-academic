@@ -82,5 +82,12 @@ item:
 
 design:
   columns: '1'
+
   view: 3
+
+  flip_alt_rows: false
+
+  background: {}
+
+  spacing: {padding: ["1.9rem", "0", "1.9rem", "0"]}
 ---
