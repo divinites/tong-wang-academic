@@ -82,4 +82,7 @@ item:
 
 design:
   columns: '2'
+  view: compact
+  spacing:
+    padding: ["20px", "0", "20px", "0"]
 ---
