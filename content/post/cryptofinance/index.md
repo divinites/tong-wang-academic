@@ -39,6 +39,9 @@ tags:
 
 categories:
 - Teaching
+
+# Control display order
+weight: 2
 ---
 
 ## Description

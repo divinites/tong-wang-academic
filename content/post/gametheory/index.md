@@ -40,6 +40,9 @@ tags:
 categories:
 - Previous Teaching
 
+# Control display order
+weight: 4
+
 ---
 
 ## Overview

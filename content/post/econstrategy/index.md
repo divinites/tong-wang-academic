@@ -35,9 +35,11 @@ tags:
 - Economics
 - Strategy
 
-
 categories:
 - Teaching
+
+# Control display order
+weight: 3
 ---
 
 ## Overview
