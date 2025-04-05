@@ -81,5 +81,6 @@ item:
   url: ""
 
 design:
-  columns: '3'
+  columns: '1'
+  view: 3
 ---
