@@ -1,14 +1,14 @@
 ---
-title: "Assessing the Impact of Hype on Blockchain-based Cryptocurrency: The Case of Initial Coin Offerings"
+title: "Title Protected for Reviewing Process"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Grewal, Rajdeep
-- Han, Xintong
+# - Grewal, Rajdeep
+# - Han, Xintong
 - admin
-- Wang, Shane
+# - Wang, Shane
 
 # Author notes (optional)
 # author_notes:
