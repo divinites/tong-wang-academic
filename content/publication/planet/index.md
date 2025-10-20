@@ -1,13 +1,13 @@
 ---
-title: "Referral Networks and Renewal Rates: An Empirical Study from a Creator Platform"
+title: "Title Protected for Reviewing Process"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Han, Xintong
-- Wang, Shane
-- Wang, Shaojia
+# - Han, Xintong
+# - Wang, Shane
+# - Wang, Shaojia
 - admin
 
 # Author notes (optional)
