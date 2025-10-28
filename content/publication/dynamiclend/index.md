@@ -5,8 +5,8 @@ title: "Title Protected for Reviewing Process"
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Song, Xiapeng
-- Wang, Aluna
+# - Song, Xiapeng
+# - Wang, Aluna
 - admin
 
 # Author notes (optional)
