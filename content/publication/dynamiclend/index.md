@@ -14,7 +14,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2024-07-01T00:00:00Z"
+date: "2025-07-01T00:00:00Z"
 # doi: "10.1016/j.jet.2016.01.008"
 
 # Schedule page publish date (NOT publication's date).
@@ -28,7 +28,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 # publication: In *Journal of International Financial Markets, Institutions and Money*
-publication_short: In *Review of Corporate Finance Studies (Under Review)*
+publication_short: In *Review of Corporate Finance Studies* (Under Review)
 
 abstract: We exploit hand-collected data on bank merger deals and cross-sectional variation in borrower exposure to merger partners to study the effect of bank mergers on lending relationships. Using loan-level data, We find that borrowers that have pre-merger relationships with the target bank are much less likely to access credit from the merged bank. Using a novel measure of soft information used in loan decisions, We show this effect is stronger for lending relationships in which soft information is more important, suggesting that banks organizational restructuring affects their information processing and debt contracting. Moreover, firms having pre-merger relationships with target banks suffer from relationship disruptions":" they reduce investment and lay off employees when facing financial shocks.
 
