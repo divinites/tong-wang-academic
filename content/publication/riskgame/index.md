@@ -5,10 +5,10 @@ title: "Title Protected for Reviewing Process"
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Li, Sanxi
-- Sun, Hailin
+# - Li, Sanxi
+# - Sun, Hailin
 - admin
-- Yu, Jun
+# - Yu, Jun
 
 # Author notes (optional)
 # author_notes:
@@ -29,7 +29,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 # publication: In *Journal of Economic Behavior & Organization (Under Review)*
-publication_short: In *Game and Economic Behavior (Under Review)*
+publication_short: In *Game and Economic Behavior* (Under Review)
 
 abstract: This paper studies the comparative statics regarding changes in risk on Nash's solution to bargaining games with stochastic outcome and disagreement points. When absolute risk tolerance is linear with constant slope, the Nash's solution to bargaining with risky outcomes and risky disagreement points can be viewed as division of divisible certainty equivalent between two risk-averse agents. We show that whether a deterioration of a bargainer's risky prospect is advantageous to his opponent often depends on whether preference displays decreasing absolute risk aversion (DARA). Specifically, for perfectly correlated risky prospects, DARA à la Arrow-Pratt works to the concavity of the joint certainty equivalent with respect to a bargainer's initial wealth or size of risky exposure; for independent risky prospects, DARA à la Ross vulnerates his risk bearing under Rothschild-Stiglitz increase in risk taking the form of adding an independent noise, both leading to the bargainer's increased propensity for risk aversion as well as the joint size of the pie. These results illuminate how individual risky prospect as well as risk preference influence the cooperating partners' income shares and thus the market equilibrum of marriage formation. We also show that this result is robust under Rubinstein's non-cooperative bargaining game.
 
