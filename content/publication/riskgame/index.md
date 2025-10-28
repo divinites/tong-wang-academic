@@ -1,5 +1,5 @@
 ---
-title: "Change in Risk and Bargaining Game"
+title: "Title Protected for Reviewing Process"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
