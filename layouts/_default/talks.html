@@ -1,14 +1,12 @@
 {{ define "main" }}
 {{- $cv := site.Data.cv.en }}
-<h1>Talks</h1>
-
 <h2>Invited talks and public lectures</h2>
 {{ partial "dated.html" $cv.invited }}
 
 <h2>Seminars and conferences</h2>
 <ul class="dated years">
   {{- range $cv.talks }}
-  <li><span class="when">{{ .year }}</span><span>{{ delimit .venues "; " | safeHTML }}</span></li>
+  <li><span class="when">{{ .year }}</span><span class="text">{{ delimit .venues "; " | safeHTML }}</span></li>
   {{- end }}
 </ul>
 {{ end }}

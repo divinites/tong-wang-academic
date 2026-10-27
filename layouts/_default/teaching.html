@@ -1,21 +1,21 @@
 {{ define "main" }}
 {{- $cv := site.Data.cv.en }}
-<h1>Teaching</h1>
-
 <h2>Current courses</h2>
-{{- range $cv.teaching_current }}
-<section class="course">
-  <h3>{{ .course | safeHTML }}</h3>
-  <p class="mut">{{ .programme | safeHTML }} · {{ .role | safeHTML }} · {{ .dates | safeHTML }}</p>
-  {{- with .desc }}<p>{{ . }}</p>{{ end }}
-  {{- with .awards }}<p class="award">{{ . | safeHTML }}</p>{{ end }}
-</section>
-{{- end }}
+<div class="courses">
+  {{- range $cv.teaching_current }}
+  <section class="line">
+    <h3>{{ .course | safeHTML }}</h3>
+    <p class="meta">{{ .programme | safeHTML }} · {{ .role | safeHTML }} · {{ .dates | safeHTML }}</p>
+    {{- with .desc }}<p>{{ . }}</p>{{ end }}
+    {{- with .awards }}<p class="award">{{ . | safeHTML }}</p>{{ end }}
+  </section>
+  {{- end }}
+</div>
 
 <h2>Past courses</h2>
 <ul class="dated">
   {{- range $cv.teaching_past }}
-  <li><span class="when">{{ .dates | safeHTML }}</span><span><strong>{{ .course | safeHTML }}</strong>, {{ .programme | safeHTML }}{{ with .awards }}<br><span class="mut">{{ . | safeHTML }}</span>{{ end }}</span></li>
+  <li class="teaching"><span class="when">{{ .dates | safeHTML }}</span><span class="text"><strong>{{ .course | safeHTML }}</strong>, {{ .programme | safeHTML }}{{ with .awards }}<br><span class="mut">{{ . | safeHTML }}</span>{{ end }}</span></li>
   {{- end }}
 </ul>
 

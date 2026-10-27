@@ -3,6 +3,7 @@
  "project": "personal-website",
  "regenerable": [],
  "files": [
+  {"path":"media-src/avatar-cutout.png","bytes":1505439,"sha256":"4bbcc8871ec8c6f68a756e4545ce7eb8ce5625f2ea1385e835232a77f07b1a9d","dropbox":"52c289ed4521d416c9fe25a12b19bf587973c7935b3d296a2ff0dcf56394c2ab","location":"files/media-src/avatar-cutout.png","pushed_at":"2026-10-27T20:43:42Z","pushed_by":"185"},
   {"path":"media-src/avatar-original.jpg","bytes":2655769,"sha256":"73b54c8f986ccf2d96a0540b0e8d575a2179ba9659e42f8e7e9374027ff19768","dropbox":"b8f06238c3fdf8226c016cdfd91a84e66fb9e72399a3197c14b16af02d31b5a8","location":"files/media-src/avatar-original.jpg","pushed_at":"2026-10-27T18:53:00Z","pushed_by":"185"}
  ]
 }

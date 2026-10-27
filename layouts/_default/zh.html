@@ -1,43 +1,66 @@
+{{ define "top" }}
+{{- $x := site.Data.extra }}
+{{- partial "hero.html" (dict
+  "name" $x.name_zh
+  "alt" $x.name_zh
+  "tagline" $x.tagline_zh
+  "role" (printf "%s · %s" $x.affiliation_zh $x.title_zh)
+  "button" (dict "text" "研究方向" "href" "#research")
+  "legend" $x.network_zh
+  "scroll" "向下") }}
+{{ end }}
+
 {{ define "main" }}
 {{- $x := site.Data.extra }}
 {{- $cv := site.Data.cv.zh }}
-<section class="intro">
-  <img class="portrait" src="{{ "img/tong-wang.jpg" | relURL }}" alt="汪通" width="400" height="400">
-  <div>
-    <h1>{{ $x.name_zh }}</h1>
-    <p class="role">{{ $x.title_zh }}<br>{{ $x.affiliation_zh }}</p>
-    <p class="links"><a href="mailto:{{ $x.email }}">{{ $x.email }}</a> · <a href="{{ "/" | relURL }}" lang="en">English</a></p>
+<section class="block" id="research">
+  <p class="tag">研究方向</p>
+  <h2>三个研究方向</h2>
+  <p class="intro">{{ $x.bio_zh }} <a href="{{ "/" | relURL }}" lang="en">English</a></p>
+  <div class="lines">
+    {{- range $x.research_zh }}
+    <article class="line">
+      <span class="dot"></span>
+      <h3>{{ .title }}</h3>
+      <p>{{ .text }}</p>
+    </article>
+    {{- end }}
   </div>
 </section>
 
-<p class="bio">{{ $x.bio_zh }}</p>
+<section class="block">
+  <p class="tag">著作</p>
+  <h2>中文著作与报告</h2>
+  <ul class="books">
+    {{- range $cv.books }}<li>{{ .html | safeHTML }}</li>{{ end }}
+  </ul>
+</section>
 
-<h2>研究方向</h2>
-<dl class="lines">
-  {{- range $x.research_zh }}
-  <dt>{{ .title }}</dt>
-  <dd>{{ .text }}</dd>
-  {{- end }}
-</dl>
+<section class="block">
+  <p class="tag">科普</p>
+  <h2>科普与自媒体</h2>
+  <ul class="books">
+    {{- range $x.social_zh }}
+    <li><a href="{{ .url }}">{{ .name }}</a>：{{ .text }}</li>
+    {{- end }}
+  </ul>
+</section>
 
-<h2>中文著作与报告</h2>
-<ul class="books">
-  {{- range $cv.books }}<li>{{ .html | safeHTML }}</li>{{ end }}
-</ul>
+<section class="block">
+  <p class="tag">教学</p>
+  <h2>暑期学校与外部授课</h2>
+  {{ partial "dated.html" $cv.summer }}
+</section>
 
-<h2>科普与自媒体</h2>
-<ul class="books">
-  {{- range $x.social_zh }}
-  <li><a href="{{ .url }}">{{ .name }}</a>：{{ .text }}</li>
-  {{- end }}
-</ul>
+<section class="block">
+  <p class="tag">报告</p>
+  <h2>特邀报告与公开讲座</h2>
+  {{ partial "dated.html" $cv.invited }}
+</section>
 
-<h2>暑期学校与外部授课</h2>
-{{ partial "dated.html" $cv.summer }}
-
-<h2>特邀报告与公开讲座</h2>
-{{ partial "dated.html" $cv.invited }}
-
-<h2>学术职位</h2>
-{{ partial "positions.html" $cv.positions }}
+<section class="block">
+  <p class="tag">履历</p>
+  <h2>学术职位</h2>
+  {{ partial "positions.html" $cv.positions }}
+</section>
 {{ end }}
