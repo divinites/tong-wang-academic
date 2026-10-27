@@ -25,6 +25,13 @@
   {{- range $cv.books }}<li>{{ .html | safeHTML }}</li>{{ end }}
 </ul>
 
+<h2>科普与自媒体</h2>
+<ul class="books">
+  {{- range $x.social_zh }}
+  <li><a href="{{ .url }}">{{ .name }}</a>：{{ .text }}</li>
+  {{- end }}
+</ul>
+
 <h2>暑期学校与外部授课</h2>
 {{ partial "dated.html" $cv.summer }}
 
