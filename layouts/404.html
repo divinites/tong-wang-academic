@@ -1,4 +1,10 @@
+{{ define "top" }}
+<section class="band">
+  <canvas class="net" aria-hidden="true"></canvas>
+  <div class="wrap narrow"><h1>Page not found</h1></div>
+</section>
+{{ end }}
+
 {{ define "main" }}
-<h1>Page not found</h1>
 <p>This page does not exist (any more). Try the <a href="{{ "/" | relURL }}">home page</a> or <a href="{{ "research/" | relURL }}">Research</a>.</p>
 {{ end }}

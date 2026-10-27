@@ -1,6 +1,5 @@
 {{ define "main" }}
 {{- $cv := site.Data.cv.en }}
-<h1>Research</h1>
 <p class="lede">{{ $cv.interests | safeHTML }}</p>
 
 <h2 id="publications">Publications</h2>
@@ -19,7 +18,7 @@
 <h2 id="grants">Research grants</h2>
 <ul class="dated grants">
   {{- range $cv.grants }}
-  <li><span class="when">{{ .period }}</span><span><strong>{{ .title | safeHTML }}</strong><br><span class="mut">{{ .funder | safeHTML }} · {{ .role | safeHTML }} · {{ .amount | safeHTML }}</span></span></li>
+  <li class="grant"><span class="when">{{ .period }}</span><span class="text"><strong>{{ .title | safeHTML }}</strong><br><span class="mut">{{ .funder | safeHTML }} · {{ .role | safeHTML }} · {{ .amount | safeHTML }}</span></span></li>
   {{- end }}
 </ul>
 

@@ -1,6 +1,6 @@
 {{- /* A list of {date, text} items from data/cv.json. Context: the slice. */ -}}
 <ul class="dated">
   {{- range . }}
-  <li><span class="when">{{ .date | safeHTML }}</span><span>{{ .text | safeHTML }}</span></li>
+  <li><span class="when">{{ .date | safeHTML }}</span><span class="text">{{ .text | safeHTML }}</span></li>
   {{- end }}
 </ul>

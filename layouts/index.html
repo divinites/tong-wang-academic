@@ -1,40 +1,51 @@
+{{ define "top" }}
+{{- $x := site.Data.extra }}
+{{- partial "hero.html" (dict
+  "name" $x.name
+  "alt" (printf "Portrait of %s" $x.name)
+  "tagline" $x.tagline
+  "role" (printf "%s · %s" $x.title $x.affiliation)
+  "button" (dict "text" "See the research" "href" "#research")
+  "legend" $x.network
+  "scroll" "SCROLL") }}
+{{ end }}
+
 {{ define "main" }}
 {{- $x := site.Data.extra }}
 {{- $cv := site.Data.cv.en }}
-<section class="intro">
-  <img class="portrait" src="{{ "img/tong-wang.jpg" | relURL }}" alt="Portrait of {{ $x.name }}" width="400" height="400">
-  <div>
-    <h1>{{ $x.name }}</h1>
-    <p class="role">{{ $x.title }}<br>{{ $x.affiliation }}</p>
-    <p class="links">
-      <a href="mailto:{{ $x.email }}">{{ $x.email }}</a>
-      {{- range $x.links }} · <a href="{{ .url }}">{{ .name }}</a>{{ end }}
-    </p>
+<section class="block" id="research">
+  <p class="tag">research</p>
+  <h2>Three lines of work</h2>
+  <p class="intro">{{ $x.bio }}</p>
+  <div class="lines">
+    {{- range $x.research }}
+    <article class="line">
+      <span class="dot"></span>
+      <h3>{{ .title }}</h3>
+      <p>{{ .text }}</p>
+    </article>
+    {{- end }}
   </div>
 </section>
 
-<p class="bio">{{ $x.bio }}</p>
+<section class="block" id="recent">
+  <p class="tag">recent</p>
+  <h2>Talks, grants and service</h2>
+  <ul class="dated news">
+    {{- range $cv.recent }}
+    <li class="{{ .kind }}"><span class="when">{{ .date | safeHTML }}<span class="kind">{{ .kind }}</span></span><span class="text">{{ .html | safeHTML }}</span></li>
+    {{- end }}
+  </ul>
+</section>
 
-<h2>Research</h2>
-<dl class="lines">
-  {{- range $x.research }}
-  <dt>{{ .title }}</dt>
-  <dd>{{ .text }}</dd>
-  {{- end }}
-</dl>
-
-<h2>Recent</h2>
-<ul class="dated news">
-  {{- range $cv.recent }}
-  <li><span class="when">{{ .date | safeHTML }}</span><span>{{ .html | safeHTML }}</span></li>
-  {{- end }}
-</ul>
-
-<h2>Selected publications</h2>
-<ol class="pubs">
-  {{- range $id := $x.selected }}
-  {{- range where $cv.publications "id" $id }}{{ partial "pub.html" . }}{{ end }}
-  {{- end }}
-</ol>
-<p><a href="{{ "research/" | relURL }}">All publications, books and grants →</a></p>
+<section class="block" id="publications">
+  <p class="tag">selected publications</p>
+  <h2>In journals</h2>
+  <ol class="pubs">
+    {{- range $id := $x.selected }}
+    {{- range where $cv.publications "id" $id }}{{ partial "pub.html" . }}{{ end }}
+    {{- end }}
+  </ol>
+  <a class="more" href="{{ "research/" | relURL }}">all publications, books and grants →</a>
+</section>
 {{ end }}

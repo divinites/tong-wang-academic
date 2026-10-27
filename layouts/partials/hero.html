@@ -1,0 +1,23 @@
+{{- /* Full-screen title with the network behind it, for the home and Chinese pages.
+   Context: dict with name, alt, tagline (lead, words, tail), role, button (text, href), legend, scroll. */ -}}
+{{- $x := site.Data.extra }}
+{{- $t := .tagline }}
+<section class="hero">
+  <canvas class="net" aria-hidden="true"></canvas>
+  <div class="inner">
+    <div class="avatar"><img src="{{ "img/tong-wang-cut.webp" | relURL }}" alt="{{ .alt }}" width="480" height="480"></div>
+    <h1>{{ .name }}</h1>
+    <p class="claim">{{ $t.lead }}<span class="rot" data-words="{{ delimit $t.words "|" }}">{{ index $t.words 0 }}</span>{{ $t.tail }}</p>
+    <p class="role">{{ .role }}</p>
+    <div class="btns">
+      <a class="btn solid" href="{{ .button.href }}">{{ .button.text }}</a>
+      <a class="btn ghost" href="mailto:{{ $x.email }}">{{ $x.email }}</a>
+    </div>
+  </div>
+  <div class="legend" aria-hidden="true">
+    {{- range $i, $l := .legend }}
+    <span><i class="c{{ add $i 1 }}"></i>{{ $l }}</span>
+    {{- end }}
+  </div>
+  <a class="scroll" href="#content">{{ .scroll }}</a>
+</section>

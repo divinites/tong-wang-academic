@@ -25,6 +25,21 @@ links:
   - name: LinkedIn
     url: https://www.linkedin.com/in/tong-wang-9bb46a40
 
+# The line under the name on the home and Chinese pages. The last word types itself out in turn from
+# `words` (the first one is what visitors without JavaScript see); `tail` follows it. `lead` carries
+# its own trailing space where the language needs one.
+tagline:
+  lead: "Economics for markets that run on "
+  words: [code, platforms, tokens, algorithms, AI models]
+tagline_zh:
+  lead: 研究跑在
+  words: [代码, 平台, 代币, 算法, AI 模型]
+  tail: 上的市场
+
+# Labels for the three colours of the network behind the page titles, in the order of `research`.
+network: [platforms, fintech, AI]
+network_zh: [平台, 金融科技, AI]
+
 bio: >-
   I am a Senior Lecturer (Associate Professor) in Business Economics at the University of Edinburgh
   Business School and a Fellow of the University's Generative AI Laboratory. I received my PhD in
