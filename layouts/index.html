@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{- $x := site.Data.extra }}
+{{- $cv := site.Data.cv.en }}
+<section class="intro">
+  <img class="portrait" src="{{ "img/tong-wang.jpg" | relURL }}" alt="Portrait of {{ $x.name }}" width="400" height="400">
+  <div>
+    <h1>{{ $x.name }}</h1>
+    <p class="role">{{ $x.title }}<br>{{ $x.affiliation }}</p>
+    <p class="links">
+      <a href="mailto:{{ $x.email }}">{{ $x.email }}</a>
+      {{- range $x.links }} · <a href="{{ .url }}">{{ .name }}</a>{{ end }}
+    </p>
+  </div>
+</section>
+
+<p class="bio">{{ $x.bio }}</p>
+
+<h2>Research</h2>
+<dl class="lines">
+  {{- range $x.research }}
+  <dt>{{ .title }}</dt>
+  <dd>{{ .text }}</dd>
+  {{- end }}
+</dl>
+
+<h2>Recent</h2>
+<ul class="dated news">
+  {{- range $cv.recent }}
+  <li><span class="when">{{ .date | safeHTML }}</span><span>{{ .html | safeHTML }}</span></li>
+  {{- end }}
+</ul>
+
+<h2>Selected publications</h2>
+<ol class="pubs">
+  {{- range $id := $x.selected }}
+  {{- range where $cv.publications "id" $id }}{{ partial "pub.html" . }}{{ end }}
+  {{- end }}
+</ol>
+<p><a href="{{ "research/" | relURL }}">All publications, books and grants →</a></p>
+{{ end }}

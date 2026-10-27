@@ -1,0 +1,33 @@
+baseURL = "https://www.tongwang.digital/"
+languageCode = "en-gb"
+title = "Tong Wang"
+disableKinds = ["taxonomy", "term", "rss"]
+enableRobotsTXT = true
+
+[params]
+description = "Tong Wang is a Senior Lecturer (Associate Professor) in Business Economics at the University of Edinburgh Business School, working on digital platforms, fintech and the economics of AI."
+
+[[menus.main]]
+name = "Research"
+pageRef = "/research"
+weight = 10
+
+[[menus.main]]
+name = "Teaching"
+pageRef = "/teaching"
+weight = 20
+
+[[menus.main]]
+name = "Talks"
+pageRef = "/talks"
+weight = 30
+
+[[menus.main]]
+name = "About"
+pageRef = "/about"
+weight = 40
+
+[[menus.main]]
+name = "中文"
+pageRef = "/zh"
+weight = 50

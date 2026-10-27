@@ -1,0 +1,99 @@
+:root {
+  --bg: #fcfcfa;
+  --fg: #1d1d1b;
+  --mut: #5d6166;
+  --line: #e2e0da;
+  --link: #1d4e89;
+  --link-hover: #0f2f57;
+  --soft: #f3f2ee;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Liberation Serif", "Noto Serif", serif, "Songti SC", "Noto Serif CJK SC";
+  --serif-zh: "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", SimSun, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Noto Sans CJK SC", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141517;
+    --fg: #e7e5e1;
+    --mut: #a3a7ad;
+    --line: #2d3036;
+    --link: #93bbf0;
+    --link-hover: #c4dafa;
+    --soft: #1d1f23;
+  }
+}
+
+* { box-sizing: border-box; }
+html { font-size: 17px; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--serif);
+  line-height: 1.6;
+}
+.wrap { max-width: 46rem; margin: 0 auto; padding: 0 16px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { color: var(--link-hover); text-decoration: underline; }
+.mut { color: var(--mut); }
+html[lang="zh-CN"] body, span[lang="zh-CN"] { font-family: var(--serif-zh); }
+
+/* Header and footer */
+header.site { border-bottom: 1px solid var(--line); font-family: var(--sans); }
+header .bar { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 24px; padding-top: 14px; padding-bottom: 12px; }
+header .name { font-family: var(--serif); font-size: 1.2rem; color: var(--fg); }
+header nav { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 0.9rem; }
+header nav a { color: var(--mut); }
+header nav a[aria-current="page"] { color: var(--fg); border-bottom: 2px solid var(--link); }
+footer.site { border-top: 1px solid var(--line); margin-top: 56px; padding: 18px 0 28px; font-family: var(--sans); font-size: 0.85rem; }
+footer.site p { margin: 4px 0; }
+
+/* Headings and text */
+main.wrap { padding-top: 32px; }
+h1 { font-size: 2rem; font-weight: 500; line-height: 1.2; margin: 0 0 12px; }
+h2 { font-size: 1.25rem; font-weight: 600; margin: 40px 0 12px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+h3 { font-size: 1.05rem; font-weight: 600; margin: 0 0 2px; }
+.lede, .bio { font-size: 1.05rem; }
+
+/* Home intro */
+.intro { display: flex; gap: 24px; align-items: center; margin-bottom: 20px; }
+.portrait { width: 152px; height: 152px; border-radius: 50%; object-fit: cover; flex: 0 0 auto; }
+.intro h1 { margin-bottom: 6px; }
+.role { margin: 0 0 6px; color: var(--mut); }
+.links { margin: 0; font-family: var(--sans); font-size: 0.9rem; }
+
+/* Research lines */
+dl.lines { margin: 0; }
+dl.lines dt { font-weight: 600; margin-top: 10px; }
+dl.lines dd { margin: 0; }
+
+/* Dated lists: date column + text */
+ul.dated, ul.books { list-style: none; padding: 0; margin: 0; }
+ul.dated li { display: grid; grid-template-columns: 9.5rem 1fr; gap: 12px; padding: 6px 0; border-bottom: 1px solid var(--soft); }
+ul.dated .when { color: var(--mut); font-family: var(--sans); font-size: 0.85rem; padding-top: 3px; }
+ul.years li { grid-template-columns: 4rem 1fr; }
+ul.news li { grid-template-columns: 5.5rem 1fr; }
+ul.positions li { grid-template-columns: 12.5rem 1fr; }
+ul.books li { padding: 6px 0; }
+ul.books .gloss { display: block; font-style: italic; }
+
+/* Publications */
+ol.pubs { list-style: none; padding: 0; margin: 0; }
+li.pub { padding: 10px 0; border-bottom: 1px solid var(--soft); }
+li.pub .title { font-weight: 600; }
+li.pub details { margin-top: 4px; font-size: 0.95rem; }
+li.pub summary { cursor: pointer; color: var(--mut); font-family: var(--sans); font-size: 0.85rem; }
+li.pub details p { margin: 6px 0 0; }
+
+/* Teaching */
+section.course { margin: 0 0 20px; }
+section.course p { margin: 4px 0; }
+section.course .mut { font-family: var(--sans); font-size: 0.85rem; }
+.award { font-style: italic; }
+
+@media (max-width: 560px) {
+  html { font-size: 16px; }
+  .intro { flex-direction: column; align-items: flex-start; gap: 14px; }
+  .portrait { width: 120px; height: 120px; }
+  ul.dated li { grid-template-columns: 1fr; gap: 0; }
+  ul.years li { grid-template-columns: 3.5rem 1fr; gap: 8px; }
+}

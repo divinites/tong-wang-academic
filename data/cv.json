@@ -1,0 +1,1414 @@
+{
+ "en": {
+  "positions": [
+   {
+    "title": "Senior Lecturer/Associate Professor",
+    "org": "Business School, University of Edinburgh",
+    "dates": "Apr. 2022 – Present"
+   },
+   {
+    "title": "Lecturer",
+    "org": "Business School, University of Edinburgh",
+    "dates": "Nov. 2013 – Mar. 2022"
+   },
+   {
+    "title": "Postdoctoral Research Fellow",
+    "org": "Centre for Competition Policy, University of East Anglia",
+    "dates": "Sep. 2012 – Sep. 2013"
+   },
+   {
+    "title": "Jean-Monnet Fellow",
+    "org": "Florence School of Regulation, European University Institute",
+    "dates": "Sep. 2011 – Aug. 2012"
+   }
+  ],
+  "other_positions": [
+   {
+    "title": "GenAI Laboratory Fellow",
+    "org": "University of Edinburgh",
+    "dates": "Nov. 2024 – Present"
+   },
+   {
+    "title": "Programme Director of MSc Marketing and Business Analysis",
+    "org": "Business School, University of Edinburgh",
+    "dates": "Jan. 2022 – Oct. 2022"
+   },
+   {
+    "title": "Visiting Professor",
+    "org": "Peking University, Oxford Campus",
+    "dates": "Sep. 2018 – Mar. 2020"
+   },
+   {
+    "title": "Programme Director of MSc Marketing and Business Analysis",
+    "org": "Business School, University of Edinburgh",
+    "dates": "Oct. 2016 – Sep. 2019"
+   }
+  ],
+  "education": [
+   {
+    "title": "PhD in Economics",
+    "org": "Toulouse School of Economics",
+    "dates": "Sep. 2006 – Jun. 2011"
+   },
+   {
+    "title": "Master in Management",
+    "org": "Guanghua School of Management, Peking University",
+    "dates": "Sep. 2002 – Jul. 2004"
+   },
+   {
+    "title": "Bachelor in Materials Physics",
+    "org": "University of Science and Technology of China",
+    "dates": "Sep. 2000 – Jul. 2002"
+   }
+  ],
+  "interests": "My research focuses on <strong>Digital Platforms</strong> and <strong>Fintech</strong> using economics theory and empirical methods. I leverage <strong>Game Theory</strong> and <strong>Machine Learning</strong> to study platform dynamics and financial innovations.",
+  "publications": [
+   {
+    "authors": [
+     "Xintong Han",
+     "Zimin Liu",
+     "Tong Wang"
+    ],
+    "title": "Nonlinear pricing in multidimensional context: An empirical analysis of energy consumption",
+    "venue": "International Journal of Industrial Organization",
+    "details": "91 (2023): 103034",
+    "year": 2023,
+    "id": "ijio2023",
+    "doi": "10.1016/j.ijindorg.2023.103034",
+    "abstract": "Modern business practices frequently employ a blend of pricing strategies to segment markets effectively. As a result, consumers may encounter pricing schedules that are nonlinear and multidimensional. This paper presents a structural approach for estimating multidimensional nonlinear pricing models involving multiple decision variables in an energy market. Using a unique, rich panel dataset of Chinese household electricity consumption, we structurally estimate consumer preferences under the influence of an Increasing Block Price (IBP) and a Time-of-Use (ToU) system. Our structural approach allows us to distinguish and evaluate household-level price elasticities of demand, presenting a novel explanation for consumer's feedback on marginal price changes. Through model-based simulations, we demonstrate that a 1% increase in price corresponds to a 0.7% reduction in total electricity demand. However, our analysis indicates that practical opportunities for optimization within multi-dimensional pricing systems are limited. Our findings offer distinct insights into the complex interplay between intricate pricing structures and energy consumption behavior, thereby providing valuable guidance for policymakers and regulators."
+   },
+   {
+    "authors": [
+     "Renhe Wang",
+     "Tong Wang",
+     "Zhiyong Qian",
+     "Shulan Hu"
+    ],
+    "title": "A Bayesian estimation approach of random switching exponential smoothing with application to credit forecast",
+    "venue": "Finance Research Letters",
+    "details": "58 (2023): 104525",
+    "year": 2023,
+    "id": "frl2023",
+    "doi": "10.1016/j.frl.2023.104525",
+    "abstract": "We introduce an efficient Markov Chain Monte Carlo sampler in precision-based algorithms for the estimation of the Random Switching Exponential Smoothing model, a versatile forecasting mechanism for time series data characterized with changing trends. Through a series of simulation experiments, RC-MCMC exhibits superior parameter estimation accuracy, particularly for datasets featuring low persistence trends. Furthermore, an empirical evaluation using the Bank for International Settlements' quarterly time series data on the non-financial sector's total credit relative to GDP validates the findings. The out-of-sample results indicate that the proposed approach outperforms its counterparts in estimating and forecasting accuracy for trending time series data."
+   },
+   {
+    "authors": [
+     "Xintong Han",
+     "Yushen Li",
+     "Tong Wang"
+    ],
+    "title": "Peer recognition, badge policies, and content contribution: An empirical study",
+    "venue": "Journal of Economic Behavior &amp; Organization",
+    "details": "214 (2023): 691–707",
+    "year": 2023,
+    "id": "jebo2023",
+    "doi": "10.1016/j.jebo.2023.08.021",
+    "abstract": ""
+   },
+   {
+    "authors": [
+     "Tong Wang",
+     "Sheng Zhao",
+     "Mengqiu Zhou"
+    ],
+    "title": "Does soft information in expert ratings curb information asymmetry? Evidence from crowdfunding and early transaction phases of Initial Coin Offerings",
+    "venue": "Journal of International Financial Markets, Institutions and Money",
+    "details": "81 (2022): 101661",
+    "year": 2022,
+    "id": "jifmim2022",
+    "doi": "10.1016/j.intfin.2022.101661",
+    "abstract": "This paper examines the role of soft information in reducing information asymmetry in ICO markets. Expert ratings normally contain two types of information, hard information, a summary of public, numerically-measured information, and soft information, containing expert insights, rumours and private conversations. Taking advantage of the special dual-rating system of a leading ICO rating platform, we successfully isolate soft information from expert ratings. We find that soft information reduces information asymmetry between ICO management teams and investors, measured by the amount of raised funds in the crowdfunding phase and the underpricing levels in the early transaction phase, removing soft information from expert ratings significantly undermines their predictability on ICO performances. We also test the long-term survival rates and market price trends of ICOs and conclude that it is soft information rather than hard information that plays a crucial role for investors to predict the long-term performance of ICO tokens."
+   },
+   {
+    "authors": [
+     "Tong Wang",
+     "Sheng Zhao",
+     "Xin Shen"
+    ],
+    "title": "Why Does Regional Information Matter? Evidence from Peer-to-Peer Lending",
+    "venue": "The European Journal of Finance",
+    "details": "27, no. 4–5 (2021): 346–366",
+    "year": 2021,
+    "id": "ejf2021",
+    "doi": "10.1080/1351847X.2020.1720262",
+    "abstract": "In this paper, we study regional discrimination in a peer-to-peer lending scenario and provide novel empirical evidence for theories of soft information collection and information cost. We find that the regional information matters for borrowers' funding probabilities and that discrimination is profit-oriented or taste-oriented depending on the specific region. Moreover, using borrowers' birthplace as an instrumental variable, we find no evidence of genuine discrimination based purely on region in the peer-to-peer lending market."
+   },
+   {
+    "authors": [
+     "Sheng Zhao",
+     "Fernando Moreira",
+     "Tong Wang"
+    ],
+    "title": "Is solicitation status related to rating conservatism and rating quality?",
+    "venue": "Journal of International Financial Markets, Institutions and Money",
+    "details": "72 (2021): 101341",
+    "year": 2021,
+    "id": "jifmim2021",
+    "doi": "10.1016/j.intfin.2021.101341",
+    "abstract": "This paper discusses the association between rating solicitation status and rating quality. Our model shows that if firms with a declining trend of performance are less likely to solicit ratings from credit rating agencies, these firms are more conservatively rated, as their self-selection behaviour is seen as a signal of high credit risk. Our empirical results support the predictions of the model proposed in this study and show that, first, when controlling for fundamental factors, unsolicited ratings are lower than solicited ones, and second, the rating qualities of both types of ratings are not significantly different from each other."
+   },
+   {
+    "authors": [
+     "Sanxi Li",
+     "Hailin Sun",
+     "Tong Wang",
+     "Jun Yu"
+    ],
+    "title": "Assortative matching and risk sharing",
+    "venue": "Journal of Economic Theory",
+    "details": "163 (2016): 248–275",
+    "year": 2016,
+    "id": "jet2016",
+    "doi": "10.1016/j.jet.2016.01.008",
+    "abstract": "This paper explores the sorting patterns in a two-sided matching market where agents facing different risks match to share them. When preference belongs to the class of harmonic absolute risk aversion (HARA), the risk premium is perfectly transferable within each partnership; thus a stable match minimizes the social cost of risk. In the systematic risk model, where agents are ranked by their holdings of a common risky asset, the convexity of the joint risk premium in joint risk size leads to negative assortative matching (NAM). In the idiosyncratic risk model, where agents are ranked by their independent riskiness in the sense of second-order stochastic dominance (SSD), NAM arises when preference exhibits decreasing absolute risk aversion (DARA) in the sense of Ross and riskier background risk leads to more risk-averse behavior. However, NAM may fail to arise when riskier background risk leads to more risk-tolerant behavior."
+   },
+   {
+    "authors": [
+     "Zonglai Kou",
+     "Patrick Rey",
+     "Tong Wang"
+    ],
+    "title": "Non-Obviousness and Screening",
+    "venue": "The Journal of Industrial Economics",
+    "details": "61, no. 3 (2013): 700–732",
+    "year": 2013,
+    "id": "jie2013",
+    "doi": "10.1111/joie.12031",
+    "abstract": "The paper offers a novel justification for the non-obviousness patentability requirement. An innovation involves two stages: research results in a technology blueprint, which development transforms into a profitable activity. An innovator, who is either efficient or inefficient, must rely on outside finance for the development. Only patented technologies are developed. Strengthening the non-obviousness requirement alleviates adverse selection by discouraging inefficient innovators from doing research, but creates inefficiencies by excluding marginal innovations. We show that it is socially optimal to raise the non-obviousness requirement so as to exclude bad innovators; we also provide several robustness checks and discuss the policy implications."
+   }
+  ],
+  "books": [
+   {
+    "html": "《数字经济学手册》第九章：区块链经济学, 浙江大学出版社, 2026",
+    "title_zh": "《数字经济学手册》第九章：区块链经济学",
+    "year": 2026,
+    "gloss": "Handbook of Digital Economics, Chapter 9: The Economics of Blockchain"
+   },
+   {
+    "html": "《数字经济学导论》第七章：区块链经济学, 人民大学出版社, 2023",
+    "title_zh": "《数字经济学导论》第七章：区块链经济学",
+    "year": 2023,
+    "gloss": "Introduction to Digital Economics, Chapter 7: The Economics of Blockchain"
+   },
+   {
+    "html": "《区块链代币发行与监管挑战》 (with Jianye Yan), 国务院发展计划研究中心报告, 2019",
+    "title_zh": "《区块链代币发行与监管挑战》",
+    "year": 2019,
+    "gloss": "Token Issuance on Blockchains and Its Regulatory Challenges (policy report)"
+   },
+   {
+    "html": "《穿越历史聊经济》 (with Lingyan Wang), 北京大学出版社, 2016",
+    "title_zh": "《穿越历史聊经济》",
+    "year": 2016,
+    "gloss": "Economics Through History (popular economics book)"
+   }
+  ],
+  "grants": [
+   {
+    "title": "Mapping Online Behaviour to Beliefs: A Machine Learning Approach",
+    "role": "Principal Investigator",
+    "amount": "£2,480",
+    "funder": "Edinburgh Future Institute Internal Fund",
+    "dates": "08/01/2026 – 30/03/2026",
+    "start": "2026-01",
+    "end": "2026-03",
+    "period": "Jan 2026 – Mar 2026"
+   },
+   {
+    "title": "Breaking the Echo Chamber: Using Algorithms to Reduce Online Conflict",
+    "role": "Principal Investigator",
+    "amount": "£8,554.64",
+    "funder": "ESRC Impact Acceleration Account Fund",
+    "dates": "08/10/2025 – 30/03/2026",
+    "start": "2025-10",
+    "end": "2026-03",
+    "period": "Oct 2025 – Mar 2026"
+   },
+   {
+    "title": "Shadow Influencer – A Generative AI Based Content Creator Assistant",
+    "role": "Principal Investigator",
+    "amount": "£1,525",
+    "funder": "CDCS Digital Research Fund",
+    "dates": "01/03/2025 – 30/06/2025",
+    "start": "2025-03",
+    "end": "2025-06",
+    "period": "Mar 2025 – Jun 2025"
+   },
+   {
+    "title": "Shadow Influencer – A Generative AI Based Content Creator Assistant",
+    "role": "Principal Investigator",
+    "amount": "£952",
+    "funder": "UEBS Impact Grant",
+    "dates": "12/01/2025 – 28/02/2025",
+    "start": "2025-01",
+    "end": "2025-02",
+    "period": "Jan 2025 – Feb 2025"
+   },
+   {
+    "title": "Green Currencies in a Digital Age",
+    "role": "Principal Investigator",
+    "amount": "£9,272",
+    "funder": "CRC Small Grant",
+    "dates": "01/05/2024 – 31/07/2024",
+    "start": "2024-05",
+    "end": "2024-07",
+    "period": "May 2024 – Jul 2024"
+   },
+   {
+    "title": "Key Factors in the Success of Open-Source Projects",
+    "role": "Principal Investigator",
+    "amount": "$6,000",
+    "funder": "OCEAN Award",
+    "dates": "31/03/2021 – 01/04/2023",
+    "start": "2021-03",
+    "end": "2023-04",
+    "period": "Mar 2021 – Apr 2023"
+   },
+   {
+    "title": "Knowledge Spillovers in Open-Source Networks",
+    "role": "Co-Investigator",
+    "amount": "€20,000",
+    "funder": "LabEx ECODEC",
+    "dates": "01/06/2021 – 31/05/2023",
+    "start": "2021-06",
+    "end": "2023-05",
+    "period": "Jun 2021 – May 2023"
+   },
+   {
+    "title": "Content Recommendation Systems with Consumer Profiling",
+    "role": "Principal Investigator",
+    "amount": "£11,707",
+    "funder": "ESRC Impact Acceleration Account Fund",
+    "dates": "05/02/2020 – 20/12/2021",
+    "start": "2020-02",
+    "end": "2021-12",
+    "period": "Feb 2020 – Dec 2021"
+   },
+   {
+    "title": "Blockchain and Digital Twins",
+    "role": "Principal Investigator",
+    "amount": "£6,725",
+    "funder": "EPSRC Impact Acceleration Account Fund",
+    "dates": "01/11/2019 – 30/03/2020",
+    "start": "2019-11",
+    "end": "2020-03",
+    "period": "Nov 2019 – Mar 2020"
+   },
+   {
+    "title": "Energy Consumption with a Mixed Pricing Mechanism",
+    "role": "Principal Investigator",
+    "amount": "£8,600",
+    "funder": "UEBS Early Venture Fund",
+    "dates": "01/08/2019 – 31/07/2021",
+    "start": "2019-08",
+    "end": "2021-07",
+    "period": "Aug 2019 – Jul 2021"
+   },
+   {
+    "title": "Regional Discrimination in Peer-to-Peer Lending Relationships",
+    "role": "Principal Investigator",
+    "amount": "£2,700",
+    "funder": "LMIC Travel &amp; Partnership Fund",
+    "dates": "29/04/2019 – 15/06/2019",
+    "start": "2019-04",
+    "end": "2019-06",
+    "period": "Apr 2019 – Jun 2019"
+   },
+   {
+    "title": "The Dynamic Evolution of Open-Source Projects",
+    "role": "Principal Investigator",
+    "amount": "£7,840",
+    "funder": "UEBS Early Venture Fund",
+    "dates": "01/08/2016 – 31/07/2017",
+    "start": "2016-08",
+    "end": "2017-07",
+    "period": "Aug 2016 – Jul 2017"
+   }
+  ],
+  "grants_total": "Approx. sum of grants (GBP equivalent): £82,553.69",
+  "teaching_current": [
+   {
+    "course": "Large Language Models: Principles and Methods",
+    "role": "Lecturer, Course Organiser &amp; Designer",
+    "dates": "Sep. 2024 – Present",
+    "programme": "MSc Business Analytics Optional Course",
+    "awards": "",
+    "desc": "From word embeddings and transformers to BERT and generative models, and how to use them, including fine-tuning, to analyse business data."
+   },
+   {
+    "course": "Economic Principles of Blockchain and Cryptocurrencies",
+    "role": "Lecturer, Course Organiser &amp; Designer",
+    "dates": "Sep. 2021 – Present",
+    "programme": "MSc Finance, Technology and Policy Optional Course",
+    "awards": "",
+    "desc": "The economics of cryptocurrencies, token offerings and decentralised finance: how they work, what they change for banking and corporate governance, and how regulators respond."
+   },
+   {
+    "course": "Economics of Strategy",
+    "role": "Lecturer, Course Organiser",
+    "dates": "Sep. 2014 – Present",
+    "programme": "MBA Optional Course",
+    "awards": "UEBS Teaching Awards 2015, 2016, 2017, 2018, 2019",
+    "desc": "Market structure, competitive advantage, game theory and organisational economics, applied to the strategic decisions firms face."
+   }
+  ],
+  "teaching_past": [
+   {
+    "course": "Game Theory for Business Analytics",
+    "role": "Lecturer, Course Organiser",
+    "dates": "Sep. 2019 – Aug. 2023",
+    "programme": "MSc Business Analytics Optional Course",
+    "awards": "",
+    "desc": ""
+   },
+   {
+    "course": "Industrial Organisation",
+    "role": "Lecturer, Course Organiser &amp; Designer",
+    "dates": "Sep. 2017 – Aug. 2020",
+    "programme": "MSc Business Analytics Optional Course",
+    "awards": "",
+    "desc": ""
+   },
+   {
+    "course": "Economics of Corporate Strategy",
+    "role": "Lecturer, Course Organiser",
+    "dates": "Sep. 2014 – Aug. 2020",
+    "programme": "UG Years 3 &amp; 4 Optional Course",
+    "awards": "EUSA Teaching Awards Nominee 2015, 2016, 2017",
+    "desc": ""
+   },
+   {
+    "course": "Industry Management",
+    "role": "Lecturer",
+    "dates": "Sep. 2014 – Aug. 2016",
+    "programme": "UG Year 1 Compulsory Course",
+    "awards": "",
+    "desc": ""
+   },
+   {
+    "course": "Business Economics",
+    "role": "Lecturer",
+    "dates": "Sep. 2014 – Aug. 2017",
+    "programme": "UG Year 2 Compulsory Course",
+    "awards": "",
+    "desc": ""
+   }
+  ],
+  "awards": [
+   {
+    "date": "2015–2019",
+    "text": "UEBS Teaching Awards, Business School, University of Edinburgh"
+   },
+   {
+    "date": "2014–2019",
+    "text": "Best Teaching Award Nomination, Business School, University of Edinburgh"
+   },
+   {
+    "date": "2016",
+    "text": "Honorary Member of Zhihu Salt Club, Zhihu Inc."
+   },
+   {
+    "date": "2011",
+    "text": "Jean-Monnet Fellowship, European University Institute"
+   },
+   {
+    "date": "2010",
+    "text": "Laffont Fellowship, Toulouse School of Economics"
+   },
+   {
+    "date": "2007",
+    "text": "French National Research Funding, French Government"
+   },
+   {
+    "date": "2006",
+    "text": "Eiffel Scholarship, French Government"
+   },
+   {
+    "date": "2004",
+    "text": "Prize Fellowship, Peking University"
+   },
+   {
+    "date": "1999",
+    "text": "Microsoft Certified Systems Engineer Certificate, Microsoft"
+   },
+   {
+    "date": "1999",
+    "text": "Microsoft Certified Professional, Microsoft"
+   }
+  ],
+  "media": [
+   {
+    "date": "Mar. 2025",
+    "text": "“Open Source and Innovation Pattern”, Roundtable Discussion, Renmin University of China"
+   },
+   {
+    "date": "Feb. 2025",
+    "text": "“Distributed Ledger Technology Policy and QUB's Blockchain initiative”, Roundtable Discussion, Queen's University Belfast"
+   },
+   {
+    "date": "Dec. 2019",
+    "text": "“Has Libra changed the crypto outlook?”, The Times"
+   },
+   {
+    "date": "Oct. 2019",
+    "text": "“BoE's stance on Libra diminishes its appeal”, LondonlovesBusiness"
+   },
+   {
+    "date": "Aug. 2019",
+    "text": "“Visitor Flow Management &amp; Modelling”, Camera Obscura/ Whisky Experience, £10,000<br> (with Jake Ansell, Ewelina Lacka)"
+   },
+   {
+    "date": "Mar. 2019",
+    "text": "“Token Distribution in a Two-sided Trading Market”, Tentop Ltd. (Later Onepact), £5,000<br> Project led to a funded PhD position in 2020"
+   }
+  ],
+  "conference_org": [
+   {
+    "date": "Jun. 2026",
+    "text": "“Economics of Fintech Conference”, Scientific Committee"
+   },
+   {
+    "date": "Jun. 2024",
+    "text": "“Economics of Fintech Conference”, Scientific Committee"
+   },
+   {
+    "date": "Jun. 2023",
+    "text": "“Economics of Fintech Conference”, Scientific Committee, Organisation Committee"
+   },
+   {
+    "date": "Jun. 2022",
+    "text": "“Economics of Fintech Conference”, Scientific Committee, Organisation Committee"
+   }
+  ],
+  "invited": [
+   {
+    "date": "May 2026",
+    "text": "“Tokenisation Beyond Technology”, Invited Speaker, School of Informatics, Edinburgh Tokenisation Summit"
+   },
+   {
+    "date": "May 2026",
+    "text": "“Artificial Intelligence and Economics: Productivity, market design, and governance”, Invited Speaker, Károli Gáspár University"
+   },
+   {
+    "date": "May 2019",
+    "text": "“Game Theory and Online Education”, Invited Speaker, Sunlands Technology Group Plc"
+   },
+   {
+    "date": "May 2018",
+    "text": "“Competition for Influencers”, Invited Speaker, Zhihu Plc"
+   }
+  ],
+  "summer": [
+   {
+    "date": "Jul. 2026",
+    "text": "“Intelligent Economics”, International Summer School, Renmin University of China"
+   },
+   {
+    "date": "Jul. 2025",
+    "text": "“Intelligent Economics”, International Summer School, Renmin University of China"
+   },
+   {
+    "date": "Jul. 2024",
+    "text": "“Intelligent Economics”, International Summer School, Renmin University of China"
+   },
+   {
+    "date": "Sep. 2021",
+    "text": "“Causal Inference in Economics Research”, Short Course, Zhongnan University of Economics and Law"
+   },
+   {
+    "date": "Oct. 2019",
+    "text": "“Research Methods in Economics”, Short Course, Wuhan University"
+   },
+   {
+    "date": "Jun. 2019",
+    "text": "“Causal Inference in Economics Research”, Short Course, Dongbei University of Finance and Economics"
+   },
+   {
+    "date": "Feb. 2019",
+    "text": "“Artificial Intelligence and The Future of Economics”, Short Course, Oxford Campus, HSBC Business School, Peking University"
+   },
+   {
+    "date": "Sep. 2018",
+    "text": "“Introduction to Fintech”, Short Course, Oxford Campus, HSBC Business School, Peking University"
+   }
+  ],
+  "referee": [
+   "RAND Journal of Economics",
+   "Journal of Economic Theory",
+   "Journal of Industrial Economics",
+   "International Journal of Industrial Organization",
+   "Review of Network Economics",
+   "Journal of International Financial Markets, Institutions and Money",
+   "European Journal of Finance",
+   "Regional Studies",
+   "Journal of the Operational Research Society",
+   "Journal of Optimization Theory and Applications",
+   "European Journal of Operational Research"
+  ],
+  "talks": [
+   {
+    "year": "2026",
+    "venues": [
+     "China Agricultural University (Beijing)",
+     "Fudan University (Shanghai)",
+     "EuroIS Conference (Warwick)",
+     "Marketing Science Conference (Lisbon)"
+    ]
+   },
+   {
+    "year": "2025",
+    "venues": [
+     "Digital Economics Conference (Toulouse)",
+     "25th International Industrial Organization Conference (Philadelphia)",
+     "BECCLE Annual Conference (Bergen)"
+    ]
+   },
+   {
+    "year": "2024",
+    "venues": [
+     "ASSET Annual Conference (Venice)",
+     "Asia Meeting of Econometric Society (Ho Chi Minh City)",
+     "Wuhan University (Wuhan)",
+     "Zhejiang University (Hangzhou)",
+     "Fudan University (Shanghai)",
+     "Jinan University (Guangzhou)",
+     "Guangdong University of Technology (Guangzhou)"
+    ]
+   },
+   {
+    "year": "2023",
+    "venues": [
+     "BECCLE Annual Conference (Bergen)",
+     "Renmin University (Beijing)",
+     "University of International Business and Economics (Beijing)",
+     "Zhongnan University of Economics and Finance (Wuhan)",
+     "Southwestern University of Finance and Economics (Chengdu)"
+    ]
+   },
+   {
+    "year": "2022",
+    "venues": [
+     "BECCLE Annual Conference (Bergen)",
+     "Business School, University of Leeds (Leeds)",
+     "Zhongnan University of Economics and Law (Wuhan)"
+    ]
+   },
+   {
+    "year": "2021",
+    "venues": [
+     "Department of Economics, Zhejiang University (Hangzhou)"
+    ]
+   },
+   {
+    "year": "2020",
+    "venues": [
+     "Southwestern University of Finance and Economics (Chengdu)",
+     "University of East Anglia (Norwich)"
+    ]
+   },
+   {
+    "year": "2019",
+    "venues": [
+     "Royal Economic Society Annual Conference (Warwick)",
+     "Asia-Pacific Econometric Society Conference (Fukuoka)",
+     "Wuhan University (Wuhan)",
+     "Dongbei University of Finance and Economics (Dalian)",
+     "Zhejiang University (Hangzhou)",
+     "Sunlands Technology Group (Beijing)",
+     "Peking University, Oxford Campus (Oxford)"
+    ]
+   },
+   {
+    "year": "2018",
+    "venues": [
+     "Zhejiang University (Hangzhou)",
+     "Zhongnan University of Economics and Law (Wuhan)",
+     "Renmin University (Beijing)",
+     "Wuhan University (Wuhan)",
+     "Concordia University (Montreal)",
+     "HEC Montreal (Montreal)",
+     "Renmin University (Beijing)"
+    ]
+   },
+   {
+    "year": "2017",
+    "venues": [
+     "Fudan University (Shanghai)"
+    ]
+   },
+   {
+    "year": "2015",
+    "venues": [
+     "Econometric Society World Congress (Montreal)",
+     "University of Reading (Reading)"
+    ]
+   },
+   {
+    "year": "2014",
+    "venues": [
+     "EARIE Annual Conference (Milan)",
+     "Conference on Software Platforms and Internet (Toulouse)",
+     "International Industrial Organization Conference (Chicago)"
+    ]
+   },
+   {
+    "year": "2013",
+    "venues": [
+     "International Industrial Organization Conference (Boston)",
+     "Durham Business School (Durham)",
+     "University of East Anglia (Norwich)",
+     "American University (Washington DC)",
+     "Tsinghua University (Beijing)",
+     "European Economic Annual Conference (Gothenburg)"
+    ]
+   },
+   {
+    "year": "2012",
+    "venues": [
+     "Peking University (Beijing)",
+     "Renmin University (Beijing)",
+     "ETH Zurich (Zurich)",
+     "MaCCI Law and Economic Conference (Mannheim)",
+     "Competition and Regulation European Summer School and Conference (Khania)"
+    ]
+   },
+   {
+    "year": "2011",
+    "venues": [
+     "Ecole Telecomm (Paris)",
+     "ASSET Annual Conference (Evora)",
+     "EARIE Annual Conference (Stockholm)"
+    ]
+   },
+   {
+    "year": "2010",
+    "venues": [
+     "Econometric Society World Congress (Shanghai)",
+     "EARIE Annual Conference (Istanbul)"
+    ]
+   }
+  ],
+  "recent": [
+   {
+    "ym": "2026-07",
+    "date": "Jul. 2026",
+    "kind": "teaching",
+    "html": "“Intelligent Economics”, International Summer School, Renmin University of China"
+   },
+   {
+    "ym": "2026-06",
+    "date": "Jun. 2026",
+    "kind": "service",
+    "html": "“Economics of Fintech Conference”, Scientific Committee"
+   },
+   {
+    "ym": "2026-05",
+    "date": "May 2026",
+    "kind": "talk",
+    "html": "“Tokenisation Beyond Technology”, Invited Speaker, School of Informatics, Edinburgh Tokenisation Summit"
+   },
+   {
+    "ym": "2026-05",
+    "date": "May 2026",
+    "kind": "talk",
+    "html": "“Artificial Intelligence and Economics: Productivity, market design, and governance”, Invited Speaker, Károli Gáspár University"
+   },
+   {
+    "ym": "2026-01",
+    "date": "Jan 2026",
+    "kind": "grant",
+    "html": "New grant: Mapping Online Behaviour to Beliefs: A Machine Learning Approach (Edinburgh Future Institute Internal Fund, Principal Investigator)"
+   },
+   {
+    "ym": "2025-10",
+    "date": "Oct 2025",
+    "kind": "grant",
+    "html": "New grant: Breaking the Echo Chamber: Using Algorithms to Reduce Online Conflict (ESRC Impact Acceleration Account Fund, Principal Investigator)"
+   }
+  ]
+ },
+ "zh": {
+  "positions": [
+   {
+    "title": "高级讲师／副教授",
+    "org": "爱丁堡大学商学院",
+    "dates": "2022 年 4 月至今"
+   },
+   {
+    "title": "讲师",
+    "org": "爱丁堡大学商学院",
+    "dates": "2013 年 11 月 – 2022 年 3 月"
+   },
+   {
+    "title": "博士后研究员",
+    "org": "东安格利亚大学竞争政策研究中心",
+    "dates": "2012 年 9 月 – 2013 年 9 月"
+   },
+   {
+    "title": "让·莫内研究员",
+    "org": "欧洲大学学院佛罗伦萨规制学院",
+    "dates": "2011 年 9 月 – 2012 年 8 月"
+   }
+  ],
+  "other_positions": [
+   {
+    "title": "生成式人工智能实验室研究员",
+    "org": "爱丁堡大学",
+    "dates": "2024 年 11 月至今"
+   },
+   {
+    "title": "市场营销与商业分析硕士项目主任",
+    "org": "爱丁堡大学商学院",
+    "dates": "2022 年 1 月 – 2022 年 10 月"
+   },
+   {
+    "title": "客座教授",
+    "org": "北京大学牛津校区",
+    "dates": "2018 年 9 月 – 2020 年 3 月"
+   },
+   {
+    "title": "市场营销与商业分析硕士项目主任",
+    "org": "爱丁堡大学商学院",
+    "dates": "2016 年 10 月 – 2019 年 9 月"
+   }
+  ],
+  "education": [
+   {
+    "title": "经济学博士",
+    "org": "图卢兹经济学院",
+    "dates": "2006 年 9 月 – 2011 年 6 月"
+   },
+   {
+    "title": "管理学硕士",
+    "org": "北京大学光华管理学院",
+    "dates": "2002 年 9 月 – 2004 年 7 月"
+   },
+   {
+    "title": "材料物理学士",
+    "org": "中国科学技术大学",
+    "dates": "2000 年 9 月 – 2002 年 7 月"
+   }
+  ],
+  "interests": "我的研究聚焦于<strong>数字平台</strong>与<strong>金融科技</strong>，运用经济学理论与实证方法。我借助<strong>博弈论</strong>与<strong>机器学习</strong>研究平台动态与金融创新。",
+  "publications": [
+   {
+    "authors": [
+     "Xintong Han",
+     "Zimin Liu",
+     "Tong Wang"
+    ],
+    "title": "Nonlinear pricing in multidimensional context: An empirical analysis of energy consumption",
+    "venue": "International Journal of Industrial Organization",
+    "details": "91 (2023): 103034",
+    "year": 2023
+   },
+   {
+    "authors": [
+     "Renhe Wang",
+     "Tong Wang",
+     "Zhiyong Qian",
+     "Shulan Hu"
+    ],
+    "title": "A Bayesian estimation approach of random switching exponential smoothing with application to credit forecast",
+    "venue": "Finance Research Letters",
+    "details": "58 (2023): 104525",
+    "year": 2023
+   },
+   {
+    "authors": [
+     "Xintong Han",
+     "Yushen Li",
+     "Tong Wang"
+    ],
+    "title": "Peer recognition, badge policies, and content contribution: An empirical study",
+    "venue": "Journal of Economic Behavior &amp; Organization",
+    "details": "214 (2023): 691–707",
+    "year": 2023
+   },
+   {
+    "authors": [
+     "Tong Wang",
+     "Sheng Zhao",
+     "Mengqiu Zhou"
+    ],
+    "title": "Does soft information in expert ratings curb information asymmetry? Evidence from crowdfunding and early transaction phases of Initial Coin Offerings",
+    "venue": "Journal of International Financial Markets, Institutions and Money",
+    "details": "81 (2022): 101661",
+    "year": 2022
+   },
+   {
+    "authors": [
+     "Tong Wang",
+     "Sheng Zhao",
+     "Xin Shen"
+    ],
+    "title": "Why Does Regional Information Matter? Evidence from Peer-to-Peer Lending",
+    "venue": "The European Journal of Finance",
+    "details": "27, no. 4–5 (2021): 346–366",
+    "year": 2021
+   },
+   {
+    "authors": [
+     "Sheng Zhao",
+     "Fernando Moreira",
+     "Tong Wang"
+    ],
+    "title": "Is solicitation status related to rating conservatism and rating quality?",
+    "venue": "Journal of International Financial Markets, Institutions and Money",
+    "details": "72 (2021): 101341",
+    "year": 2021
+   },
+   {
+    "authors": [
+     "Sanxi Li",
+     "Hailin Sun",
+     "Tong Wang",
+     "Jun Yu"
+    ],
+    "title": "Assortative matching and risk sharing",
+    "venue": "Journal of Economic Theory",
+    "details": "163 (2016): 248–275",
+    "year": 2016
+   },
+   {
+    "authors": [
+     "Zonglai Kou",
+     "Patrick Rey",
+     "Tong Wang"
+    ],
+    "title": "Non-Obviousness and Screening",
+    "venue": "The Journal of Industrial Economics",
+    "details": "61, no. 3 (2013): 700–732",
+    "year": 2013
+   }
+  ],
+  "books": [
+   {
+    "html": "《数字经济学手册》第九章：区块链经济学，<em>浙江大学出版社</em>，2026",
+    "title_zh": "《数字经济学手册》第九章：区块链经济学",
+    "year": 2026
+   },
+   {
+    "html": "《数字经济学导论》第七章：区块链经济学，<em>人民大学出版社</em>，2023",
+    "title_zh": "《数字经济学导论》第七章：区块链经济学",
+    "year": 2023
+   },
+   {
+    "html": "《区块链代币发行与监管挑战》（与严建晔合著），<em>国务院发展计划研究中心报告</em>，2019",
+    "title_zh": "《区块链代币发行与监管挑战》（与严建晔合著）",
+    "year": 2019
+   },
+   {
+    "html": "《穿越历史聊经济》（与王灵艳合著），<em>北京大学出版社</em>，2016",
+    "title_zh": "《穿越历史聊经济》（与王灵艳合著）",
+    "year": 2016
+   }
+  ],
+  "grants": [
+   {
+    "title": "Mapping Online Behaviour to Beliefs: A Machine Learning Approach（从在线行为到信念：机器学习方法）",
+    "role": "主持",
+    "amount": "£2,480",
+    "funder": "爱丁堡未来研究院内部基金",
+    "dates": "2026/01/08 – 2026/03/30",
+    "start": "2026-01",
+    "end": "2026-03",
+    "period": "2026/01/08 – 2026/03/30"
+   },
+   {
+    "title": "Breaking the Echo Chamber: Using Algorithms to Reduce Online Conflict（打破信息茧房：用算法减少网络冲突）",
+    "role": "主持",
+    "amount": "£8,554.64",
+    "funder": "ESRC 影响力加速基金",
+    "dates": "2025/10/08 – 2026/03/30",
+    "start": "2025-10",
+    "end": "2026-03",
+    "period": "2025/10/08 – 2026/03/30"
+   },
+   {
+    "title": "Shadow Influencer – A Generative AI Based Content Creator Assistant（影子网红——基于生成式 AI 的内容创作助手）",
+    "role": "主持",
+    "amount": "£1,525",
+    "funder": "CDCS 数字化研究基金",
+    "dates": "2025/03/01 – 2025/06/30",
+    "start": "2025-03",
+    "end": "2025-06",
+    "period": "2025/03/01 – 2025/06/30"
+   },
+   {
+    "title": "Shadow Influencer – A Generative AI Based Content Creator Assistant（影子网红——基于生成式 AI 的内容创作助手）",
+    "role": "主持",
+    "amount": "£952",
+    "funder": "UEBS 影响力基金",
+    "dates": "2025/01/12 – 2025/02/28",
+    "start": "2025-01",
+    "end": "2025-02",
+    "period": "2025/01/12 – 2025/02/28"
+   },
+   {
+    "title": "Green Currencies in a Digital Age（数字时代的绿色货币）",
+    "role": "主持",
+    "amount": "£9,272",
+    "funder": "CRC 小额基金",
+    "dates": "2024/05/01 – 2024/07/31",
+    "start": "2024-05",
+    "end": "2024-07",
+    "period": "2024/05/01 – 2024/07/31"
+   },
+   {
+    "title": "Key Factors in the Success of Open-Source Projects（开源项目成功的关键因素）",
+    "role": "主持",
+    "amount": "$6,000",
+    "funder": "OCEAN 奖",
+    "dates": "2021/03/31 – 2023/04/01",
+    "start": "2021-03",
+    "end": "2023-04",
+    "period": "2021/03/31 – 2023/04/01"
+   },
+   {
+    "title": "Knowledge Spillovers in Open-Source Networks（开源网络中的知识溢出）",
+    "role": "联合主持",
+    "amount": "€20,000",
+    "funder": "LabEx ECODEC",
+    "dates": "2021/06/01 – 2023/05/31",
+    "start": "2021-06",
+    "end": "2023-05",
+    "period": "2021/06/01 – 2023/05/31"
+   },
+   {
+    "title": "Content Recommendation Systems with Consumer Profiling（基于消费者画像的内容推荐系统）",
+    "role": "主持",
+    "amount": "£11,707",
+    "funder": "ESRC 影响力加速基金",
+    "dates": "2020/02/05 – 2021/12/20",
+    "start": "2020-02",
+    "end": "2021-12",
+    "period": "2020/02/05 – 2021/12/20"
+   },
+   {
+    "title": "Blockchain and Digital Twins（区块链与数字孪生）",
+    "role": "主持",
+    "amount": "£6,725",
+    "funder": "EPSRC 影响力加速基金",
+    "dates": "2019/11/01 – 2020/03/30",
+    "start": "2019-11",
+    "end": "2020-03",
+    "period": "2019/11/01 – 2020/03/30"
+   },
+   {
+    "title": "Energy Consumption with a Mixed Pricing Mechanism（混合定价机制下的能源消费）",
+    "role": "主持",
+    "amount": "£8,600",
+    "funder": "UEBS 早期风险基金",
+    "dates": "2019/08/01 – 2021/07/31",
+    "start": "2019-08",
+    "end": "2021-07",
+    "period": "2019/08/01 – 2021/07/31"
+   },
+   {
+    "title": "Regional Discrimination in Peer-to-Peer Lending Relationships（P2P 借贷中的地域歧视）",
+    "role": "主持",
+    "amount": "£2,700",
+    "funder": "LMIC 旅行与伙伴基金",
+    "dates": "2019/04/29 – 2019/06/15",
+    "start": "2019-04",
+    "end": "2019-06",
+    "period": "2019/04/29 – 2019/06/15"
+   },
+   {
+    "title": "The Dynamic Evolution of Open-Source Projects（开源项目的动态演化）",
+    "role": "主持",
+    "amount": "£7,840",
+    "funder": "UEBS 早期风险基金",
+    "dates": "2016/08/01 – 2017/07/31",
+    "start": "2016-08",
+    "end": "2017-07",
+    "period": "2016/08/01 – 2017/07/31"
+   }
+  ],
+  "grants_total": "科研经费合计（英镑等值）：约 £82,553.69",
+  "teaching_current": [
+   {
+    "course": "大语言模型：原理与方法",
+    "role": "讲师、课程组织者与设计者",
+    "dates": "2024 年 9 月至今",
+    "programme": "商业分析硕士选修课",
+    "awards": ""
+   },
+   {
+    "course": "区块链与加密货币的经济学原理",
+    "role": "讲师、课程组织者与设计者",
+    "dates": "2021 年 9 月至今",
+    "programme": "金融、科技与政策硕士选修课",
+    "awards": ""
+   },
+   {
+    "course": "战略经济学",
+    "role": "讲师、课程组织者",
+    "dates": "2014 年 9 月至今",
+    "programme": "MBA 选修课",
+    "awards": "UEBS 教学奖 2015、2016、2017、2018、2019"
+   }
+  ],
+  "teaching_past": [
+   {
+    "course": "商业分析中的博弈论",
+    "role": "讲师、课程组织者",
+    "dates": "2019 年 9 月 – 2023 年 8 月",
+    "programme": "商业分析硕士选修课",
+    "awards": ""
+   },
+   {
+    "course": "产业组织",
+    "role": "讲师、课程组织者与设计者",
+    "dates": "2017 年 9 月 – 2020 年 8 月",
+    "programme": "商业分析硕士选修课",
+    "awards": ""
+   },
+   {
+    "course": "企业战略经济学",
+    "role": "讲师、课程组织者",
+    "dates": "2014 年 9 月 – 2020 年 8 月",
+    "programme": "本科三、四年级选修课",
+    "awards": "EUSA 教学奖提名 2015、2016、2017"
+   },
+   {
+    "course": "行业管理",
+    "role": "讲师",
+    "dates": "2014 年 9 月 – 2016 年 8 月",
+    "programme": "本科一年级必修课",
+    "awards": ""
+   },
+   {
+    "course": "商业经济学",
+    "role": "讲师",
+    "dates": "2014 年 9 月 – 2017 年 8 月",
+    "programme": "本科二年级必修课",
+    "awards": ""
+   }
+  ],
+  "awards": [
+   {
+    "date": "2015–2019",
+    "text": "UEBS 教学奖，爱丁堡大学商学院"
+   },
+   {
+    "date": "2014–2019",
+    "text": "最佳教学奖提名，爱丁堡大学商学院"
+   },
+   {
+    "date": "2016",
+    "text": "知乎盐 Club 荣誉会员，知乎"
+   },
+   {
+    "date": "2011",
+    "text": "让·莫内研究员奖学金，欧洲大学学院"
+   },
+   {
+    "date": "2010",
+    "text": "拉丰奖学金，图卢兹经济学院"
+   },
+   {
+    "date": "2007",
+    "text": "法国国家研究基金，法国政府"
+   },
+   {
+    "date": "2006",
+    "text": "埃菲尔奖学金，法国政府"
+   },
+   {
+    "date": "2004",
+    "text": "奖学金，北京大学"
+   },
+   {
+    "date": "1999",
+    "text": "微软认证系统工程师，微软"
+   },
+   {
+    "date": "1999",
+    "text": "微软认证专家，微软"
+   }
+  ],
+  "media": [
+   {
+    "date": "2025 年 3 月",
+    "text": "“开源与创新模式”，圆桌讨论，中国人民大学"
+   },
+   {
+    "date": "2025 年 2 月",
+    "text": "“分布式账本技术政策与 QUB 区块链倡议”，圆桌讨论，贝尔法斯特女王大学"
+   },
+   {
+    "date": "2019 年 12 月",
+    "text": "“Libra 是否改变了加密货币的前景？”，The Times"
+   },
+   {
+    "date": "2019 年 10 月",
+    "text": "“英国央行对 Libra 的立场削弱了其吸引力”，LondonlovesBusiness"
+   },
+   {
+    "date": "2019 年 8 月",
+    "text": "“游客流量管理与建模”，Camera Obscura / Whisky Experience，£10,000<br> （与 Jake Ansell, Ewelina Lacka 合作）"
+   },
+   {
+    "date": "2019 年 3 月",
+    "text": "“双边交易市场中的代币分配”，Tentop Ltd.（后更名为 Onepact），£5,000<br> 项目延续至 2020 年资助博士职位"
+   }
+  ],
+  "conference_org": [
+   {
+    "date": "2026 年 6 月",
+    "text": "“金融科技经济学会议”，科学委员会"
+   },
+   {
+    "date": "2024 年 6 月",
+    "text": "“金融科技经济学会议”，科学委员会"
+   },
+   {
+    "date": "2023 年 6 月",
+    "text": "“金融科技经济学会议”，科学委员会、组织委员会"
+   },
+   {
+    "date": "2022 年 6 月",
+    "text": "“金融科技经济学会议”，科学委员会、组织委员会"
+   }
+  ],
+  "invited": [
+   {
+    "date": "2026 年 5 月",
+    "text": "“代币化：超越技术”，特邀报告，信息学院，爱丁堡代币化峰会"
+   },
+   {
+    "date": "2026 年 5 月",
+    "text": "“人工智能与经济学：生产力、市场设计与治理”，特邀报告，Károli Gáspár 大学"
+   },
+   {
+    "date": "2019 年 5 月",
+    "text": "“博弈论与在线教育”，特邀报告，尚德机构"
+   },
+   {
+    "date": "2018 年 5 月",
+    "text": "“网红竞争”，特邀报告，知乎"
+   }
+  ],
+  "summer": [
+   {
+    "date": "2026 年 7 月",
+    "text": "“智能经济学”，国际暑期学校，中国人民大学"
+   },
+   {
+    "date": "2025 年 7 月",
+    "text": "“智能经济学”，国际暑期学校，中国人民大学"
+   },
+   {
+    "date": "2024 年 7 月",
+    "text": "“智能经济学”，国际暑期学校，中国人民大学"
+   },
+   {
+    "date": "2021 年 9 月",
+    "text": "“经济学研究中的因果推断”，短期课程，中南财经政法大学"
+   },
+   {
+    "date": "2019 年 10 月",
+    "text": "“经济学研究方法”，短期课程，武汉大学"
+   },
+   {
+    "date": "2019 年 6 月",
+    "text": "“经济学研究中的因果推断”，短期课程，东北财经大学"
+   },
+   {
+    "date": "2019 年 2 月",
+    "text": "“人工智能与经济学未来”，短期课程，北京大学汇丰商学院牛津校区"
+   },
+   {
+    "date": "2018 年 9 月",
+    "text": "“金融科技导论”，短期课程，北京大学汇丰商学院牛津校区"
+   }
+  ],
+  "referee": [
+   "RAND Journal of Economics; Journal of Economic Theory; Journal of Industrial Economics; International Journal of Industrial Organization; Review of Network Economics; Journal of International Financial Markets, Institutions and Money; European Journal of Finance; Regional Studies; Journal of the Operational Research Society; Journal of Optimization Theory and Applications; European Journal of Operational Research"
+  ],
+  "talks": [
+   {
+    "year": "2026",
+    "venues": [
+     "中国农业大学（北京）",
+     "复旦大学（上海）",
+     "EuroIS 会议（华威）",
+     "Marketing Science 会议（里斯本）"
+    ]
+   },
+   {
+    "year": "2025",
+    "venues": [
+     "数字经济会议（图卢兹）",
+     "第 25 届国际产业组织会议（费城）",
+     "BECCLE 年会（卑尔根）"
+    ]
+   },
+   {
+    "year": "2024",
+    "venues": [
+     "ASSET 年会（威尼斯）",
+     "亚洲计量经济学会会议（胡志明市）",
+     "武汉大学（武汉）",
+     "浙江大学（杭州）",
+     "复旦大学（上海）",
+     "暨南大学（广州）",
+     "广东工业大学（广州）"
+    ]
+   },
+   {
+    "year": "2023",
+    "venues": [
+     "BECCLE 年会（卑尔根）",
+     "中国人民大学（北京）",
+     "对外经济贸易大学（北京）",
+     "中南财经政法大学（武汉）",
+     "西南财经大学（成都）"
+    ]
+   },
+   {
+    "year": "2022",
+    "venues": [
+     "BECCLE 年会（卑尔根）",
+     "利兹大学商学院（利兹）",
+     "中南财经政法大学（武汉）"
+    ]
+   },
+   {
+    "year": "2021",
+    "venues": [
+     "浙江大学经济学院（杭州）"
+    ]
+   },
+   {
+    "year": "2020",
+    "venues": [
+     "西南财经大学（成都）",
+     "东安格利亚大学（诺里奇）"
+    ]
+   },
+   {
+    "year": "2019",
+    "venues": [
+     "皇家经济学会年会（华威）",
+     "亚太计量经济学会会议（福冈）",
+     "武汉大学（武汉）",
+     "东北财经大学（大连）",
+     "浙江大学（杭州）",
+     "尚德机构（北京）",
+     "北京大学牛津校区（牛津）"
+    ]
+   },
+   {
+    "year": "2018",
+    "venues": [
+     "浙江大学（杭州）",
+     "中南财经政法大学（武汉）",
+     "中国人民大学（北京）",
+     "武汉大学（武汉）",
+     "康考迪亚大学（蒙特利尔）",
+     "HEC 蒙特利尔（蒙特利尔）",
+     "中国人民大学（北京）"
+    ]
+   },
+   {
+    "year": "2017",
+    "venues": [
+     "复旦大学（上海）"
+    ]
+   },
+   {
+    "year": "2015",
+    "venues": [
+     "世界计量经济学会大会（蒙特利尔）",
+     "雷丁大学（雷丁）"
+    ]
+   },
+   {
+    "year": "2014",
+    "venues": [
+     "EARIE 年会（米兰）",
+     "软件平台与互联网会议（图卢兹）",
+     "国际产业组织会议（芝加哥）"
+    ]
+   },
+   {
+    "year": "2013",
+    "venues": [
+     "国际产业组织会议（波士顿）",
+     "杜伦大学商学院（杜伦）",
+     "东安格利亚大学（诺里奇）",
+     "美利坚大学（华盛顿特区）",
+     "清华大学（北京）",
+     "欧洲经济学会年会（哥德堡）"
+    ]
+   },
+   {
+    "year": "2012",
+    "venues": [
+     "北京大学（北京）",
+     "中国人民大学（北京）",
+     "苏黎世联邦理工学院（苏黎世）",
+     "MaCCI 法律与经济会议（曼海姆）",
+     "竞争与规制欧洲暑期学校与会议（哈尼亚）"
+    ]
+   },
+   {
+    "year": "2011",
+    "venues": [
+     "巴黎电信学院（巴黎）",
+     "ASSET 年会（埃武拉）",
+     "EARIE 年会（斯德哥尔摩）"
+    ]
+   },
+   {
+    "year": "2010",
+    "venues": [
+     "世界计量经济学会大会（上海）",
+     "EARIE 年会（伊斯坦布尔）"
+    ]
+   }
+  ],
+  "recent": [
+   {
+    "ym": "2026-07",
+    "date": "2026 年 7 月",
+    "kind": "teaching",
+    "html": "“智能经济学”，国际暑期学校，中国人民大学"
+   },
+   {
+    "ym": "2026-06",
+    "date": "2026 年 6 月",
+    "kind": "service",
+    "html": "“金融科技经济学会议”，科学委员会"
+   },
+   {
+    "ym": "2026-05",
+    "date": "2026 年 5 月",
+    "kind": "talk",
+    "html": "“代币化：超越技术”，特邀报告，信息学院，爱丁堡代币化峰会"
+   },
+   {
+    "ym": "2026-05",
+    "date": "2026 年 5 月",
+    "kind": "talk",
+    "html": "“人工智能与经济学：生产力、市场设计与治理”，特邀报告，Károli Gáspár 大学"
+   },
+   {
+    "ym": "2026-01",
+    "date": "2026 年 1 月",
+    "kind": "grant",
+    "html": "新项目：Mapping Online Behaviour to Beliefs: A Machine Learning Approach（从在线行为到信念：机器学习方法）（爱丁堡未来研究院内部基金，主持）"
+   },
+   {
+    "ym": "2025-10",
+    "date": "2025 年 10 月",
+    "kind": "grant",
+    "html": "新项目：Breaking the Echo Chamber: Using Algorithms to Reduce Online Conflict（打破信息茧房：用算法减少网络冲突）（ESRC 影响力加速基金，主持）"
+   }
+  ]
+ }
+}

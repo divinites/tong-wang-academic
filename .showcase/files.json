@@ -1,0 +1,8 @@
+{
+ "format": "showcase.files/v1",
+ "project": "personal-website",
+ "regenerable": [],
+ "files": [
+  {"path":"media-src/avatar-original.jpg","bytes":2655769,"sha256":"73b54c8f986ccf2d96a0540b0e8d575a2179ba9659e42f8e7e9374027ff19768","dropbox":"b8f06238c3fdf8226c016cdfd91a84e66fb9e72399a3197c14b16af02d31b5a8","location":"files/media-src/avatar-original.jpg","pushed_at":"2026-10-27T18:53:00Z","pushed_by":"185"}
+ ]
+}

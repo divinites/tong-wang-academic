@@ -1,49 +1,34 @@
-# [Hugo Academic Theme](https://github.com/wowchemy/starter-hugo-academic)
+# tongwang.digital
 
-[![Screenshot](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-themes/main/academic.png)](https://wowchemy.com/hugo-themes/)
+Personal academic website of Tong Wang, served at https://www.tongwang.digital/ by Netlify
+(site `wang-tong-289211`), which builds every push to `master` and a preview for every pull request.
 
-The Hugo **Academic Resumé Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+The site is plain [Hugo](https://gohugo.io/) (0.140, no theme or modules): a handful of templates in
+`layouts/`, one stylesheet in `assets/css/site.css`, and two data files.
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://wowchemy.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/wowchemy?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+| File | What | Edit by hand? |
+|---|---|---|
+| `data/cv.json` | Positions, education, publications, books, grants, teaching, awards, service and talks | No: generated from the CV |
+| `data/extra.yaml` | Biography, research lines, DOIs, abstracts, English glosses of the Chinese books, course descriptions, contact details, selected publications for the home page | Yes |
+| `content/*.md` | One stub per page; the page bodies come from the templates | Rarely |
+| `static/_redirects` | Redirects from the old Hugo Blox URLs | Rarely |
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+## Updating after a CV change
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+The CV in the grants repository (`~/projects/grants/cv/cv_simple.tex` and `cv_simple_zh.tex`) is the
+single source. After changing it:
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://wowchemy.com/creators/).
+```sh
+python3 scripts/cv_to_data.py      # rewrites data/cv.json; needs PyYAML
+hugo server                        # check locally at http://localhost:1313/
+git add data/cv.json && git commit -m "Update from CV" && git push
+```
 
-The integrated [**Wowchemy**](https://wowchemy.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+The script stops with a message if the CV gains a section it does not know, or if an entry in
+`data/extra.yaml` no longer matches the CV (for example after a paper is retitled); fix the entry and run
+it again. Working papers and work in progress are never copied to the site: the repository is public.
 
-- 👉 [**Get Started**](https://wowchemy.com/hugo-themes/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli) 
-- 💡 [Suggest an improvement](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-themes/releases)
+## Images
 
-## We ask you, humbly, to support this open source movement
-
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
-
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
-
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
-
-<p align="center"><a href="https://wowchemy.com/templates/" target="_blank" rel="noopener"><img src="https://wowchemy.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Wowchemy Website Builder"></a></p>
-
-## Demo image credits
-
-- [Open book](https://unsplash.com/photos/J4kK8b9Fgj8)
-- [Course](https://unsplash.com/photos/JKUTrJ4vK00)
-
-## Latest news
-<!--START_SECTION:news-->
-* [What&#39;s new in v5.2?](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.2.0&#x2F;)
-* [What&#39;s new in v5.1?](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.1.0&#x2F;)
-* [Version 5.0 (February 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.0.0&#x2F;)
-* [Version 5.0 Beta 3 (February 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.0.0-beta.3&#x2F;)
-* [Version 5.0 Beta 2 (January 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.0.0-beta.2&#x2F;)
-<!--END_SECTION:news-->
+The portrait `static/img/tong-wang.jpg` is a 400 px copy. The original photo is kept in Dropbox through
+`showcase files` (`media-src/avatar-original.jpg`; `showcase files pull` restores it).

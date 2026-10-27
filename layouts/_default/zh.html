@@ -1,0 +1,36 @@
+{{ define "main" }}
+{{- $x := site.Data.extra }}
+{{- $cv := site.Data.cv.zh }}
+<section class="intro">
+  <img class="portrait" src="{{ "img/tong-wang.jpg" | relURL }}" alt="汪通" width="400" height="400">
+  <div>
+    <h1>{{ $x.name_zh }}</h1>
+    <p class="role">{{ $x.title_zh }}<br>{{ $x.affiliation_zh }}</p>
+    <p class="links"><a href="mailto:{{ $x.email }}">{{ $x.email }}</a> · <a href="{{ "/" | relURL }}" lang="en">English</a></p>
+  </div>
+</section>
+
+<p class="bio">{{ $x.bio_zh }}</p>
+
+<h2>研究方向</h2>
+<dl class="lines">
+  {{- range $x.research_zh }}
+  <dt>{{ .title }}</dt>
+  <dd>{{ .text }}</dd>
+  {{- end }}
+</dl>
+
+<h2>中文著作与报告</h2>
+<ul class="books">
+  {{- range $cv.books }}<li>{{ .html | safeHTML }}</li>{{ end }}
+</ul>
+
+<h2>暑期学校与外部授课</h2>
+{{ partial "dated.html" $cv.summer }}
+
+<h2>特邀报告与公开讲座</h2>
+{{ partial "dated.html" $cv.invited }}
+
+<h2>学术职位</h2>
+{{ partial "positions.html" $cv.positions }}
+{{ end }}
