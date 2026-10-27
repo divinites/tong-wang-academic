@@ -9,7 +9,7 @@ The site is plain [Hugo](https://gohugo.io/) (0.140, no theme or modules): a han
 | File | What | Edit by hand? |
 |---|---|---|
 | `data/cv.json` | Positions, education, publications, books, grants, teaching, awards, service and talks | No: generated from the CV |
-| `data/extra.yaml` | Biography, research lines, DOIs, abstracts, English glosses of the Chinese books, course descriptions, contact details, selected publications for the home page | Yes |
+| `data/extra.yaml` | Biography, the About paragraph, research lines, DOIs, abstracts, English glosses of the Chinese books, course descriptions, contact details, selected publications for the home page | Yes |
 | `content/*.md` | One stub per page; the page bodies come from the templates | Rarely |
 | `static/_redirects` | Redirects from the old Hugo Blox URLs | Rarely |
 

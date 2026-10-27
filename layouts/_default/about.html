@@ -1,26 +1,4 @@
 {{ define "main" }}
-{{- $x := site.Data.extra }}
-{{- $cv := site.Data.cv.en }}
 <h1>About</h1>
-
-<h2>Academic positions</h2>
-{{ partial "positions.html" $cv.positions }}
-
-<h2>Other positions</h2>
-{{ partial "positions.html" $cv.other_positions }}
-
-<h2>Education</h2>
-{{ partial "positions.html" $cv.education }}
-
-<h2>Awards and honours</h2>
-{{ partial "dated.html" $cv.awards }}
-
-<h2>Conference organisation</h2>
-{{ partial "dated.html" $cv.conference_org }}
-
-<h2>Media and consultancy</h2>
-{{ partial "dated.html" $cv.media }}
-
-<h2 id="contact">Contact</h2>
-<p><a href="mailto:{{ $x.email }}">{{ $x.email }}</a><br>{{ delimit $x.address "<br>" | safeHTML }}</p>
+<p class="bio">{{ site.Data.extra.about }}</p>
 {{ end }}
