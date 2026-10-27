@@ -39,20 +39,22 @@ about: >-
   another in Norwich, I arrived in Edinburgh in 2013 and have stayed ever since, which by now probably
   counts as revealed preference over history and castle. These days I study markets that run on code:
   platforms that shape what creators make, tokens that promise to replace banks, and AI models that may
-  one day write papers like mine (I am keeping a close eye on them). I teach strategy to MBA students, the economics of blockchain
-  to anyone wondering whether it will make them rich (the answer, as always, is: it depends), and large
-  language models to future business analysts. I also write and talk about popular economics in Chinese
-  ([Zhihu](https://www.zhihu.com/people/divinites), [Bilibili](https://space.bilibili.com/35874169)), on
-  the theory that history is simply a dataset with better stories.
+  one day write papers like mine (I am keeping a close eye on them). I teach strategy to MBA students,
+  the economics of blockchain to anyone wondering whether it will make them rich (the answer, as always,
+  is: it depends), and large language models to future business analysts. In Chinese, I write about
+  economics, history, machine learning and video games on [Zhihu](https://www.zhihu.com/people/divinites),
+  and post economics videos and songs, some in the classical gufeng style, on
+  [Bilibili](https://space.bilibili.com/35874169). History, after all, is just a dataset with better
+  stories.
 
 # Popular-science accounts, listed on the Chinese page.
 social_zh:
   - name: 知乎「司马懿」
     url: https://www.zhihu.com/people/divinites
-    text: 经济学问答与长文
+    text: 经济学、历史、机器学习，也聊游戏
   - name: B 站「阁下可知司马懿」
     url: https://space.bilibili.com/35874169
-    text: 经济学科普视频
+    text: 经济学科普，也有歌曲，包括古风歌曲
 
 bio_zh: >-
   爱丁堡大学商学院高级讲师（副教授），爱丁堡大学生成式人工智能实验室研究员。图卢兹经济学院经济学博士，
