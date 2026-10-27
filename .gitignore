@@ -6,3 +6,8 @@
 public/
 jsconfig.json
 node_modules/
+
+# showcase files: begin（由 showcase files 维护，不要手改）
+/.showcase/cache/
+/media-src/avatar-original.jpg
+# showcase files: end

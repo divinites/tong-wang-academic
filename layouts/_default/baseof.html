@@ -1,0 +1,66 @@
+{{- $x := site.Data.extra -}}
+{{- $zh := eq .Params.lang "zh-CN" -}}
+<!doctype html>
+<html lang="{{ cond $zh "zh-CN" "en-GB" }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+{{- $title := cond .IsHome site.Title (printf "%s · %s" .Title site.Title) }}
+{{- if $zh }}{{ $title = printf "%s · %s" $x.name_zh $x.affiliation_zh }}{{ end }}
+{{- $desc := .Params.description | default site.Params.description }}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ "img/tong-wang.jpg" | absURL }}">
+<meta name="twitter:card" content="summary">
+{{- $css := resources.Get "css/site.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{- if .IsHome }}
+<script type="application/ld+json">
+{{ dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "name" $x.name
+  "jobTitle" $x.title
+  "email" (printf "mailto:%s" $x.email)
+  "image" ("img/tong-wang.jpg" | absURL)
+  "url" site.BaseURL
+  "worksFor" (dict "@type" "CollegeOrUniversity" "name" "University of Edinburgh")
+  "alumniOf" (slice (dict "@type" "CollegeOrUniversity" "name" "Toulouse School of Economics") (dict "@type" "CollegeOrUniversity" "name" "Peking University") (dict "@type" "CollegeOrUniversity" "name" "University of Science and Technology of China"))
+  "sameAs" (apply $x.links "index" "." "url")
+  | jsonify | safeJS }}
+</script>
+{{- end }}
+</head>
+<body>
+<header class="site">
+  <div class="wrap bar">
+    <a class="name" href="{{ "/" | relURL }}">{{ $x.name }}</a>
+    <nav aria-label="Main">
+      {{- range site.Menus.main }}
+      {{- $active := $.IsMenuCurrent "main" . }}
+      <a href="{{ .URL }}"{{ if $active }} aria-current="page"{{ end }}{{ if eq .Name "中文" }} lang="zh-CN"{{ end }}>{{ .Name }}</a>
+      {{- end }}
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+{{ block "main" . }}{{ end }}
+</main>
+<footer class="site">
+  <div class="wrap">
+    {{- if $zh }}
+    <p><a href="mailto:{{ $x.email }}">{{ $x.email }}</a> · {{ $x.address_zh }}</p>
+    {{- else }}
+    <p><a href="mailto:{{ $x.email }}">{{ $x.email }}</a> · {{ delimit $x.address ", " }}</p>
+    {{- end }}
+    <p class="mut">© {{ now.Year }} {{ $x.name }}</p>
+  </div>
+</footer>
+</body>
+</html>

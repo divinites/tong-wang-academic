@@ -1,0 +1,6 @@
+{{- /* A list of {title, org, dates} items from data/cv.json. Context: the slice. */ -}}
+<ul class="dated positions">
+  {{- range . }}
+  <li><span class="when">{{ .dates | safeHTML }}</span><span><strong>{{ .title | safeHTML }}</strong>, {{ .org | safeHTML }}</span></li>
+  {{- end }}
+</ul>

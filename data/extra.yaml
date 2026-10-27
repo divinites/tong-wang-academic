@@ -1,0 +1,171 @@
+# Hand-written additions to the CV data.
+#
+# data/cv.json is generated from the LaTeX CV by scripts/cv_to_data.py and must not be edited by hand.
+# Everything the CV does not hold -- the biography, research lines, DOIs, abstracts, English glosses of the
+# Chinese books and course descriptions -- lives here. Entries are matched to the CV by the keys described
+# in each section; the generator reports any entry that no longer matches.
+
+name: Tong Wang
+name_zh: 汪通
+title: Senior Lecturer (Associate Professor) in Business Economics
+title_zh: 高级讲师（副教授）
+affiliation: University of Edinburgh Business School
+affiliation_zh: 爱丁堡大学商学院
+email: tong.wang@ed.ac.uk
+address:
+  - Business School, University of Edinburgh
+  - 29 Buccleuch Place
+  - Edinburgh EH8 9JS, United Kingdom
+address_zh: 英国爱丁堡大学商学院（29 Buccleuch Place, Edinburgh EH8 9JS）
+links:
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?hl=en&user=nOzbXL4AAAAJ
+  - name: GitHub
+    url: https://github.com/divinites
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/tong-wang-9bb46a40
+
+bio: >-
+  I am a Senior Lecturer (Associate Professor) in Business Economics at the University of Edinburgh
+  Business School and a Fellow of the University's Generative AI Laboratory. I received my PhD in
+  Economics from the Toulouse School of Economics. My research combines economic theory, empirical
+  methods and machine learning to study how digital markets work.
+
+bio_zh: >-
+  爱丁堡大学商学院高级讲师（副教授），爱丁堡大学生成式人工智能实验室研究员。图卢兹经济学院经济学博士，
+  北京大学光华管理学院管理学硕士，中国科学技术大学学士。我用经济学理论、实证方法和机器学习研究数字市场如何运作。
+
+research:
+  - title: Digital platforms and the creator economy
+    text: How platforms, recommendation algorithms, sponsorship and peer recognition shape what creators produce and what users consume.
+  - title: Fintech, blockchain and contracts
+    text: Information and ratings in crypto-asset and peer-to-peer lending markets, smart contracts versus courts, and bank lending relationships.
+  - title: The economics of AI
+    text: Open models and data feedback, AI coding agents in open-source communities, compute constraints, and machine-learning methods for causal inference.
+
+research_zh:
+  - title: 数字平台与创作者经济
+    text: 平台、推荐算法、商业赞助和同行认可如何影响创作者生产什么、用户看到什么。
+  - title: 金融科技、区块链与合约
+    text: 加密资产和 P2P 借贷市场中的信息与评级，智能合约与法院执行，银行信贷关系。
+  - title: 人工智能的经济学
+    text: 开源模型与数据反馈，AI 编程代理与开源社区，算力约束，以及用机器学习做因果推断的方法。
+
+# Journal articles. `match` is the start of the title as written in the CV (case-insensitive).
+# `selected` lists the ids shown on the home page, in that order.
+selected: [jet2016, jie2013, ijio2023, jebo2023]
+
+publications:
+  ijio2023:
+    match: Nonlinear pricing in multidimensional context
+    doi: 10.1016/j.ijindorg.2023.103034
+    abstract: >-
+      Modern business practices frequently employ a blend of pricing strategies to segment markets
+      effectively. As a result, consumers may encounter pricing schedules that are nonlinear and
+      multidimensional. This paper presents a structural approach for estimating multidimensional nonlinear
+      pricing models involving multiple decision variables in an energy market. Using a unique, rich panel
+      dataset of Chinese household electricity consumption, we structurally estimate consumer preferences
+      under the influence of an Increasing Block Price (IBP) and a Time-of-Use (ToU) system. Our structural
+      approach allows us to distinguish and evaluate household-level price elasticities of demand, presenting
+      a novel explanation for consumer's feedback on marginal price changes. Through model-based
+      simulations, we demonstrate that a 1% increase in price corresponds to a 0.7% reduction in total
+      electricity demand. However, our analysis indicates that practical opportunities for optimization
+      within multi-dimensional pricing systems are limited. Our findings offer distinct insights into the
+      complex interplay between intricate pricing structures and energy consumption behavior, thereby
+      providing valuable guidance for policymakers and regulators.
+  frl2023:
+    match: A Bayesian estimation approach
+    doi: 10.1016/j.frl.2023.104525
+    abstract: >-
+      We introduce an efficient Markov Chain Monte Carlo sampler in precision-based algorithms for the
+      estimation of the Random Switching Exponential Smoothing model, a versatile forecasting mechanism for
+      time series data characterized with changing trends. Through a series of simulation experiments,
+      RC-MCMC exhibits superior parameter estimation accuracy, particularly for datasets featuring low
+      persistence trends. Furthermore, an empirical evaluation using the Bank for International Settlements'
+      quarterly time series data on the non-financial sector's total credit relative to GDP validates the
+      findings. The out-of-sample results indicate that the proposed approach outperforms its counterparts
+      in estimating and forecasting accuracy for trending time series data.
+  jebo2023:
+    match: Peer recognition, badge policies
+    doi: 10.1016/j.jebo.2023.08.021
+  jifmim2022:
+    match: Does soft information in expert ratings
+    doi: 10.1016/j.intfin.2022.101661
+    abstract: >-
+      This paper examines the role of soft information in reducing information asymmetry in ICO markets.
+      Expert ratings normally contain two types of information, hard information, a summary of public,
+      numerically-measured information, and soft information, containing expert insights, rumours and
+      private conversations. Taking advantage of the special dual-rating system of a leading ICO rating
+      platform, we successfully isolate soft information from expert ratings. We find that soft information
+      reduces information asymmetry between ICO management teams and investors, measured by the amount of
+      raised funds in the crowdfunding phase and the underpricing levels in the early transaction phase,
+      removing soft information from expert ratings significantly undermines their predictability on ICO
+      performances. We also test the long-term survival rates and market price trends of ICOs and conclude
+      that it is soft information rather than hard information that plays a crucial role for investors to
+      predict the long-term performance of ICO tokens.
+  ejf2021:
+    match: Why Does Regional Information Matter
+    doi: 10.1080/1351847X.2020.1720262
+    abstract: >-
+      In this paper, we study regional discrimination in a peer-to-peer lending scenario and provide novel
+      empirical evidence for theories of soft information collection and information cost. We find that the
+      regional information matters for borrowers' funding probabilities and that discrimination is
+      profit-oriented or taste-oriented depending on the specific region. Moreover, using borrowers'
+      birthplace as an instrumental variable, we find no evidence of genuine discrimination based purely on
+      region in the peer-to-peer lending market.
+  jifmim2021:
+    match: Is solicitation status related
+    doi: 10.1016/j.intfin.2021.101341
+    abstract: >-
+      This paper discusses the association between rating solicitation status and rating quality. Our model
+      shows that if firms with a declining trend of performance are less likely to solicit ratings from
+      credit rating agencies, these firms are more conservatively rated, as their self-selection behaviour
+      is seen as a signal of high credit risk. Our empirical results support the predictions of the model
+      proposed in this study and show that, first, when controlling for fundamental factors, unsolicited
+      ratings are lower than solicited ones, and second, the rating qualities of both types of ratings are
+      not significantly different from each other.
+  jet2016:
+    match: Assortative matching and risk sharing
+    doi: 10.1016/j.jet.2016.01.008
+    abstract: >-
+      This paper explores the sorting patterns in a two-sided matching market where agents facing different
+      risks match to share them. When preference belongs to the class of harmonic absolute risk aversion
+      (HARA), the risk premium is perfectly transferable within each partnership; thus a stable match
+      minimizes the social cost of risk. In the systematic risk model, where agents are ranked by their
+      holdings of a common risky asset, the convexity of the joint risk premium in joint risk size leads to
+      negative assortative matching (NAM). In the idiosyncratic risk model, where agents are ranked by their
+      independent riskiness in the sense of second-order stochastic dominance (SSD), NAM arises when
+      preference exhibits decreasing absolute risk aversion (DARA) in the sense of Ross and riskier
+      background risk leads to more risk-averse behavior. However, NAM may fail to arise when riskier
+      background risk leads to more risk-tolerant behavior.
+  jie2013:
+    match: Non-Obviousness and Screening
+    doi: 10.1111/joie.12031
+    abstract: >-
+      The paper offers a novel justification for the non-obviousness patentability requirement. An
+      innovation involves two stages: research results in a technology blueprint, which development
+      transforms into a profitable activity. An innovator, who is either efficient or inefficient, must rely
+      on outside finance for the development. Only patented technologies are developed. Strengthening the
+      non-obviousness requirement alleviates adverse selection by discouraging inefficient innovators from
+      doing research, but creates inefficiencies by excluding marginal innovations. We show that it is
+      socially optimal to raise the non-obviousness requirement so as to exclude bad innovators; we also
+      provide several robustness checks and discuss the policy implications.
+
+# English glosses for the Chinese books, chapters and reports, keyed by the Chinese title in the CV.
+book_glosses:
+  《数字经济学手册》第九章：区块链经济学: "Handbook of Digital Economics, Chapter 9: The Economics of Blockchain"
+  《数字经济学导论》第七章：区块链经济学: "Introduction to Digital Economics, Chapter 7: The Economics of Blockchain"
+  《区块链代币发行与监管挑战》: "Token Issuance on Blockchains and Its Regulatory Challenges (policy report)"
+  《穿越历史聊经济》: "Economics Through History (popular economics book)"
+
+# Short descriptions of the current courses, keyed by the course title in the English CV.
+courses:
+  "Large Language Models: Principles and Methods": >-
+    From word embeddings and transformers to BERT and generative models, and how to use them, including
+    fine-tuning, to analyse business data.
+  "Economic Principles of Blockchain and Cryptocurrencies": >-
+    The economics of cryptocurrencies, token offerings and decentralised finance: how they work, what they
+    change for banking and corporate governance, and how regulators respond.
+  "Economics of Strategy": >-
+    Market structure, competitive advantage, game theory and organisational economics, applied to the
+    strategic decisions firms face.

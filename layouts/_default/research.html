@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{- $cv := site.Data.cv.en }}
+<h1>Research</h1>
+<p class="lede">{{ $cv.interests | safeHTML }}</p>
+
+<h2 id="publications">Publications</h2>
+<ol class="pubs">
+  {{- range $cv.publications }}{{ partial "pub.html" . }}{{ end }}
+</ol>
+
+<h2 id="books">Books, chapters and reports</h2>
+<p class="mut">In Chinese.</p>
+<ul class="books">
+  {{- range $cv.books }}
+  <li>{{ with .gloss }}<span class="gloss">{{ . }}</span>{{ end }}<span lang="zh-CN">{{ .html | safeHTML }}</span></li>
+  {{- end }}
+</ul>
+
+<h2 id="grants">Research grants</h2>
+<ul class="dated grants">
+  {{- range $cv.grants }}
+  <li><span class="when">{{ .period }}</span><span><strong>{{ .title | safeHTML }}</strong><br><span class="mut">{{ .funder | safeHTML }} · {{ .role | safeHTML }} · {{ .amount | safeHTML }}</span></span></li>
+  {{- end }}
+</ul>
+
+<h2 id="referee">Refereeing</h2>
+<p>{{ delimit $cv.referee "; " }}.</p>
+{{ end }}

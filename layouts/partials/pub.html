@@ -1,0 +1,12 @@
+{{- /* One journal article from data/cv.json. Context: the publication dict. */ -}}
+{{- $a := .authors -}}
+{{- $authors := cond (eq (len $a) 2) (delimit $a " and ") (delimit $a ", " ", and ") -}}
+{{- $stop := cond (or (strings.HasSuffix .title "?") (strings.HasSuffix .title "!")) "" "." -}}
+<li class="pub">
+  <span class="authors">{{ $authors }}.</span>
+  {{ with .doi }}<a class="title" href="https://doi.org/{{ . }}">{{ else }}<span class="title">{{ end }}“{{ .title | safeHTML }}{{ $stop }}”{{ if .doi }}</a>{{ else }}</span>{{ end }}
+  <span class="venue"><em>{{ .venue | safeHTML }}</em> {{ .details | safeHTML }}.</span>
+  {{- with .abstract }}
+  <details><summary>Abstract</summary><p>{{ . }}</p></details>
+  {{- end }}
+</li>

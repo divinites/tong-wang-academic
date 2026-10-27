@@ -1,0 +1,13 @@
+# Pages of the old Hugo Blox site
+/publication/*        /research/   301
+/publication-type/*   /research/   301
+/publication_types/*  /research/   301
+/project/*            /research/   301
+/post/*               /teaching/   301
+/talk/*               /talks/      301
+/event/*              /talks/      301
+/authors/*            /about/      301
+/tag/*                /            301
+/tags/*               /            301
+/category/*           /            301
+/categories/*         /            301
