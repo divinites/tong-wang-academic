@@ -5,8 +5,9 @@ Personal academic website of Tong Wang, served at https://www.tongwang.digital/ 
 
 The site is plain [Hugo](https://gohugo.io/) (0.140, no theme or modules): a handful of templates in
 `layouts/`, one stylesheet in `assets/css/site.css`, one small script in `assets/js/site.js` (the network
-behind the page titles and the typed tagline), and two data files. The design uses one light palette;
-the three accent colours stand for the three research lines.
+behind the page titles, the typed tagline and the light/dark switch), and two data files. Pages open in
+the light palette; the button in the header switches to dark, and the visitor's browser remembers the
+choice. The three accent colours stand for the three research lines.
 
 | File | What | Edit by hand? |
 |---|---|---|

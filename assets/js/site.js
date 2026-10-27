@@ -1,8 +1,30 @@
-// The moving parts of the site: the network behind the page titles and the typed last word of the
-// tagline. Both stay still for visitors who ask for reduced motion; without JavaScript the page shows
-// the first word and no network.
+// The moving parts of the site: the light/dark switch, the network behind the page titles and the typed
+// last word of the tagline. The animations stay still for visitors who ask for reduced motion; without
+// JavaScript the page shows the first word and no network.
 (() => {
   const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // Light/dark switch. The page starts light unless the visitor chose dark before (the inline script
+  // in <head> applies that before the first paint); the button stays hidden without JavaScript.
+  const root = document.documentElement;
+  const toggle = document.querySelector(".theme");
+  if (toggle) {
+    const meta = document.querySelector('meta[name="theme-color"]');
+    const sync = () => {
+      const dark = root.dataset.theme === "dark";
+      toggle.setAttribute("aria-pressed", dark);
+      if (meta) meta.content = dark ? "#05070d" : "#f6f8fc";
+    };
+    toggle.hidden = false;
+    sync();
+    toggle.addEventListener("click", () => {
+      const dark = root.dataset.theme !== "dark";
+      if (dark) root.dataset.theme = "dark"; else delete root.dataset.theme;
+      try { localStorage.setItem("theme", dark ? "dark" : "light"); } catch (e) {}
+      sync();
+      dispatchEvent(new Event("themechange"));
+    });
+  }
 
   // Tagline: types out each of data-words in turn.
   for (const rot of document.querySelectorAll(".rot[data-words]")) {
@@ -88,6 +110,7 @@
 
     colours(); resize(); draw();
     addEventListener("resize", () => { resize(); frame(); });
+    addEventListener("themechange", () => { colours(); frame(); });
     host.addEventListener("pointermove", e => {
       const r = cv.getBoundingClientRect();
       mouse = { x: e.clientX - r.left, y: e.clientY - r.top };

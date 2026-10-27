@@ -2,8 +2,9 @@
 @font-face { font-family: "Inter"; font-style: normal; font-weight: 100 900; font-display: swap; src: url("/fonts/inter-latin.woff2") format("woff2"); }
 @font-face { font-family: "JetBrains Mono"; font-style: normal; font-weight: 100 800; font-display: swap; src: url("/fonts/jetbrains-mono-latin.woff2") format("woff2"); }
 
-/* One light palette for everyone (the owner preferred it to the dark one).
-   --c1, --c2 and --c3 are the three research lines; the network canvas reads them and --edge. */
+/* Light by default; the button in the header switches to the dark palette (data-theme="dark" on <html>,
+   remembered in the visitor's browser). --c1, --c2 and --c3 are the three research lines; the network
+   canvas reads them and --edge. */
 :root {
   --bg: #f6f8fc;
   --panel: #ffffff;
@@ -22,6 +23,22 @@
   --body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
   --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   color-scheme: light;
+}
+:root[data-theme="dark"] {
+  --bg: #05070d;
+  --panel: #0b1020;
+  --fg: #e9edf5;
+  --mut: #94a0b8;
+  --rule: rgba(148, 160, 184, 0.16);
+  --glow: #10183a;
+  --c1: #38e1ff;
+  --c2: #4ff0b0;
+  --c3: #a78bfa;
+  --edge: 0.35;
+  --link: #7fe9ff;
+  --btn-bg: #e9edf5;
+  --btn-fg: #05070d;
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
@@ -42,10 +59,17 @@ header.site { position: absolute; top: 0; left: 0; right: 0; z-index: 5; }
 header .bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 28px; padding-top: 20px; }
 .logo { display: inline-grid; place-items: center; width: 42px; height: 42px; border: 1.5px solid var(--fg); border-radius: 10px; color: var(--fg); font-family: var(--display); font-weight: 700; font-size: 1rem; letter-spacing: 0.02em; }
 .logo:hover { border-color: var(--c1); color: var(--c1); text-decoration: none; }
+header .end { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 22px; }
 header nav { display: flex; flex-wrap: wrap; gap: 6px 24px; font-size: 0.92rem; font-weight: 500; }
 header nav a { color: var(--fg); opacity: 0.82; }
 header nav a:hover { opacity: 1; color: var(--c1); text-decoration: none; }
 header nav a[aria-current="page"] { opacity: 1; box-shadow: 0 2px 0 var(--c1); }
+.theme { display: inline-grid; place-items: center; width: 34px; height: 34px; padding: 0; border: 1px solid var(--rule); border-radius: 9px; background: color-mix(in srgb, var(--panel) 70%, transparent); color: var(--fg); cursor: pointer; }
+.theme[hidden] { display: none; }
+.theme:hover { border-color: var(--c1); color: var(--c1); }
+.theme svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.theme .sun, :root[data-theme="dark"] .theme .moon { display: none; }
+:root[data-theme="dark"] .theme .sun { display: block; }
 
 /* Network behind the hero (home and Chinese pages) and the title band (other pages) */
 .hero, .band { position: relative; overflow: hidden; background: radial-gradient(50rem 32rem at 50% 45%, var(--glow) 0%, var(--bg) 70%); }
