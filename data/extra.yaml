@@ -31,6 +31,31 @@ bio: >-
   Economics from the Toulouse School of Economics. My research combines economic theory, empirical
   methods and machine learning to study how digital markets work.
 
+# The About page: one paragraph in the owner's own voice (Markdown links allowed).
+about: >-
+  I began in materials physics at the University of Science and Technology of China, where the atoms
+  behaved exactly as the textbook said. Curious about things that don't, I moved to management at Peking
+  University and then to economics at the Toulouse School of Economics. After a year in Florence and
+  another in Norwich, I arrived in Edinburgh in 2013 and have stayed ever since, which by now probably
+  counts as revealed preference over history and castle. These days I study markets that run on code:
+  platforms that shape what creators make, tokens that promise to replace banks, and AI models that may
+  one day write papers like mine (I am keeping a close eye on them). I teach strategy to MBA students,
+  the economics of blockchain to anyone wondering whether it will make them rich (the answer, as always,
+  is: it depends), and large language models to future business analysts. In Chinese, I write about
+  economics, history, machine learning and video games on [Zhihu](https://www.zhihu.com/people/divinites),
+  and post economics videos and songs, some in the classical gufeng style, on
+  [Bilibili](https://space.bilibili.com/35874169). History, after all, is just a dataset with better
+  stories.
+
+# Popular-science accounts, listed on the Chinese page.
+social_zh:
+  - name: 知乎「司马懿」
+    url: https://www.zhihu.com/people/divinites
+    text: 经济学、历史、机器学习，也聊游戏
+  - name: B 站「阁下可知司马懿」
+    url: https://space.bilibili.com/35874169
+    text: 经济学科普，也有歌曲，包括古风歌曲
+
 bio_zh: >-
   爱丁堡大学商学院高级讲师（副教授），爱丁堡大学生成式人工智能实验室研究员。图卢兹经济学院经济学博士，
   北京大学光华管理学院管理学硕士，中国科学技术大学学士。我用经济学理论、实证方法和机器学习研究数字市场如何运作。
