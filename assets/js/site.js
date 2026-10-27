@@ -27,11 +27,12 @@
   for (const cv of document.querySelectorAll("canvas.net")) {
     const ctx = cv.getContext("2d");
     const host = cv.parentElement;
-    let w, h, cols, nodes = [], mouse = null, on = true, queued = false;
+    let w, h, cols, edge, nodes = [], mouse = null, on = true, queued = false;
 
     const colours = () => {
       const css = getComputedStyle(document.documentElement);
       cols = ["--c1", "--c2", "--c3"].map(v => css.getPropertyValue(v).trim());
+      edge = parseFloat(css.getPropertyValue("--edge")) || 0.35;
       nodes.forEach((p, i) => { p.c = cols[i % 3]; });
     };
     const resize = () => {
@@ -61,7 +62,7 @@
           const b = nodes[j], d = Math.hypot(a.x - b.x, a.y - b.y);
           if (d < R) {
             ctx.strokeStyle = a.c;
-            ctx.globalAlpha = (1 - d / R) * 0.35;
+            ctx.globalAlpha = (1 - d / R) * edge;
             ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
           }
         }
@@ -87,7 +88,6 @@
 
     colours(); resize(); draw();
     addEventListener("resize", () => { resize(); frame(); });
-    matchMedia("(prefers-color-scheme: light)").addEventListener("change", () => { colours(); frame(); });
     host.addEventListener("pointermove", e => {
       const r = cv.getBoundingClientRect();
       mouse = { x: e.clientX - r.left, y: e.clientY - r.top };

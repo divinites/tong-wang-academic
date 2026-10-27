@@ -5,9 +5,8 @@ Personal academic website of Tong Wang, served at https://www.tongwang.digital/ 
 
 The site is plain [Hugo](https://gohugo.io/) (0.140, no theme or modules): a handful of templates in
 `layouts/`, one stylesheet in `assets/css/site.css`, one small script in `assets/js/site.js` (the network
-behind the page titles and the typed tagline), and two data files. The design is dark, with a light
-palette for visitors whose system is set to light; the three accent colours stand for the three research
-lines.
+behind the page titles and the typed tagline), and two data files. The design uses one light palette;
+the three accent colours stand for the three research lines.
 
 | File | What | Edit by hand? |
 |---|---|---|
@@ -36,7 +35,7 @@ it again. Working papers and work in progress are never copied to the site: the 
 The portrait `static/img/tong-wang.jpg` is a 400 px copy. The original photo is kept in Dropbox through
 `showcase files` (`media-src/avatar-original.jpg`; `showcase files pull` restores it).
 
-`static/img/tong-wang-cut.webp` is the same photo with the background removed (320 px), used in the
+`static/img/tong-wang-cut.webp` is the same photo with the background removed (480 px, cropped to head and shoulders), used in the
 round portrait on the home and Chinese pages; the full-size cutout is `media-src/avatar-cutout.png`, also
 in Dropbox. These two images are the only binaries kept in the repository, besides the fonts.
 

@@ -10,9 +10,7 @@
 {{- $desc := .Params.description | default site.Params.description }}
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
-<meta name="color-scheme" content="dark light">
-<meta name="theme-color" content="#05070d" media="(prefers-color-scheme: dark)">
-<meta name="theme-color" content="#f6f8fc" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#f6f8fc">
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
 <link rel="preload" href="{{ "fonts/space-grotesk-latin.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
