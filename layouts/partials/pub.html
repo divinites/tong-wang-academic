@@ -1,13 +1,16 @@
-{{- /* One journal article from data/cv.json. Context: the publication dict. */ -}}
+{{- /* One journal article from data/cv.json. Context: the publication dict.
+   Written as a citation (authors, title, venue); the modern look moves the title first and hides the
+   citation punctuation (.p). */ -}}
 {{- $a := .authors -}}
 {{- $authors := cond (eq (len $a) 2) (delimit $a " and ") (delimit $a ", " ", and ") -}}
+{{- $stop := cond (or (strings.HasSuffix .title "?") (strings.HasSuffix .title "!")) "" "." -}}
 <li class="pub">
-  <div>
-    {{ with .doi }}<a class="title" href="https://doi.org/{{ . }}">{{ else }}<span class="title">{{ end }}{{ .title | safeHTML }}{{ if .doi }}</a>{{ else }}</span>{{ end }}
-    <span class="by">{{ $authors }}</span>
-    <span class="venue"><em>{{ .venue | safeHTML }}</em> {{ .details | safeHTML }}</span>
+  <div class="cite">
+    <span class="by">{{ $authors }}<span class="p">.</span></span>
+    {{ with .doi }}<a class="title" href="https://doi.org/{{ . }}">{{ else }}<span class="title">{{ end }}<span class="p">“</span>{{ .title | safeHTML }}<span class="p">{{ $stop }}”</span>{{ if .doi }}</a>{{ else }}</span>{{ end }}
+    <span class="venue"><em>{{ .venue | safeHTML }}</em> {{ .details | safeHTML }}<span class="p">.</span></span>
     {{- with .abstract }}
-    <details><summary>abstract</summary><p>{{ . }}</p></details>
+    <details><summary>Abstract</summary><p>{{ . }}</p></details>
     {{- end }}
   </div>
 </li>

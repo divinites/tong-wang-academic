@@ -1,7 +1,8 @@
 {{- $x := site.Data.extra -}}
 {{- $zh := eq .Params.lang "zh-CN" -}}
+{{- $look := site.Params.look | default "modern" -}}
 <!doctype html>
-<html lang="{{ cond $zh "zh-CN" "en-GB" }}">
+<html lang="{{ cond $zh "zh-CN" "en-GB" }}" data-look="{{ $look }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -11,18 +12,25 @@
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
 <meta name="theme-color" content="#f6f8fc">
-<script>try{if(localStorage.getItem("theme")==="dark")document.documentElement.dataset.theme="dark"}catch(e){}</script>
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+{{- if eq $look "modern" }}
 <link rel="preload" href="{{ "fonts/space-grotesk-latin.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+{{- end }}
 <meta property="og:type" content="profile">
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:image" content="{{ "img/tong-wang.jpg" | absURL }}">
 <meta name="twitter:card" content="summary">
-{{- $css := resources.Get "css/site.css" | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{- /* Two looks over the same HTML: only one stylesheet applies at a time. The script below switches to
+   the look and palette the visitor chose before, ahead of the first paint; when that look is not the
+   default, the page stays hidden until its stylesheet (fetched at low priority) has loaded. */}}
+{{- range slice "modern" "classic" }}
+{{- $css := resources.Get (printf "css/%s.css" .) | minify | fingerprint }}
+<link rel="stylesheet" id="look-{{ . }}" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}"{{ if ne . $look }} media="not all"{{ end }}>
+{{- end }}
+<script>try{var r=document.documentElement,s=localStorage,l=s.getItem("look"),d=r.dataset.look;if(s.getItem("theme")==="dark")r.dataset.theme="dark";if((l==="modern"||l==="classic")&&l!==d){var a=document.getElementById("look-"+l),b=document.getElementById("look-"+d),v=function(){r.style.visibility=""};r.dataset.look=l;a.media="all";b.media="not all";if(!a.sheet){r.style.visibility="hidden";a.addEventListener("load",v);a.addEventListener("error",v);setTimeout(v,3000)}}}catch(e){}</script>
 {{- $js := resources.Get "js/site.js" | minify | fingerprint }}
 <script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{- if .IsHome }}
@@ -46,7 +54,8 @@
 <a class="skip" href="#content">{{ cond $zh "跳到正文" "Skip to content" }}</a>
 <header class="site">
   <div class="wrap bar">
-    <a class="logo" href="{{ "/" | relURL }}" aria-label="{{ $x.name }}, home">TW</a>
+    <a class="logo m-only" href="{{ "/" | relURL }}" aria-label="{{ $x.name }}, home">TW</a>
+    <a class="name c-only" href="{{ "/" | relURL }}">{{ $x.name }}</a>
     <div class="end">
       <nav aria-label="Main">
         {{- range site.Menus.main }}
@@ -54,6 +63,10 @@
         <a href="{{ .URL }}"{{ if $active }} aria-current="page"{{ end }}{{ if eq .Name "中文" }} lang="zh-CN"{{ end }}>{{ .Name }}</a>
         {{- end }}
       </nav>
+      <div class="looks" role="group" aria-label="{{ cond $zh "页面风格" "Page style" }}" hidden>
+        <button type="button" data-look="classic" aria-pressed="false">{{ cond $zh "学术" "Classic" }}</button>
+        <button type="button" data-look="modern" aria-pressed="false">{{ cond $zh "炫酷" "Modern" }}</button>
+      </div>
       {{- $label := cond $zh "深色模式" "Dark mode" }}
       <button class="theme" type="button" hidden aria-pressed="false" aria-label="{{ $label }}" title="{{ $label }}">
         <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
@@ -65,7 +78,7 @@
 <main>
 {{- block "top" . }}
 <section class="band">
-  <canvas class="net" aria-hidden="true"></canvas>
+  <canvas class="net m-only" aria-hidden="true"></canvas>
   <div class="wrap narrow"><h1>{{ .Title }}</h1></div>
 </section>
 {{- end }}
@@ -80,10 +93,11 @@
     {{- else }}
     <p><a href="mailto:{{ $x.email }}">{{ $x.email }}</a> · {{ delimit $x.address ", " }}</p>
     {{- end }}
-    <p class="links">
+    <p class="links m-only">
       {{- range $x.links }}<a href="{{ .url }}">{{ .name }}</a>{{ end -}}
       <span>© {{ now.Year }} {{ $x.name }}</span>
     </p>
+    <p class="mut c-only">© {{ now.Year }} {{ $x.name }}</p>
   </div>
 </footer>
 </body>
