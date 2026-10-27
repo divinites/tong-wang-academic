@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Tong Wang # Website name
-baseurl: 'https://www.scislab.com/' # Website URL
+baseurl: 'https://www.tongwang.digital/' # Website URL
 copyright: '' # Footer text, e.g. '  {year} Me'
 
 ############################

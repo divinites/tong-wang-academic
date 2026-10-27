@@ -35,9 +35,6 @@ image:
   caption: 'Digital Economics Conference'
   focal_point: Right
 
-links:
-  - name: Paper
-    url: '../publication/smartcontract'
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -46,9 +43,6 @@ url_video: ""
 # Markdown Slides (optional).
 slides: ""
 
-# Projects (optional).
-projects:
-  - smartcontract
 ---
 
 Presenting our research on smart contracts at the Digital Economics Conference. The paper investigates the fundamental trade-off between enforceability and flexibility in smart contracts compared to traditional contracts. We develop a theoretical framework to analyze when smart contracts outperform traditional contracts, considering factors such as:
