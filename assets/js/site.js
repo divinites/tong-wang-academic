@@ -1,27 +1,50 @@
-// The moving parts of the site: the light/dark switch, the network behind the page titles and the typed
-// last word of the tagline. The animations stay still for visitors who ask for reduced motion; without
+// The moving parts of the site: the classic/modern and light/dark switches, the network behind the page
+// titles and the typed last word of the tagline. The animations stay still for visitors who ask for reduced motion; without
 // JavaScript the page shows the first word and no network.
 (() => {
   const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // Light/dark switch. The page starts light unless the visitor chose dark before (the inline script
-  // in <head> applies that before the first paint); the button stays hidden without JavaScript.
+  // Switches. The page starts in the site's default look, light, unless the visitor chose otherwise
+  // before (the inline script in <head> applies that before the first paint). Each look has its own
+  // stylesheet; the one not in use has media="not all". The buttons stay hidden without JavaScript.
   const root = document.documentElement;
+  const meta = document.querySelector('meta[name="theme-color"]');
+  const save = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
+  const paint = () => { if (meta) meta.content = getComputedStyle(document.body).backgroundColor; };
+  // Runs fn once the stylesheet of the current look has loaded (it may still be on its way when the
+  // visitor's saved look is not the site's default).
+  const styled = fn => {
+    const link = document.getElementById("look-" + root.dataset.look);
+    if (!link || link.sheet) fn(); else link.addEventListener("load", fn, { once: true });
+  };
+
+  const looks = document.querySelector(".looks");
+  if (looks) {
+    const buttons = looks.querySelectorAll("button[data-look]");
+    const sync = () => buttons.forEach(b => b.setAttribute("aria-pressed", b.dataset.look === root.dataset.look));
+    looks.hidden = false;
+    sync();
+    buttons.forEach(b => b.addEventListener("click", () => {
+      const look = b.dataset.look;
+      if (look === root.dataset.look) return;
+      root.dataset.look = look;
+      for (const l of ["modern", "classic"]) document.getElementById("look-" + l).media = l === look ? "all" : "not all";
+      save("look", look);
+      sync();
+      styled(() => { paint(); dispatchEvent(new Event("lookchange")); });
+    }));
+  }
+
   const toggle = document.querySelector(".theme");
   if (toggle) {
-    const meta = document.querySelector('meta[name="theme-color"]');
-    const sync = () => {
-      const dark = root.dataset.theme === "dark";
-      toggle.setAttribute("aria-pressed", dark);
-      if (meta) meta.content = dark ? "#05070d" : "#f6f8fc";
-    };
+    const sync = () => toggle.setAttribute("aria-pressed", root.dataset.theme === "dark");
     toggle.hidden = false;
-    sync();
+    sync(); styled(paint);
     toggle.addEventListener("click", () => {
       const dark = root.dataset.theme !== "dark";
       if (dark) root.dataset.theme = "dark"; else delete root.dataset.theme;
-      try { localStorage.setItem("theme", dark ? "dark" : "light"); } catch (e) {}
-      sync();
+      save("theme", dark ? "dark" : "light");
+      sync(); paint();
       dispatchEvent(new Event("themechange"));
     });
   }
@@ -44,9 +67,10 @@
   }
 
   // Network: nodes in the three research colours drift, nearby nodes link up, and the pointer pulls
-  // links towards itself. Drawing stops while the canvas is off screen.
+  // links towards itself. Drawing stops while the canvas is off screen or hidden (the classic look).
   const R = 130;
-  for (const cv of document.querySelectorAll("canvas.net")) {
+  styled(() => document.querySelectorAll("canvas.net").forEach(network));
+  function network(cv) {
     const ctx = cv.getContext("2d");
     const host = cv.parentElement;
     let w, h, cols, edge, nodes = [], mouse = null, on = true, queued = false;
@@ -71,6 +95,7 @@
     };
     const draw = () => {
       queued = false;
+      if (!w) return;
       ctx.clearRect(0, 0, w, h);
       if (!still) for (const p of nodes) {
         p.x += p.vx; p.y += p.vy;
@@ -111,6 +136,7 @@
     colours(); resize(); draw();
     addEventListener("resize", () => { resize(); frame(); });
     addEventListener("themechange", () => { colours(); frame(); });
+    addEventListener("lookchange", () => { colours(); resize(); frame(); });
     host.addEventListener("pointermove", e => {
       const r = cv.getBoundingClientRect();
       mouse = { x: e.clientX - r.left, y: e.clientY - r.top };

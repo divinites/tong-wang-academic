@@ -4,10 +4,13 @@ Personal academic website of Tong Wang, served at https://www.tongwang.digital/ 
 (site `wang-tong-289211`), which builds every push to `master` and a preview for every pull request.
 
 The site is plain [Hugo](https://gohugo.io/) (0.140, no theme or modules): a handful of templates in
-`layouts/`, one stylesheet in `assets/css/site.css`, one small script in `assets/js/site.js` (the network
-behind the page titles, the typed tagline and the light/dark switch), and two data files. Pages open in
-the light palette; the button in the header switches to dark, and the visitor's browser remembers the
-choice. The three accent colours stand for the three research lines.
+`layouts/`, two stylesheets, one small script in `assets/js/site.js`, and two data files.
+
+The same HTML has two looks, switched by the buttons in the header (the visitor's browser remembers the
+choice): **classic** (`assets/css/classic.css`), the plain academic design, and **modern**
+(`assets/css/modern.css`), with a network behind the page titles in three colours for the three research
+lines and a typed tagline. `look` in `hugo.toml` picks the default (classic). Elements that belong to one
+look only carry `c-only` or `m-only`. Both looks open light; the moon button switches to dark.
 
 | File | What | Edit by hand? |
 |---|---|---|
@@ -37,11 +40,11 @@ The portrait `static/img/tong-wang.jpg` is a 400 px copy. The original photo is 
 `showcase files` (`media-src/avatar-original.jpg`; `showcase files pull` restores it).
 
 `static/img/tong-wang-cut.webp` is the same photo with the background removed (480 px, cropped to head and shoulders), used in the
-round portrait on the home and Chinese pages; the full-size cutout is `media-src/avatar-cutout.png`, also
+round portrait of the modern look; the full-size cutout is `media-src/avatar-cutout.png`, also
 in Dropbox. These two images are the only binaries kept in the repository, besides the fonts.
 
 ## Fonts
 
 `static/fonts/` holds the Latin subsets of Space Grotesk, Inter and JetBrains Mono (SIL Open Font
-License, see `OFL.txt`), served from the site itself so that no visitor's browser contacts Google Fonts.
-Chinese text uses the visitor's system fonts.
+License, see `OFL.txt`) for the modern look, served from the site itself so that no visitor's browser
+contacts Google Fonts. The classic look and all Chinese text use the visitor's system fonts.

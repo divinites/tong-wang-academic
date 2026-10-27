@@ -5,6 +5,8 @@ disableKinds = ["taxonomy", "term", "rss"]
 enableRobotsTXT = true
 
 [params]
+# The look visitors see until they pick the other one with the button in the header: "classic" or "modern".
+look = "classic"
 description = "Tong Wang is a Senior Lecturer (Associate Professor) in Business Economics at the University of Edinburgh Business School, working on digital platforms, fintech and the economics of AI."
 
 [[menus.main]]

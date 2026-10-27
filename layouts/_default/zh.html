@@ -4,8 +4,9 @@
   "name" $x.name_zh
   "alt" $x.name_zh
   "tagline" $x.tagline_zh
-  "role" (printf "%s · %s" $x.affiliation_zh $x.title_zh)
+  "role" (slice $x.title_zh $x.affiliation_zh)
   "button" (dict "text" "研究方向" "href" "#research")
+  "links" (slice (dict "name" "English" "url" ("/" | relURL) "lang" "en"))
   "legend" $x.network_zh
   "scroll" "向下") }}
 {{ end }}
@@ -14,13 +15,13 @@
 {{- $x := site.Data.extra }}
 {{- $cv := site.Data.cv.zh }}
 <section class="block" id="research">
-  <p class="tag">研究方向</p>
-  <h2>三个研究方向</h2>
-  <p class="intro">{{ $x.bio_zh }} <a href="{{ "/" | relURL }}" lang="en">English</a></p>
+  <p class="tag m-only">研究方向</p>
+  <h2><span class="m-only">三个研究方向</span><span class="c-only">研究方向</span></h2>
+  <p class="intro">{{ $x.bio_zh }}<span class="m-only"> <a href="{{ "/" | relURL }}" lang="en">English</a></span></p>
   <div class="lines">
     {{- range $x.research_zh }}
     <article class="line">
-      <span class="dot"></span>
+      <span class="dot m-only"></span>
       <h3>{{ .title }}</h3>
       <p>{{ .text }}</p>
     </article>
@@ -29,7 +30,7 @@
 </section>
 
 <section class="block">
-  <p class="tag">著作</p>
+  <p class="tag m-only">著作</p>
   <h2>中文著作与报告</h2>
   <ul class="books">
     {{- range $cv.books }}<li>{{ .html | safeHTML }}</li>{{ end }}
@@ -37,7 +38,7 @@
 </section>
 
 <section class="block">
-  <p class="tag">科普</p>
+  <p class="tag m-only">科普</p>
   <h2>科普与自媒体</h2>
   <ul class="books">
     {{- range $x.social_zh }}
@@ -47,19 +48,19 @@
 </section>
 
 <section class="block">
-  <p class="tag">教学</p>
+  <p class="tag m-only">教学</p>
   <h2>暑期学校与外部授课</h2>
   {{ partial "dated.html" $cv.summer }}
 </section>
 
 <section class="block">
-  <p class="tag">报告</p>
+  <p class="tag m-only">报告</p>
   <h2>特邀报告与公开讲座</h2>
   {{ partial "dated.html" $cv.invited }}
 </section>
 
 <section class="block">
-  <p class="tag">履历</p>
+  <p class="tag m-only">履历</p>
   <h2>学术职位</h2>
   {{ partial "positions.html" $cv.positions }}
 </section>

@@ -4,8 +4,9 @@
   "name" $x.name
   "alt" (printf "Portrait of %s" $x.name)
   "tagline" $x.tagline
-  "role" (printf "%s · %s" $x.title $x.affiliation)
+  "role" (slice $x.title $x.affiliation)
   "button" (dict "text" "See the research" "href" "#research")
+  "links" $x.links
   "legend" $x.network
   "scroll" "SCROLL") }}
 {{ end }}
@@ -14,13 +15,13 @@
 {{- $x := site.Data.extra }}
 {{- $cv := site.Data.cv.en }}
 <section class="block" id="research">
-  <p class="tag">research</p>
-  <h2>Three lines of work</h2>
+  <p class="tag m-only">research</p>
+  <h2><span class="m-only">Three lines of work</span><span class="c-only">Research</span></h2>
   <p class="intro">{{ $x.bio }}</p>
   <div class="lines">
     {{- range $x.research }}
     <article class="line">
-      <span class="dot"></span>
+      <span class="dot m-only"></span>
       <h3>{{ .title }}</h3>
       <p>{{ .text }}</p>
     </article>
@@ -29,23 +30,23 @@
 </section>
 
 <section class="block" id="recent">
-  <p class="tag">recent</p>
-  <h2>Talks, grants and service</h2>
+  <p class="tag m-only">recent</p>
+  <h2><span class="m-only">Talks, grants and service</span><span class="c-only">Recent</span></h2>
   <ul class="dated news">
     {{- range $cv.recent }}
-    <li class="{{ .kind }}"><span class="when">{{ .date | safeHTML }}<span class="kind">{{ .kind }}</span></span><span class="text">{{ .html | safeHTML }}</span></li>
+    <li class="{{ .kind }}"><span class="when">{{ .date | safeHTML }}<span class="kind m-only">{{ .kind }}</span></span><span class="text">{{ .html | safeHTML }}</span></li>
     {{- end }}
   </ul>
 </section>
 
 <section class="block" id="publications">
-  <p class="tag">selected publications</p>
-  <h2>In journals</h2>
+  <p class="tag m-only">selected publications</p>
+  <h2><span class="m-only">In journals</span><span class="c-only">Selected publications</span></h2>
   <ol class="pubs">
     {{- range $id := $x.selected }}
     {{- range where $cv.publications "id" $id }}{{ partial "pub.html" . }}{{ end }}
     {{- end }}
   </ol>
-  <a class="more" href="{{ "research/" | relURL }}">all publications, books and grants →</a>
+  <a class="more" href="{{ "research/" | relURL }}">All publications, books and grants →</a>
 </section>
 {{ end }}

@@ -1,23 +1,35 @@
-{{- /* Full-screen title with the network behind it, for the home and Chinese pages.
-   Context: dict with name, alt, tagline (lead, words, tail), role, button (text, href), legend, scroll. */ -}}
+{{- /* The top of the home and Chinese pages: full-screen title over the network in the modern look, portrait
+   beside name and contact links in the classic look.
+   Context: dict with name, alt, tagline (lead, words, tail), role (two lines), button (text, href), links
+   (extra links after the email: name, url, lang), legend, scroll. */ -}}
 {{- $x := site.Data.extra }}
+{{- $look := site.Params.look | default "modern" }}
 {{- $t := .tagline }}
 <section class="hero">
-  <canvas class="net" aria-hidden="true"></canvas>
+  <canvas class="net m-only" aria-hidden="true"></canvas>
   <div class="inner">
-    <div class="avatar"><img src="{{ "img/tong-wang-cut.webp" | relURL }}" alt="{{ .alt }}" width="480" height="480"></div>
-    <h1>{{ .name }}</h1>
-    <p class="claim">{{ $t.lead }}<span class="rot" data-words="{{ delimit $t.words "|" }}">{{ index $t.words 0 }}</span>{{ $t.tail }}</p>
-    <p class="role">{{ .role }}</p>
-    <div class="btns">
-      <a class="btn solid" href="{{ .button.href }}">{{ .button.text }}</a>
-      <a class="btn ghost" href="mailto:{{ $x.email }}">{{ $x.email }}</a>
+    <div class="avatar">
+      <img class="m-only" src="{{ "img/tong-wang-cut.webp" | relURL }}" alt="{{ .alt }}" width="480" height="480"{{ if ne $look "modern" }} loading="lazy"{{ end }}>
+      <img class="c-only" src="{{ "img/tong-wang.jpg" | relURL }}" alt="{{ .alt }}" width="400" height="400"{{ if ne $look "classic" }} loading="lazy"{{ end }}>
+    </div>
+    <div class="who">
+      <h1>{{ .name }}</h1>
+      <p class="claim m-only">{{ $t.lead }}<span class="rot" data-words="{{ delimit $t.words "|" }}">{{ index $t.words 0 }}</span>{{ $t.tail }}</p>
+      <p class="role"><span>{{ index .role 0 }}</span><span class="m-only"> · </span><span>{{ index .role 1 }}</span></p>
+      <div class="btns m-only">
+        <a class="btn solid" href="{{ .button.href }}">{{ .button.text }}</a>
+        <a class="btn ghost" href="mailto:{{ $x.email }}">{{ $x.email }}</a>
+      </div>
+      <p class="links c-only">
+        <a href="mailto:{{ $x.email }}">{{ $x.email }}</a>
+        {{- range .links }} · <a href="{{ .url }}"{{ with .lang }} lang="{{ . }}"{{ end }}>{{ .name }}</a>{{ end }}
+      </p>
     </div>
   </div>
-  <div class="legend" aria-hidden="true">
+  <div class="legend m-only" aria-hidden="true">
     {{- range $i, $l := .legend }}
     <span><i class="c{{ add $i 1 }}"></i>{{ $l }}</span>
     {{- end }}
   </div>
-  <a class="scroll" href="#content">{{ .scroll }}</a>
+  <a class="scroll m-only" href="#content">{{ .scroll }}</a>
 </section>
