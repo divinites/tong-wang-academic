@@ -551,9 +551,12 @@
     "year": "2026",
     "venues": [
      "China Agricultural University (Beijing)",
-     "Fudan University (Shanghai)",
+     "School of Economics, Fudan University (Shanghai)",
      "EuroIS Conference (Warwick)",
-     "Marketing Science Conference (Lisbon)"
+     "Marketing Science Conference (Lisbon)",
+     "CIST Conference (San Francisco)",
+     "INFORMS Annual Meeting (San Francisco)",
+     "School of Management, Fudan University (Shanghai)"
     ]
    },
    {
@@ -1234,9 +1237,12 @@
     "year": "2026",
     "venues": [
      "中国农业大学（北京）",
-     "复旦大学（上海）",
+     "复旦大学经济学院（上海）",
      "EuroIS 会议（华威）",
-     "Marketing Science 会议（里斯本）"
+     "Marketing Science 会议（里斯本）",
+     "CIST 会议（旧金山）",
+     "INFORMS 年会（旧金山）",
+     "复旦大学管理学院（上海）"
     ]
    },
    {

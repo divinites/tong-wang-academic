@@ -21,7 +21,7 @@ look only carry `c-only` or `m-only`. Both looks open light; the moon button swi
 
 ## Updating after a CV change
 
-The CV in the grants repository (`~/projects/grants/cv/cv_simple.tex` and `cv_simple_zh.tex`) is the
+The CV in the cv repository (`~/projects/cv/cv_simple.tex` and `cv_simple_zh.tex`, private repo `divinites/cv`) is the
 single source. After changing it:
 
 ```sh
