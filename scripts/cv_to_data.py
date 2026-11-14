@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate data/cv.json for the website from the LaTeX CV.
 
-The CV (English and Chinese, in the grants repository) is the single source for positions, education,
+The CV (English and Chinese, in the cv repository, ~/projects/cv) is the single source for positions, education,
 publications, books, grants, teaching, awards, service and talks. This script reads both .tex files,
 converts the few LaTeX macros they use to HTML, merges the hand-written additions in data/extra.yaml
 (DOIs, abstracts, glosses, course descriptions) and writes data/cv.json.
@@ -12,7 +12,7 @@ the repository is public.
 Usage:
     python3 scripts/cv_to_data.py [--en PATH] [--zh PATH]
 
-Defaults: ~/projects/grants/cv/cv_simple.tex and cv_simple_zh.tex. Exits with status 1 if the CV has a
+Defaults: ~/projects/cv/cv_simple.tex and cv_simple_zh.tex. Exits with status 1 if the CV has a
 section this script does not know, or if an entry in data/extra.yaml no longer matches the CV.
 """
 import argparse
@@ -25,7 +25,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-CV_DIR = Path.home() / "projects" / "grants" / "cv"
+CV_DIR = Path.home() / "projects" / "cv"
 
 # (section, subsection or subsubsection) -> key in the output. None means "skip on purpose".
 SECTIONS = {
