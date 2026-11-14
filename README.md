@@ -1,5 +1,8 @@
 # tongwang.digital
 
+> **Archived on 2026-11-14.** The site is now built from a private repository together with the CV;
+> this repository is kept read-only for its history.
+
 Personal academic website of Tong Wang, served at https://www.tongwang.digital/ by Netlify
 (site `wang-tong-289211`), which builds every push to `master` and a preview for every pull request.
 
